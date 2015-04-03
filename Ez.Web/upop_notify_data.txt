@@ -1,0 +1,3 @@
+[2014-10-23 17:42:41]ok->单号:TS20141023174115
+商户网站业务处理成功
+charset	 = UTF-8exchangeDate	 = exchangeRate	 = merAbbr	 = 银联默认测试商户merId	 = 105550149170027orderAmount	 = 1000orderCurrency	 = 156orderNumber	 = TS20141023174115qid	 = 201410231741158011552respCode	 = 00respMsg	 = 支付成功respTime	 = 20141023174135settleAmount	 = 1000settleCurrency	 = 156settleDate	 = 1023traceNumber	 = 801155traceTime	 = 1023174115transType	 = 01version	 = 1.0.0ardType	 = 02payMode	 = LitePay}

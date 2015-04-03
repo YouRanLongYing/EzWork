@@ -1,0 +1,61 @@
+﻿@using UBIQ.Framework.Lang;
+@using UBIQ.Framework.UI.HtmlExtend;
+@model UBIQ.Framework.Dtos.UserInfoDto
+@{
+    ViewBag.Title = FrmLanguage.SYS_M_AccountInfo;
+    ViewBag.Layout_Body_CssText="";
+}
+@section CssScript{
+
+<script type="text/javascript">
+//       [{ title: "第三方网站", children: [
+//       { text: "百度网", src: "http://www.baidu.com" },
+//       { text: "点点网", src: "http://www.diandian.com", rpKey: {uid:"sid"} },
+//       { text: "祭奠在线", src: "http://www.jidianzaixian.com" }
+//       ]
+//    }]
+@Html.RenderJsonForCustomMenus(new CustomMenu{
+ new LinkBtns("第三方网站"){
+     new LinkBtn("百度网","http://www.baidu.com",LinkTarget._Blank),
+     new LinkBtn("点点网","http://www.diandian.com",LinkTarget._Blank),
+     new LinkBtn("祭奠在线","http://www.jidianzaixian.com",LinkTarget._Blank),
+     new LinkBtn("threejs","http://www.threejs.org",LinkTarget._Blank)
+ }
+})
+setParam({ uid: 1211 });
+
+var param = getParam();
+//alert(param.uid);
+
+setToolBar(function(value,btn){
+alert(param.uid);
+this.close();
+});
+</script>
+}
+ <div class="formwraper">
+ <div class="context">
+ @using (Html.BeginForm("AsyncEditMyInfo", "UCenter", FormMethod.Post, new { isajax = true, callback = "", errorcallback = "" }))
+ {
+ <ul>
+    <li><dl><dt>@Html.LabelFor(p => p.username)</dt><dd>@Html.CTextBoxFor(p => p.username)</dd></dl></li>
+    <li><dl><dt>@Html.LabelFor(p => p.Spl_Gender_Radio)</dt><dd>@Html.SpecialControlFor(p => p.Spl_Gender_Radio)</dd></dl></li>
+    <li><dl><dt>@Html.LabelFor(p => p.age)</dt><dd>@Html.CTextBoxFor(p => p.age)</dd></dl></li>
+    <li><dl><dt>@Html.LabelFor(p => p.id_card)</dt><dd>@Html.CTextBoxFor(p => p.id_card)</dd></dl></li>
+    <li><dl><dt>@Html.LabelFor(p => p.telphone)</dt><dd>@Html.CTextBoxFor(p => p.telphone)</dd></dl></li>
+    <li><dl><dt>@Html.LabelFor(p => p.mobile)</dt><dd>@Html.CTextBoxFor(p => p.mobile)</dd></dl></li>
+    <li><dl><dt>@Html.LabelFor(p => p.email)</dt><dd>@Html.CTextBoxFor(p => p.email)</dd></dl></li>
+    <li><dl><dt>@Html.LabelFor(p => p.qq)</dt><dd>@Html.CTextBoxFor(p => p.qq)</dd></dl></li>
+    <li><dl><dt>@Html.LabelFor(p => p.address)</dt><dd>@Html.CTextBoxFor(p => p.address)</dd></dl></li>
+    <li><dl><dt>@Html.LabelFor(p => p.Spl_Testctrl_Radio)</dt><dd>@Html.SpecialControlFor(p => p.Spl_Testctrl_Radio)</dd></dl></li>
+    <li><dl><dt>@Html.LabelFor(p => p.Spl_Testctrl_Radio2)</dt><dd>@Html.SpecialControlFor(p => p.Spl_Testctrl_Radio2)</dd></dl></li>
+    <li><dl><dt>@Html.LabelFor(p => p.Spl_Testctrl_Radio3)</dt><dd>@Html.SpecialControlFor(p => p.Spl_Testctrl_Radio3)</dd></dl></li>
+ </ul>
+ <div class="ctrlbox"><div class="btns">@Html.BackBtn()@Html.SaveBtn()</div></div>
+ @Html.HiddenFor(p => p.id)
+ @Html.HiddenFor(p => p.login_id)
+ }
+ </div>
+ <div style="clear:both;"></div>
+ <div class="form-alpha-cover"></div>
+ </div>

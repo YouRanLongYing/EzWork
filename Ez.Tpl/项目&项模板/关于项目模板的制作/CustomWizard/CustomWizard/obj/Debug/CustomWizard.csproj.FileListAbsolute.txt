@@ -1,0 +1,6 @@
+E:\测试项目\ETS\CustomWizard\CustomWizard\bin\Debug\CustomWizard.dll
+E:\测试项目\ETS\CustomWizard\CustomWizard\bin\Debug\CustomWizard.pdb
+E:\测试项目\ETS\CustomWizard\CustomWizard\obj\Debug\CustomWizard.csproj.GenerateResource.Cache
+E:\测试项目\ETS\CustomWizard\CustomWizard\obj\Debug\CustomWizard.dll
+E:\测试项目\ETS\CustomWizard\CustomWizard\obj\Debug\CustomWizard.pdb
+E:\测试项目\ETS\CustomWizard\CustomWizard\obj\Debug\CustomWizard.UBIQWebProject.resources

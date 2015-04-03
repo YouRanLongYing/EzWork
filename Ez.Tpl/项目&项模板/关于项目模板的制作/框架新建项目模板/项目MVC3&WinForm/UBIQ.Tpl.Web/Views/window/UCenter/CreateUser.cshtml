@@ -1,0 +1,20 @@
+﻿@model UBIQ.Framework.Dtos.LoginInfoDto
+@{
+    ViewBag.Title = "创建用户";
+}
+ <div class="formwraper" style="width:450px;">
+ <div class="context" style="width:450px;">
+ @using (Html.BeginForm("AsyncCreateUser", "UCenter", FormMethod.Post, new { isajax = true }))
+ {
+ <ul>
+    <li><dl><dt>@Html.LabelFor(p => p.login_name)</dt><dd>@Html.CTextBoxFor(p => p.login_name)</dd></dl></li>
+    <li><dl><dt>@Html.LabelFor(p => p.password)</dt><dd>@Html.CPasswordFor(p => p.password)</dd></dl></li>
+    <li><dl><dt>@Html.LabelFor(p => p.password2)</dt><dd>@Html.CPasswordFor(p => p.password2)</dd></dl></li>
+ </ul>
+ <div class="ctrlbox"><div class="btns">@Html.CloseBtn()@Html.SaveBtn()</div></div>
+ @Html.HiddenFor(p => p.id)
+ }
+ </div>
+ <div style="clear:both;"></div>
+ <div class="form-alpha-cover"></div>
+ </div>

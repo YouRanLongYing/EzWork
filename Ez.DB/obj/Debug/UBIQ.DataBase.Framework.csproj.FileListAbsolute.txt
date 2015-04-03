@@ -1,0 +1,102 @@
+F:\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.DataBase.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.DataBase.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\UBIQ.DataBase.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\UBIQ.DataBase.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\UBIQ.DataBase.Framework.csprojResolveAssemblyReference.cache
+F:\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.Core.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Spring.Aop.dll
+F:\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\log4net.dll
+F:\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Spring.Core.dll
+F:\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Common.Logging.dll
+F:\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.DataBase.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.DataBase.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.Core.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Spring.Aop.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\log4net.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Spring.Core.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Common.Logging.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\UBIQ.DataBase.Framework.csprojResolveAssemblyReference.cache
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\UBIQ.DataBase.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\UBIQ.DataBase.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.Core.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\MySql.Data.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.DataBase.Framework.XML
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.DataBase.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.DataBase.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\MySql.Data.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.Core.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Spring.Aop.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\log4net.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Spring.Core.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Common.Logging.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.Core.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\UBIQ.DataBase.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\UBIQ.DataBase.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.DataBase.Framework.XML
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.DataBase.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.DataBase.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\mysql.data.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.Core.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Spring.Aop.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\log4net.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Spring.Core.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Common.Logging.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.Core.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\UBIQ.DataBase.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\UBIQ.DataBase.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.DataBase.Framework.XML
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Config\DataBase.config
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Config\Log4Net.config
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.DataBase.Framework.XML
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.DataBase.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.DataBase.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\mysql.data.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.Core.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Spring.Aop.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\log4net.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Spring.Core.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Common.Logging.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.Core.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\UBIQ.DataBase.Framework.csprojResolveAssemblyReference.cache
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\UBIQ.DataBase.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\UBIQ.DataBase.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Config\DataBase.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Config\Log4Net.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.DataBase.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.DataBase.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\mysql.data.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.Core.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Spring.Aop.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\log4net.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Spring.Core.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\Common.Logging.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.Core.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\UBIQ.DataBase.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\UBIQ.DataBase.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\obj\Debug\UBIQ.DataBase.Framework.csprojResolveAssemblyReference.cache
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.DataBase.Framework\bin\Debug\UBIQ.DataBase.Framework.XML

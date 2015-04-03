@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UBIQ.IBiz.Framework</name>
+    </assembly>
+    <members>
+        <member name="T:UBIQ.IBiz.Framework.IUserManagerBiz">
+            <summary>
+            框架用户物业处理中心
+            </summary>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.IBaseBiz.CachePool``1(UBIQ.IBiz.Framework.function{``0},System.String,System.Object[])">
+            <summary>
+            快速设置缓存并返回
+            </summary>
+            <typeparam name="T">要设置的类型</typeparam>
+            <param name="func">委托的方法</param>
+            <param name="key">缓存的键</param>
+            <param name="args">如果key有格式化内容，作为格式需要的参数</param>
+            <returns>缓存的数据</returns>
+        </member>
+        <member name="P:UBIQ.IBiz.Framework.IBaseBiz.CurrentLang">
+            <summary>
+            当前语言
+            </summary>
+        </member>
+        <member name="P:UBIQ.IBiz.Framework.IBaseBiz.CurrentUser">
+            <summary>
+            当前登录的用户
+            </summary>
+        </member>
+        <member name="P:UBIQ.IBiz.Framework.IBaseBiz.MemCached">
+            <summary>
+            缓存管理，使用前请确保已经正确配置
+            </summary>
+        </member>
+        <member name="P:UBIQ.IBiz.Framework.IDefaultBiz.DbMaster">
+            <summary>
+            数据库操作管理器
+            </summary>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.IUserManagerBiz.Login(UBIQ.Dtos.Framework.LoginInfoDto)">
+            <summary>
+            登录请求处理
+            </summary>
+            <param name="dto">用户登录信息实体</param>
+            <returns>登录结果</returns>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.IUserManagerBiz.GetUserInfo(System.Int32)">
+            <summary>
+            用户基本信息
+            </summary>
+            <param name="login_id">登录ID（用户ID）</param>
+            <returns>用户信息</returns>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.IUserManagerBiz.SetUserInfo(UBIQ.Dtos.Framework.UserInfoDto)">
+            <summary>
+            添加或更新用户信息
+            </summary>
+            <param name="dto">用户信息实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.IUserManagerBiz.CreateUser(UBIQ.Dtos.Framework.LoginInfoDto)">
+            <summary>
+            创建一个用户
+            </summary>
+            <param name="dto">用户登录信息实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.IUserManagerBiz.GetRoleList(UBIQ.Dtos.Framework.Lib.PageDto{UBIQ.Dtos.Framework.Models.UBIQ_U_Roles})">
+            <summary>
+            获取角色列表
+            </summary>
+            <param name="dto">分页信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.IUserManagerBiz.GetLoginInfo(System.Int32)">
+            <summary>
+            获取登录信息
+            </summary>
+            <param name="login_id">登录id</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.IUserManagerBiz.GetRoles(System.Int32)">
+            <summary>
+            获取角色列表信息
+            </summary>
+            <param name="login_id">登录ID</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.IAuthorizationBiz.LawfulRole(System.String,System.String)">
+            <summary>
+            获取角色的权限编号
+            </summary>
+            <param name="controllerName">控制器名称</param>
+            <param name="actionName">动作名</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.IAuthorizationBiz.LawfulRight(System.Int32,System.Int32)">
+            <summary>
+            获取子权限（页面级）
+            </summary>
+            <param name="role_id">权限ID</param>
+            <param name="right_id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.IBizSequence.GetSequence(System.Int32,System.String,System.Int32,System.String)">
+            <summary>
+            获取业务序列
+            </summary>
+            <param name="currentSequence">当前序列</param>
+            <param name="prefix">前缀</param>
+            <param name="min_len">最小长度</param>
+            <param name="supple_char">小于最小长度时补齐的字符</param>
+            <returns>业务序列</returns>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.ILayoutBiz.GetLayoutInfoWithUserRight(System.Int32)">
+            <summary>
+            获取可授权的功能模块，用于布局
+            </summary>
+            <param name="login_id">当前登录用户</param>
+            <param name="traditionLayout">是否为传统布局方式</param>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.IBiz.Framework.ILayoutBiz.UserManagerBiz">
+            <summary>
+            从spring 容器中取得的用户管理对象
+            </summary>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.IShortUrlBiz.GetUrlMap(System.String)">
+            <summary>
+            获取Url地址Map
+            </summary>
+            <param name="shortcode">短命名地址</param>
+            <returns>原始Url地址</returns>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.IShortUrlBiz.SetShortUrlMap(System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            设置Url映射(设置前会检测是否已对此Url进行了设置)
+            </summary>
+            <param name="url">Url必须是以http|FTP|https开头的</param>
+            <param name="data">携带的业务数据格式如：gpmx-id,即业务标记-数据,常规的做法一般不需要设置此参数，如有地址带有文件下载信息时才会用到
+            ：如果使用次参数请自行编写关于此地址的解析逻辑
+            </param>
+            <param name="isfile">是否为文件地址</param>
+            <param name="shortcode">不为空时使用指定的短命名代码</param>
+            <returns>是否设置成功</returns>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.IShortUrlBiz.SetShortUrlMap(System.String,System.String,System.Boolean)">
+            <summary>
+            设置Url映射(设置前会检测是否已对此Url进行了设置)
+            </summary>
+            <param name="url">Url必须是以http|FTP|https开头的</param>
+            <param name="data">携带的业务数据格式如：gpmx-id,即业务标记-数据,常规的做法一般不需要设置此参数，如有地址带有文件下载信息时才会用到
+            ：如果使用次参数请自行编写关于此地址的解析逻辑
+            </param>
+            <param name="isfile">是否为文件地址</param>
+            <returns>是否设置成功</returns>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.IShortUrlBiz.SetShortUrlMap(System.String,System.String)">
+            <summary>
+            设置Url映射(设置前会检测是否已对此Url进行了设置),非文件地址
+            </summary>
+            <param name="url">Url必须是以http|FTP|https开头的</param>
+            <param name="data">携带的业务数据格式如：gpmx-id,即业务标记-数据,常规的做法一般不需要设置此参数，如有地址带有文件下载信息时才会用到
+            ：如果使用次参数请自行编写关于此地址的解析逻辑
+            </param>
+            <param name="isfile">是否为文件地址</param>
+            <returns>是否设置成功</returns>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.IShortUrlBiz.SetShortUrlMap(System.String)">
+            <summary>
+            设置Url映射(设置前会检测是否已对此Url进行了设置)非文件地址且无携带数据
+            </summary>
+            <param name="url">Url必须是以http|FTP|https开头的</param>
+            <returns>是否设置成功</returns>
+        </member>
+        <member name="M:UBIQ.IBiz.Framework.IShortUrlBiz.GetUrl(System.String)">
+            <summary>
+            生成可用的短URL
+            </summary>
+            <param name="url">原始URL</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

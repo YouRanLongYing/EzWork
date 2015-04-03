@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UBIQ.Framework.Config</name>
+    </assembly>
+    <members>
+        <member name="F:UBIQ.Framework.Config.UIConfig.m_lockHelper">
+            <summary>
+            锁对象
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.Config.UIConfig.#cctor">
+            <summary>
+            静态构造函数
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.Config.UIConfig.Timer_Elapsed(System.Object,System.Timers.ElapsedEventArgs)">
+            <summary>
+            定时重置配置文件
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Config.UIConfigModel.availableCultures">
+            <summary>
+            语言别名列表
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Config.UIConfigModel.Login">
+            <summary>
+            登录页面
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Config.UIConfigModel.Regist">
+            <summary>
+            注册页面
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Config.UIConfigModel.CtrlDir">
+            <summary>
+            控制器目录
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Config.UIConfigModel.LayoutAction">
+            <summary>
+            布局页面对应Action也对应需要的样式和脚本文件夹
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Config.UIConfigModel.UIStyle">
+            <summary>
+            UI配色风格
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Config.UIConfigModel.PageSize">
+            <summary>
+            分页所需页码
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Config.UIConfigModel.AvailableCultures">
+            <summary>
+            语言别名列表
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Config.UIConfigModel.Language">
+            <summary>
+            当前语言的简称
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Config.UIConfigModel.LanagueName">
+            <summary>
+            当前语言的别名
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Config.UIConfigModel.Item(System.String)">
+            <summary>
+            指定节点的配置信息
+            </summary>
+            <param name="nodeName">节点名称</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

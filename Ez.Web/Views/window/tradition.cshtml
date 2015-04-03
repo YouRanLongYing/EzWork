@@ -1,0 +1,79 @@
+﻿@using Ez.Lang;
+@using Ez.UI.HtmlExtend
+@model Ez.Dtos.WindowDto
+@{
+    var SystemName = "优碧特物业管理系统";
+    ViewBag.Title = SystemName;
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    var username = (Model.UserInfo != null && Model.UserInfo.id > 0) ? Model.UserInfo.username : Model.LoginInfo.login_name;
+    var role = "";
+    if (Model.LoginInfo.Roles != null)
+    {
+        if (Model.LoginInfo.Roles.Count() == 1)
+        {
+            role = Model.LoginInfo.Roles.FirstOrDefault().role_name;
+        }
+        else if (Model.LoginInfo.Roles.Count() > 1)
+        {
+            List<string> list = new List<string>();
+            foreach (var item in Model.LoginInfo.Roles)
+            {
+                list.Add(item.role_name);
+            }
+
+            role = EzLanguage.COM_N_MutilRole + string.Join(",", list.ToArray());
+        }
+    }
+}
+@section CssScript{
+<script type="text/javascript">
+    $(function () {
+        window["desk"] = $.startDeskTop({ WEEK_LIST: "@EzLanguage.COM_JS_Week" });
+    });
+ </script>
+}
+<div id="layout_container" class="layout-container">
+<div id="layout_header_wrapper" class="layout-header-wrapper">
+<div class="header-top-label">
+<div class="logo"><img src="@Url.Content("~/Content/libraries/images/logo.png")" alt="Logo" /></div>
+<span class="sys-name">@SystemName</span>
+<div id="systemtime" class="time"></div>
+<div class="head">
+<div class="head_pic"><img title="@role" src="@Url.Content("~/Content/" + ViewBag.LayoutAction + "/" + ViewBag.UIStyle + "/images/avatar.png")" /></div>
+<div class="user-info">
+<div class="user-detail">
+<h2 class="username">@username</h2>
+<p class="role">@role</p>
+</div>
+<ul class="menu">
+<li><a href="#">@EzLanguage.COM_N_AccountInfo</a></li>
+<li><a href="#">@EzLanguage.COM_N_ChangePwd</a></li>
+<li>@Html.LoginOutLink("退出系统", new { style = "padding:0px;" },false)</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="header-bottom-fun">
+<div id="header_topmenu_bar" class="header-topmenu-bar">
+<span id="switchbar" class="switchbar"></span>
+@Html.TopBarMenuFor(p => p.TopBar.TopMenus, new { @class = "top-menu" })
+</div>
+</div>
+</div>
+<div id="layout_body_wrapper" class="layout-body-wrapper">
+<div id="body_wrapper" class="body-wrapper">
+<div id="body_left_box" class="body-left-box">
+@Html.LeftMenuForTraditionLayoutFor(p => p.TopBar.TopMenus)
+</div>
+<div id="body_right_box" class="body-right-box">
+<div id="page_required_menu" class="page-required-menu" style=" display:;">
+@*<ul><li><a href="#">客户菜单</a></li></ul>*@
+</div>
+<div id="page_loading" class='page-loading'><img src="@Url.Content("~/Content/libraries/images/page-loading.gif")" alt="加载中..." title="请稍等,正在加载..." /></div>
+<iframe id="main" name="main" src="http://cn.bing.com" scrolling="auto" frameborder="0" width="100%" height="600"></iframe>
+</div>
+</div>
+</div>
+<div id="layout_footer_wrapper" class="layout-footer-wrapper"></div>
+</div>
+

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6BE4D1F7-86A7-4593-A1B5-F225D4224913}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ez.UI</RootNamespace>
+    <AssemblyName>EzUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\EzUI.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.WebPages, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adapters\CustomModelValidatorProvider.cs" />
+    <Compile Include="Adapters\DisplayNameMetadataProvider.cs" />
+    <Compile Include="Attributes\AjaxRequestAttribute.cs" />
+    <Compile Include="Attributes\CDisplayNameAttribute.cs" />
+    <Compile Include="Adapters\CRequiredAttributeAdapter.cs" />
+    <Compile Include="Attributes\ConstDisplayName.cs" />
+    <Compile Include="Attributes\CultureInfoAttribute.cs" />
+    <Compile Include="Attributes\JsResult.cs" />
+    <Compile Include="Attributes\LayoutAttribute.cs" />
+    <Compile Include="Entities\MenuBar.cs" />
+    <Compile Include="HtmlExtends\Controls\HtmlHidden.cs" />
+    <Compile Include="HtmlExtends\FormAttributes\FromTagAttribute.cs" />
+    <Compile Include="HtmlExtends\BaseHtmlControl.cs" />
+    <Compile Include="HtmlExtends\Controls\HtmlEditor.cs" />
+    <Compile Include="HtmlExtends\Controls\HtmlSimpleEditor.cs" />
+    <Compile Include="HtmlExtends\FormAttributes\UploadFileUIAttribute.cs" />
+    <Compile Include="HtmlExtends\FormAttributes\TextAreaUIAttribute.cs" />
+    <Compile Include="HtmlExtends\FormAttributes\SelectUIAttribute.cs" />
+    <Compile Include="HtmlExtends\FormAttributes\RadioUIAttribute.cs" />
+    <Compile Include="HtmlExtends\FormAttributes\PasswordUIAttribute.cs" />
+    <Compile Include="HtmlExtends\FormAttributes\EditorUIAttribute.cs" />
+    <Compile Include="HtmlExtends\FormAttributes\CheckBoxUIAttribute.cs" />
+    <Compile Include="HtmlExtends\FormAttributes\HiddenUIAttribute.cs" />
+    <Compile Include="HtmlExtends\HtmlMvcForm.cs" />
+    <Compile Include="HtmlExtends\PropAgent.cs" />
+    <Compile Include="HtmlExtends\TagType.cs" />
+    <Compile Include="HtmlExtends\FormAttributes\TextBoxUIAttribute.cs" />
+    <Compile Include="HtmlExtends\HtmlHelperExtention.cs" />
+    <Compile Include="HtmlExtends\HtmlHelperExtentionUtils.cs" />
+    <Compile Include="HtmlExtends\HtmlControlFactory.cs" />
+    <Compile Include="HtmlExtends\PropUIMetadata.cs" />
+    <Compile Include="HtmlExtends\Controls\HtmlTextBox.cs" />
+    <Compile Include="HtmlExtends\Controls\HtmlPassword.cs" />
+    <Compile Include="HtmlExtends\FormAttributes\DatePickerUIAttribute.cs" />
+    <Compile Include="HtmlExtends\FormAttributes\PropertyUIAttribute.cs" />
+    <Compile Include="HtmlExtend\CustomMenu.cs" />
+    <Compile Include="HtmlExtend\ExtFuns.cs" />
+    <Compile Include="HtmlExtend\PropertyAgent.cs" />
+    <Compile Include="Entities\ShortCut.cs" />
+    <Compile Include="Entities\TopBar.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Attributes\CustomLabelForAttribute.cs" />
+    <Compile Include="Validations\CompareToAttribute.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Validations\GreaterThanLenAttribute.cs" />
+    <Compile Include="Validations\IdCardAttribute.cs" />
+    <Compile Include="Validations\InputTypeAttribute.cs" />
+    <Compile Include="Validations\EmailAttribute.cs" />
+    <Compile Include="Validations\IPAttribute.cs" />
+    <Compile Include="Validations\LessThanAttribute.cs" />
+    <Compile Include="Validations\LessThanLenAttribute.cs" />
+    <Compile Include="Validations\MobileNumberAttribute.cs" />
+    <Compile Include="Validations\GreaterThanAttribute.cs" />
+    <Compile Include="Validations\NumericAttribute.cs" />
+    <Compile Include="Validations\PhoneNumberAttribute.cs" />
+    <Compile Include="Validations\PostCodeAttribute.cs" />
+    <Compile Include="Validations\RangeNumAttribute.cs" />
+    <Compile Include="Validations\RangeLenAttribute.cs" />
+    <Compile Include="Validations\StartsWithAttribute.cs" />
+    <Compile Include="Validations\UrlAttribute.cs" />
+    <Compile Include="ViewExtend\CRazorViewEngine.cs" />
+    <Compile Include="ViewExtend\CRouter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ez.Config\Ez.Config.csproj">
+      <Project>{FFF84EB9-7BE4-4F00-AFA7-8E18B9C9ACE4}</Project>
+      <Name>Ez.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Core\Ez.Core.csproj">
+      <Project>{28697493-02E3-4DF9-9D52-34200ACF84FD}</Project>
+      <Name>Ez.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Helper\Ez.Helper.csproj">
+      <Project>{C62E0ECE-88B6-4FCC-8C53-0420E3F9A7F0}</Project>
+      <Name>Ez.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Lang\Ez.Lang.csproj">
+      <Project>{96E57BDA-6F29-4A9C-BE75-BF79FC6105FA}</Project>
+      <Name>Ez.Lang</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HtmlExtends\Controls\HtmlTextArea.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HtmlExtends\Controls\HtmlUploadFile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HtmlExtends\Controls\HtmlDatePicker.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HtmlExtends\Controls\HtmlRadio.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HtmlExtends\Controls\HtmlCheckBox.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HtmlExtends\Controls\HtmlSelect.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

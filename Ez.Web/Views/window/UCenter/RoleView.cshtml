@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "RoleView";
+}
+@section CssScript{
+<script type="text/javascript">
+    $(function () {
+        var grid = $("#grid").xGrid({
+            url: "UCenter/RoleViewForAjax",
+            columns: [
+                  { header: "编号", name: 'id', index: 'id', width: 20 },
+                  { header: "角色名", name: 'role_name', index: 'role_name', width: 50 },
+                  { header: "状态", name: 'state', index: 'state', width: 50 },
+                  { header: "创建人", name: 'creater', index: 'creater', width: 50 },
+                  { header: "创建时间", name: 'create_time', index: 'create_time',align:"center", width: 50, formatter: function (a, b, c, d) {
+                      return a.toDateString("yyyy-MM-dd HH:mm");
+                  }
+                  },
+                  { header: "说明", name: 'info', index: 'info', width: 50 },
+                  { header: "操作", name: 'act', index: 'act', width: 30, sortable: false }
+            ],
+            gridComplete: function () {
+                grid.setColumnControl("act", [
+                { text: "删", cmd: "del", type: "button" },
+                { text: "编", cmd: "edit", type: "button" },
+                { text: "权", cmd: "right", type: "button" }
+                ],"action");
+            }
+        })
+    })
+
+    var action = function (id, cmd) {
+        alert(id+"-"+cmd);
+    }
+</script>
+<style type="text/css">
+#view-page{ padding:10px;}
+#view-page .query-wrapper{}
+</style>
+}
+<div id="view-page">
+<div class="query-wrapper"></div>
+<div class="data-list"><table id="grid"></table></div>
+</div>
+
+
+

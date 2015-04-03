@@ -1,0 +1,12 @@
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Resource\bin\Release\Lang.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Resource\bin\Release\Lang.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Resource\bin\Release\en-US\Lang.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Resource\bin\Release\zh-CN\Lang.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Resource\obj\Release\UBIQ.Framework.Lang.csproj.GenerateResource.Cache
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Resource\obj\Release\en-US\Lang.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Resource\obj\Release\zh-CN\Lang.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Resource\obj\Release\Lang.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Resource\obj\Release\Lang.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Resource\obj\Release\UBIQ.Framework.Lang.FrmLanguage.resources
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Resource\obj\Release\UBIQ.Framework.Lang.FrmLanguage.en-US.resources
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Resource\obj\Release\UBIQ.Framework.Lang.FrmLanguage.zh-CN.resources

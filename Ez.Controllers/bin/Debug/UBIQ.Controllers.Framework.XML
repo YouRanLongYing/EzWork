@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UBIQ.Controllers.Framework</name>
+    </assembly>
+    <members>
+        <member name="T:UBIQ.Controllers.Framework.Lib.AuthenticationEnum">
+            <summary>
+            认证的内容
+            </summary>
+        </member>
+        <member name="F:UBIQ.Controllers.Framework.Lib.AuthenticationEnum.Identity">
+            <summary>
+            登录身份验证
+            </summary>
+        </member>
+        <member name="F:UBIQ.Controllers.Framework.Lib.AuthenticationEnum.Role">
+            <summary>
+            角色认证
+            </summary>
+        </member>
+        <member name="F:UBIQ.Controllers.Framework.Lib.AuthenticationEnum.Right">
+            <summary>
+            权限认证
+            </summary>
+        </member>
+        <member name="M:UBIQ.Controllers.Framework.Lib.AuthenticationAttribute.#ctor(UBIQ.Controllers.Framework.Lib.AuthenticationEnum)">
+            <summary>
+            用于认证角色或权限的
+            </summary>
+            <param name="authEnum">认证内容</param>
+        </member>
+        <member name="M:UBIQ.Controllers.Framework.Lib.AuthenticationAttribute.OnAuthorization(System.Web.Mvc.AuthorizationContext)">
+            <summary>
+            执行认证
+            </summary>
+            <param name="filterContext"></param>
+        </member>
+        <member name="M:UBIQ.Controllers.Framework.Lib.AuthenticationAttribute.Identity(System.Web.Mvc.AuthorizationContext)">
+            <summary>
+            登录身份认证
+            </summary>
+            <param name="filterContext">The filter context, which encapsulates information for using System.Web.Mvc.AuthorizeAttribute.</param>
+        </member>
+        <member name="P:UBIQ.Controllers.Framework.Lib.AuthenticationAttribute.IdentityFailToRedirectToLogin">
+            <summary>
+            用于判断在登录身份认证失败的情况下是否跳转到登录页面否则跳转到注册页面
+            </summary>
+        </member>
+        <member name="P:UBIQ.Controllers.Framework.Lib.BaseController.ShortUrlBizInstance">
+            <summary>
+            用于Url短地址处理的业务对象
+            </summary>
+        </member>
+        <member name="P:UBIQ.Controllers.Framework.Lib.BaseController.Session">
+            <summary>
+            Session管理对象
+            </summary>
+        </member>
+        <member name="P:UBIQ.Controllers.Framework.Lib.BaseController.Cookie">
+            <summary>
+            Cookie管理对象
+            </summary>
+        </member>
+        <member name="P:UBIQ.Controllers.Framework.Lib.BaseController.Cache">
+            <summary>
+            asp.net Cache管理对象
+            </summary>
+        </member>
+        <member name="P:UBIQ.Controllers.Framework.Lib.BaseController.MemCached">
+            <summary>
+            MemCached管理对象
+            </summary>
+        </member>
+        <member name="P:UBIQ.Controllers.Framework.Lib.BaseController.Application">
+            <summary>
+            Application管理对象
+            </summary>
+        </member>
+        <member name="P:UBIQ.Controllers.Framework.Lib.DefaultController.CurrentUser">
+            <summary>
+            身份认证后注入的当前用户身份实例信息
+            </summary>
+        </member>
+        <member name="M:UBIQ.Controllers.Framework.UrlController.Index(System.String)">
+            <summary>
+            跳转
+            </summary>
+        </member>
+        <member name="T:UBIQ.Controllers.Framework.Lib.LicenseAttribute">
+            <summary>
+            产品授权
+            </summary>
+        </member>
+        <member name="T:UBIQ.Controllers.Framework.UCenterController">
+            <summary>
+            测试数据
+            </summary>
+        </member>
+        <member name="M:UBIQ.Controllers.Framework.UCenterController.EditMyInfo">
+            <summary>
+            用户信息编辑页面初始化
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Controllers.Framework.UCenterController.CreateUser">
+            <summary>
+            创建一个用户页面初始化
+            </summary>
+        </member>
+        <member name="M:UBIQ.Controllers.Framework.UCenterController.RoleView">
+            <summary>
+            角色列表
+            </summary>
+        </member>
+        <member name="T:UBIQ.Controllers.Framework.WindowController">
+            <summary>
+            私有成员
+            </summary>
+            <summary>
+            测试数据
+            </summary>
+        </member>
+        <member name="M:UBIQ.Controllers.Framework.WindowController.Login">
+            <summary>
+            登录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Controllers.Framework.WindowController.LoginOut(System.String)">
+            <summary>
+            登录出操作
+            </summary>
+            <param name="redirectUrl"></param>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Controllers.Framework.WindowController.LayoutBiz">
+            <summary>
+            系统布局数据
+            </summary>
+        </member>
+    </members>
+</doc>

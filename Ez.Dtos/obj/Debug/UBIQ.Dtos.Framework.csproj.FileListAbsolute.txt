@@ -1,0 +1,170 @@
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Dtos.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Dtos.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Core.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Helper.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Resource.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.UI.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Spring.Aop.dll
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\log4net.dll
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Config.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Spring.Core.dll
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Common.Logging.dll
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Helper.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Resource.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.UI.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Config.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\UBIQ.Dtos.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\UBIQ.Dtos.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\UBIQ.Dtos.Framework.csprojResolveAssemblyReference.cache
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Dtos.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Dtos.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Config.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Core.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Helper.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Resource.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.UI.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Spring.Aop.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\log4net.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Spring.Core.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Common.Logging.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Config.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Helper.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Resource.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.UI.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\UBIQ.Dtos.Framework.csprojResolveAssemblyReference.cache
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\UBIQ.Dtos.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\UBIQ.Dtos.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Config.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Core.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Helper.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Resource.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.UI.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\ICSharpCode.SharpZipLib.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\ICSharpCode.SharpZipLib.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Dtos.Framework.XML
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Dtos.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Dtos.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Config.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Core.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Helper.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Resource.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.UI.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Spring.Aop.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\log4net.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Spring.Core.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Common.Logging.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Config.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Config.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Core.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Helper.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Helper.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Resource.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Resource.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.UI.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.UI.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\ICSharpCode.SharpZipLib.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\ICSharpCode.SharpZipLib.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\UBIQ.Dtos.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\UBIQ.Dtos.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Dtos.Framework.XML
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Dtos.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Dtos.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Config.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Core.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Helper.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Resource.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.UI.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Spring.Aop.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\log4net.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Spring.Core.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Common.Logging.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Config.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Config.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Core.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Helper.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Helper.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Resource.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Resource.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.UI.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.UI.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\ICSharpCode.SharpZipLib.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\ICSharpCode.SharpZipLib.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\UBIQ.Dtos.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\UBIQ.Dtos.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Dtos.Framework.XML
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Dtos.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Dtos.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Config.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Core.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Helper.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Resource.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.UI.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Spring.Aop.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\log4net.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Spring.Core.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Common.Logging.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Config.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Config.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Core.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Helper.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Helper.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Resource.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Resource.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.UI.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.UI.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\ICSharpCode.SharpZipLib.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\ICSharpCode.SharpZipLib.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\UBIQ.Dtos.Framework.csprojResolveAssemblyReference.cache
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\UBIQ.Dtos.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\UBIQ.Dtos.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Dtos.Framework.XML
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Dtos.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Dtos.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Config.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Core.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Helper.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Resource.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.UI.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Spring.Aop.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\log4net.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Spring.Core.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Common.Logging.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Config.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Config.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Core.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Helper.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Helper.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Resource.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Resource.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.UI.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.UI.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\UBIQ.Dtos.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\UBIQ.Dtos.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\Config\Log4Net.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\obj\Debug\UBIQ.Dtos.Framework.csprojResolveAssemblyReference.cache
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Dtos.Framework\bin\Debug\UBIQ.Dtos.Framework.XML

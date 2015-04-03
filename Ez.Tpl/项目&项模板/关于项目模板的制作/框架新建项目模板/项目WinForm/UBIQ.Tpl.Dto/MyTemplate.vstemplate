@@ -1,0 +1,30 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>UBIQ.Tpl.Dto</Name>
+    <Description>&lt;数据传输层&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>UBIQ.Tpl.Dto</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="UBIQ.Tpl.Dto.csproj" File="UBIQ.Tpl.Dto.csproj" ReplaceParameters="true">
+      <Folder Name="Entity" TargetFolderName="Entity">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Demo.cs">Demo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>UBIQProjTemplateWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8d74d41300c5ad2d</Assembly>
+    <FullClassName>UBIQProjTemplateWizard.ChildWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

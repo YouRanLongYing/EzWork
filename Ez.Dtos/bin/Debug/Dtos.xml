@@ -1,0 +1,912 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dtos</name>
+    </assembly>
+    <members>
+        <member name="T:UBIQ.Framework.Dtos.Entities.FW_Regist">
+            <summary>
+            系统注册
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Regist.id">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Regist.sys_name">
+            <summary>
+            系统名称
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Regist.sys_description">
+            <summary>
+            系统描述
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Regist.status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Regist.secret_key">
+            <summary>
+            秘钥
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Regist.sys_version">
+            <summary>
+            系统版本
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Regist.create_time">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Regist.project_magr">
+            <summary>
+            项目经理
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Regist.proj_member">
+            <summary>
+            项目成员
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Regist.licensedto">
+            <summary>
+            授权给
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Regist.lang">
+            <summary>
+            语种
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.Dtos.Enums.DepartmentStatus">
+            <summary>
+            部门状态
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.Dtos.Entities.FW_U_Roles">
+            <summary>
+            用户角色
+            created by kongjing
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Roles.id">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Roles.role_name">
+            <summary>
+            角色名
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Roles.role_name_rs_key">
+            <summary>
+            角色名在资源中的键
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Roles.state">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Roles.flag">
+            <summary>
+            标记
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Roles.info">
+            <summary>
+            角色说明
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Roles.pro_id">
+            <summary>
+            产品注册号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Roles.lang">
+            <summary>
+            语言
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Roles.creater">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Roles.create_time">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.Dtos.Entities.FW_U_Rights">
+            <summary>
+            用户权限表
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.id">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.right_name">
+            <summary>
+            权限名/菜单名
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.right_name_rs_key">
+            <summary>
+            权限名/菜单名在资源中的键
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.title">
+            <summary>
+            标题名
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.title_rs_key">
+            <summary>
+            标题名在资源中的键
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.limit_url">
+            <summary>
+            受限制地址
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.parent_id">
+            <summary>
+            为菜单是此菜单的父级菜单
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.un_ctrl">
+            <summary>
+            是否收权限控制
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.is_noright_show">
+            <summary>
+            是否在无权限是显示
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.is_menu">
+            <summary>
+            是否为菜单
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.group_num">
+            <summary>
+            为菜单时的分组
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.is_shortcut">
+            <summary>
+            是否为快捷方式
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.pro_id">
+            <summary>
+            产品编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.create_time">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.creater">
+            <summary>
+            创建人编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.is_win">
+            <summary>
+            是否为窗口否则为一个普通连接
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.win_size">
+            <summary>
+            窗口尺寸
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.ico">
+            <summary>
+            图标，快捷按钮是使用
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.class_name">
+            <summary>
+            样式名，若为菜单是那么可以为其设置样式以定义一个小图标
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.win_width">
+            <summary>
+            窗口宽度
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.win_height">
+            <summary>
+            窗口高度
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.dev_key">
+            <summary>
+            用于查找指定模块，一般在产品中以硬编码的形式新增模块菜单
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Rights.is_web_project">
+            <summary>
+            是否为Web项目
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.Dtos.Entities.Nexus.FW_U_Ref_Department">
+            <summary>
+            用户部门关系
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_U_Ref_Department.login_id">
+            <summary>
+            登陆编号,主键
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_U_Ref_Department.dep_id">
+            <summary>
+            部门编号,主键
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_U_Ref_Department.create_time">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_U_Ref_Department.creater">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.Dtos.Entities.FW_Sys_Log">
+            <summary>
+            系统日志
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Sys_Log.id">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Sys_Log.log_title">
+            <summary>
+            日志标题
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Sys_Log.log_type">
+            <summary>
+            日志类型
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Sys_Log.log_ctn">
+            <summary>
+            日志描述
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Sys_Log.occure_time">
+            <summary>
+            日志发生时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Sys_Log.occure_ip">
+            <summary>
+            发生的IP
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Sys_Log.occure_mac">
+            <summary>
+            发生的Mac
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Sys_Log.login_id">
+            <summary>
+            操作账户（登录账户）
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Shortcut.id">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Shortcut.shortcut_name">
+            <summary>
+            快捷键文本
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Shortcut.shortcut_name_rs_key">
+            <summary>
+            快捷键文本资源键
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Shortcut.url">
+            <summary>
+            导向地址
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Shortcut.lang">
+            <summary>
+            语种
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Shortcut.uid">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Shortcut.create_time">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Shortcut.is_win">
+            <summary>
+            是否为窗口否则为普通连接
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Shortcut.win_size">
+            <summary>
+            窗口打开时尺寸
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Shortcut.ico">
+            <summary>
+            图标
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Shortcut.sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Shortcut.win_width">
+            <summary>
+            窗口宽
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Shortcut.win_height">
+            <summary>
+            窗口高
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.Dtos.LoginInfoDto">
+            <summary>
+            用户登录信息
+            created by kongjing
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.LoginInfoDto.id">
+            <summary>
+            账户编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.LoginInfoDto.login_name">
+            <summary>
+            登录名
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.LoginInfoDto.password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.LoginInfoDto.password2">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.LoginInfoDto.status">
+            <summary>
+            用户状态
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.LoginInfoDto.login_num">
+            <summary>
+            登录次数
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.LoginInfoDto.last_loginTime">
+            <summary>
+            登录时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.LoginInfoDto.regist_time">
+            <summary>
+            注册时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.LoginInfoDto.regist_ip">
+            <summary>
+            注册IP
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.LoginInfoDto.last_login_ip">
+            <summary>
+            最后登录IP
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.LoginInfoDto.Roles">
+            <summary>
+            用户角色一般只有一个角色
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.LoginInfoDto.CurrentRole">
+            <summary>
+            当前角色,后期单用户多角色的情况需要在这里处理
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.LoginInfoDto.Info">
+            <summary>
+            用户信息
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.Dtos.Entities.Nexus.FW_R_Ref_Rights">
+            <summary>
+            角色-权限关系
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_R_Ref_Rights.id">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_R_Ref_Rights.role_id">
+            <summary>
+            角色编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_R_Ref_Rights.right_id">
+            <summary>
+            权限
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_R_Ref_Rights.create_time">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_R_Ref_Rights.creater">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_MappedUrl.short_code">
+            <summary>
+            短地址代码
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_MappedUrl.source_url">
+            <summary>
+            Url
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_MappedUrl.with_data">
+             <summary>
+            携带的业务数据格式如：gpmx-id,即业务标记-数据,常规的做法一般不需要设置此参数，如有地址带有文件下载信息时才会用到
+             ：如果使用次参数请自行编写关于此地址的解析逻辑
+             </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_MappedUrl.create_time">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_MappedUrl.login_id">
+            <summary>
+            用户登录的id
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.Dtos.Entities.FW_Department">
+            <summary>
+            部门信息
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Department.id">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Department.dep_name">
+            <summary>
+            部门名称
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Department.dep_desp">
+            <summary>
+            部门描述
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Department.dep_parentid">
+            <summary>
+            上级部门编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Department.dep_status">
+            <summary>
+            部门状态 1 正常  0 不可用
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Department.create_time">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Department.parent_path">
+            <summary>
+            上级部门路径，
+            例如 A部门的上级i部门B 的id为1，B的上级部门C的ID为2
+            那么 A部门的父级路径的格式为 “2>1”
+            如果为顶级部门则留空 （注意：不是 dbnull）
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_Department.remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.Dtos.Entities.Nexus.FW_R_R_Ref_PRight">
+            <summary>
+            页面级权限关系
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_R_R_Ref_PRight.id">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_R_R_Ref_PRight.role_id">
+            <summary>
+            角色编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_R_R_Ref_PRight.right_id">
+            <summary>
+            权限编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_R_R_Ref_PRight.cright_id">
+            <summary>
+            子权限编号-页面级权限
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_R_R_Ref_PRight.open_page_right">
+            <summary>
+            是否开启此功能
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_R_R_Ref_PRight.create_time">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_R_R_Ref_PRight.creater">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.Dtos.UserInfoDto">
+            <summary>
+            用户信息
+            created by kongjing
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.UserInfoDto.id">
+            <summary>
+            信息编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.UserInfoDto.login_id">
+            <summary>
+            账户编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.UserInfoDto.username">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.UserInfoDto.gender">
+            <summary>
+            用户性别
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.UserInfoDto.age">
+            <summary>
+            用户年龄
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.UserInfoDto.id_card">
+            <summary>
+            身份证号码
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.UserInfoDto.telphone">
+            <summary>
+            座机号码
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.UserInfoDto.mobile">
+            <summary>
+            手机号码
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.UserInfoDto.qq">
+            <summary>
+            联系QQ
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.UserInfoDto.email">
+            <summary>
+            邮箱地址
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.UserInfoDto.address">
+            <summary>
+            住址
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.UserInfoDto.company">
+            <summary>
+            单位名称
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.UserInfoDto.ext_data">
+            <summary>
+            业务扩展列（数据）
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Info.id">
+            <summary>
+            信息编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Info.login_id">
+            <summary>
+            账户编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Info.username">
+            <summary>
+            用户名称
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Info.gender">
+            <summary>
+            用户性别
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Info.age">
+            <summary>
+            用户年龄
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Info.id_card">
+            <summary>
+            身份证号码
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Info.telphone">
+            <summary>
+            座机号码
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Info.mobile">
+            <summary>
+            手机号码
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Info.qq">
+            <summary>
+            联系QQ
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Info.email">
+            <summary>
+            邮箱地址
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Info.address">
+            <summary>
+            住址
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Info.company">
+            <summary>
+            单位名称
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Info.create_time">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Info.update_time">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Info.lang">
+            <summary>
+            语种
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Info.ext_data">
+            <summary>
+            业务扩展列
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Account.id">
+            <summary>
+            账户编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Account.login_name">
+            <summary>
+            登录名
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Account.password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Account.status">
+            <summary>
+            状态，0 默认正常
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Account.login_num">
+            <summary>
+            登录次数
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Account.last_loginTime">
+            <summary>
+            登录时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Account.regist_time">
+            <summary>
+            注册时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Account.regist_ip">
+            <summary>
+            注册IP
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_U_Account.last_login_ip">
+            <summary>
+            最后登录IP
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.Dtos.Library.PageDto`1">
+            <summary>
+            分页模型
+            created by kongjing
+            </summary>
+            <typeparam name="T">分页数据模型</typeparam>
+        </member>
+        <member name="F:UBIQ.Framework.Dtos.Library.PageDto`1.PageSize">
+            <summary>
+            页容量
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Library.PageDto`1.PageIndex">
+            <summary>
+            当前页码
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Library.PageDto`1.Total">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Library.PageDto`1.Records">
+            <summary>
+            总计录数
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Library.PageDto`1.OrderBy">
+            <summary>
+            排序的字段
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Library.PageDto`1.IsDesc">
+            <summary>
+            是否倒序排列
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_P_Right.id">
+            <summary>
+            权限编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_P_Right.right_id">
+            <summary>
+            模块权限编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_P_Right.text_name">
+            <summary>
+            显示文本
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_P_Right.text_name_rs_key">
+            <summary>
+            显示文本在资源中的键
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_P_Right.action_type">
+            <summary>
+            执行动作类型
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_P_Right.action_style">
+            <summary>
+            UI样式类型
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_P_Right.text_css">
+            <summary>
+            样式
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_P_Right.create_time">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.FW_P_Right.pro_id">
+            <summary>
+            产品注册编号
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.Dtos.Entities.Nexus.FW_U_Ref_Roles">
+            <summary>
+            用户角色关系
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_U_Ref_Roles.id">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_U_Ref_Roles.login_id">
+            <summary>
+            账户编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_U_Ref_Roles.roleid">
+            <summary>
+            角色编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_U_Ref_Roles.create_time">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Dtos.Entities.Nexus.FW_U_Ref_Roles.creater">
+            <summary>
+            创建人
+            </summary>
+        </member>
+    </members>
+</doc>

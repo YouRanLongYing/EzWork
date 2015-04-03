@@ -1,0 +1,70 @@
+﻿#desktop{ width:100%; padding:0px; margin:0px;}
+#desktop .wrapper{width:100%; padding:0px; margin:0px; position:relative; }
+a{color:#cdcdcd;}
+
+/*layout->topbar*/
+#desk_top_menu_bar{margin:0px;}
+#desktop .wrapper .desktop-bar{height:24px;width:100%; position:absolute; top:0px;
+left:0px; background:url("images/layer_bg.png") #444; box-shadow:0px 0px 5px #000; z-index:100;opacity:0.8;}
+/*topbar>>菜单*/
+.desktop-bar-left{ float:left; width:35%;height:24px; line-height:24px; }
+.desktop-bar-left .ico-fa-apple{background-image: url(images/favicon.ico);padding: 0px 16px;margin-top: -3px;height: 30px;}
+.desktop-bar-left span{ padding:0px 2px 0px 10px; font-size:14px; float:left;height:24px;line-height:24px; }
+.desktop-bar-left ul{ padding-left:10px;float:left;}
+.desktop-bar-menu-top{ float:left; margin-right:11px; overflow:visible; position:relative;}
+.desktop-bar-menu-top a {display: block;padding: 0px 5px;}
+.desktop-bar-menu-top a:hover{color:#FFF;}
+.desktop-bar-child{position:absolute;width:120px; margin-left:0px; padding-left:0px; background:#444; padding:2px; display:none;box-shadow:0px 0px 5px #000;right:-90px; top:12px;}
+.desktop-bar-child2{position:absolute;width:120px; margin-left:0px; padding-left:0px; background:#444; padding:2px; display:none;box-shadow:0px 0px 5px #000;right:-120px; top:-12px;}
+
+.desktop-bar-child-menu{ width:100%; text-indent:10px;position: relative; height:24px; }
+.desktop-bar-child-menu a{ display:block; height:23px; line-height:23px; padding:2px 0px;}
+.desktop-bar-child-menu a:hover{color:#FFF;}
+.desktop-bar-child li.desktop-bar-menu-split{ height:1px; background-color:#555;}
+.desktop-bar-child-menu a:after{ content:"\f0da"; float:right; margin-right:5px;}
+
+/*topbar>>标题*/
+.desktop-bar-mid{float:left;height:24px; line-height:24px; width:30%; text-align:center;  }
+/*topbar>>系统操作图标*/
+.desktop-bar-right{height:24px;width:35%; line-height:24px; float:right; }
+.desktop-bar-right-activbox{ float:right; margin-right:5px; display:none;}
+.desktop-bar-right-activbox a.fa:before{content:"\f111";}
+.desktop-bar-right-activbox .win-close{color:#ED4E48 !important;}
+.desktop-bar-right-activbox .win-close:hover{color:#E33230 !important;/*text-shadow:0px 0px 5px #000 !important;*/}
+.desktop-bar-right-activbox .win-size-max{color:#FFD970 !important;}
+.desktop-bar-right-activbox .win-size-min{color:#C1F27F !important;}
+.desktop-bar-right-warper{ float:right;padding-right:10px;}
+.desktop-bar-right-warper a:hover{color:#FFF;}
+.desktop-bar-q-user:before{content:"\f007";}
+.desktop-bar-q-user i{ font-style:normal; padding:2px 2px 0px 0px;}
+.desktop-bar-q-user span{ font-size:12px;}
+.desktop-bar-q-time{}
+.desktop-bar-q-mail:before{content:"\f003";}
+.desktop-bar-q-audo:before{content:"\f028";}
+/*layout->main*/
+#desktop .wrapper .main{ width:100%; height:500px/*js 计算减去topbar高度24px以及地步高度30px（若存在）*/;
+position:relative; z-index:1;}
+#desktop .wrapper .main .select-region{ border:solid 1px #444;background:url(images/layer_bg.png); position:absolute; top:0px; left:0px; z-index:3; box-shadow:0px 0px 5px #000; }
+#desktop .wrapper .main .shortcut  
+{
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;}
+/*layout->footer-wrapper*/
+#desktop .wrapper .footer-wrapper{ height:30px; width:100%; position:fixed; left:0px; bottom:0px; z-index:2;}
+#desktop .wrapper .footer-wrapper .footer-wrapper-left{ float:left; width:20%; height:30px; line-height:30px;}
+#desktop .wrapper .footer-wrapper .footer-wrapper-mid{ float:left; width:60%; height:30px; line-height:30px; text-align:center;}
+#desktop .wrapper .footer-wrapper .footer-wrapper-right{ float:left; width:20%; height:30px; line-height:30px;}
+
+/*appbtn*/
+.app-btn{ position:absolute; height:50px; width:80px; cursor:pointer; z-index:1; }
+.app-btn .app-btn-ico{height:48px; width:48px; padding:2px 4px; margin:0px auto; border-radius:2px;}
+.app-btn .app-btn-ico img{height:48px; width:48px; }
+.app-btn .app-btn-ico:hover{background:url(images/layer_bg.png); box-shadow:0px 0px 5px #000; /*text-shadow:0px 0px 5px #cdcdcd;*/opacity:0.9;}
+.app-btn .app-btn-name{ margin:3px auto 0px auto; color:#FFF; height:20px; line-height:20px; text-align:center; border-radius:8px; }
+.app-btn:hover .app-btn-name{opacity:0.9;/*text-shadow:0px 0px 5px #444;*/}
+.app-btn.selected .app-btn-ico{background:url(images/layer_bg.png) #555; box-shadow:0px 0px 5px #000; /*text-shadow:0px 0px 5px #cdcdcd;*/opacity:0.9;}
+.app-btn.selected .app-btn-name{background:url(images/layer_bg.png) #444; opacity:0.7;/*text-shadow:0px 0px 5px #cdcdcd;*/}
+
+
+
+

@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="COM_Msg_EditFail" xml:space="preserve">
+    <value>修改失败！en</value>
+    <comment>修改失败！</comment>
+  </data>
+  <data name="COM_Msg_EditSuccess" xml:space="preserve">
+    <value>修改成功！en</value>
+    <comment>资料修改成功！</comment>
+  </data>
+  <data name="COM_N_Address" xml:space="preserve">
+    <value>地址en</value>
+    <comment>地址</comment>
+  </data>
+  <data name="COM_N_Age" xml:space="preserve">
+    <value>年龄en</value>
+    <comment>年龄</comment>
+  </data>
+  <data name="COM_N_Email" xml:space="preserve">
+    <value>邮箱地址en</value>
+    <comment>邮箱地址</comment>
+  </data>
+  <data name="COM_N_Gender" xml:space="preserve">
+    <value>性别en</value>
+    <comment>性别</comment>
+  </data>
+  <data name="COM_N_IdCard" xml:space="preserve">
+    <value>身份证en</value>
+    <comment>身份证</comment>
+  </data>
+  <data name="COM_N_LoginName" xml:space="preserve">
+    <value>登录名en</value>
+    <comment>登录名</comment>
+  </data>
+  <data name="COM_N_Mobile" xml:space="preserve">
+    <value>手机en</value>
+    <comment>手机</comment>
+  </data>
+  <data name="COM_N_QQ" xml:space="preserve">
+    <value>QQen</value>
+    <comment>QQ</comment>
+  </data>
+  <data name="COM_N_Tel" xml:space="preserve">
+    <value>座机en</value>
+    <comment>座机</comment>
+  </data>
+  <data name="COM_N_UserName" xml:space="preserve">
+    <value>UserName</value>
+    <comment>姓名</comment>
+  </data>
+  <data name="COM_N_Password" xml:space="preserve">
+    <value>口令en</value>
+    <comment>密码</comment>
+  </data>
+  <data name="COM_V_PerfectInfo" xml:space="preserve">
+    <value>完善资料en</value>
+    <comment>完善资料</comment>
+  </data>
+  <data name="SYS_N_CompanyName" xml:space="preserve">
+    <value>优碧特软件（西安）软件有限公司en</value>
+    <comment>公司名称</comment>
+  </data>
+  <data name="SYS_N_Copyright" xml:space="preserve">
+    <value>优碧特软件（西安）软件有限公司en</value>
+    <comment>版权，著作权</comment>
+  </data>
+  <data name="SYS_N_Description" xml:space="preserve">
+    <value>基础框架，公司产品底层框架en</value>
+    <comment>产品功能描述</comment>
+  </data>
+  <data name="SYS_N_SystemName" xml:space="preserve">
+    <value>Ezen</value>
+    <comment>公司产品框架</comment>
+  </data>
+  <data name="SYS_N_Version" xml:space="preserve">
+    <value>v1.0.0.0en</value>
+    <comment>版本</comment>
+  </data>
+  <data name="SYS_Val_Email" xml:space="preserve">
+    <value>{0}应为邮件格式！en</value>
+    <comment>{0}应为邮件格式！</comment>
+  </data>
+  <data name="SYS_Val_NotIP" xml:space="preserve">
+    <value>IP地址格式不正确！en</value>
+    <comment>IP地址格式不正确！</comment>
+  </data>
+  <data name="SYS_Val_NotUrl" xml:space="preserve">
+    <value>Url格式不正确！en</value>
+    <comment>Url格式不正确！</comment>
+  </data>
+  <data name="SYS_Val_Required" xml:space="preserve">
+    <value>{0}为必填项！en</value>
+    <comment>{0}为必填项！</comment>
+  </data>
+  <data name="SYS_Val_StartWith" xml:space="preserve">
+    <value>{0}必须以"{1}"开头！en</value>
+    <comment>{0}必须以"{1}"开头！</comment>
+  </data>
+  <data name="SYS_V_LoginOut" xml:space="preserve">
+    <value>退出en</value>
+    <comment>退出</comment>
+  </data>
+  <data name="COM_Msg_AccountError" xml:space="preserve">
+    <value>账户或密码错误！en</value>
+    <comment>账户或密码错误！</comment>
+  </data>
+  <data name="SYS_Val_ComMsg" xml:space="preserve">
+    <value>输入的内容不合法请检查！en</value>
+    <comment>输入的内容不合法请检查！</comment>
+  </data>
+  <data name="SYS_Val_Date" xml:space="preserve">
+    <value>请正确输入日期！en</value>
+    <comment>请正确输入日期！</comment>
+  </data>
+  <data name="SYS_Val_Int" xml:space="preserve">
+    <value>请输入整数！en</value>
+    <comment>请输入这整数！</comment>
+  </data>
+  <data name="SYS_Val_Number" xml:space="preserve">
+    <value>{0}必须是数字！en</value>
+    <comment>请输入数字！</comment>
+  </data>
+  <data name="SYS_Val_IdCard" xml:space="preserve">
+    <value>请输入正确的身份证号码！en</value>
+    <comment>请输入正确的身份证号码！en</comment>
+  </data>
+  <data name="SYS_Val_PhoneNumber" xml:space="preserve">
+    <value>请正确输入座机号码! 格式可以使xxx-xxxxxxxx en</value>
+    <comment>请正确输入手机号码en</comment>
+  </data>
+  <data name="SYS_Val_MobileNumber" xml:space="preserve">
+    <value>请正确输入手机号码!en</value>
+    <comment>请正确输入手机号码!</comment>
+  </data>
+  <data name="SYS_Val_PostCode" xml:space="preserve">
+    <value>请正确输入邮编！en</value>
+    <comment>请正确输入邮编！en</comment>
+  </data>
+  <data name="SYS_Val_Range" xml:space="preserve">
+    <value>输入的数字应大于{0}小于{1}!en</value>
+    <comment>输入的数字应大于{0}小于{1}!en</comment>
+  </data>
+  <data name="SYS_Val_LessThan" xml:space="preserve">
+    <value>输入的值必须小于{0}!en</value>
+    <comment>输入的值必须小于{0}{1}!</comment>
+  </data>
+  <data name="SYS_Val_LessThanOrEqual" xml:space="preserve">
+    <value>输入的值必须小于或等于{0}!en</value>
+    <comment>输入的值必须小于或等于{0}!</comment>
+  </data>
+  <data name="SYS_Val_GreaterThan" xml:space="preserve">
+    <value>输入的值必须大于{0}!en</value>
+    <comment>输入的值必须大于{0}!</comment>
+  </data>
+  <data name="SYS_Val_GreaterThanOrEqual" xml:space="preserve">
+    <value>输入的值必须大于或等于{0}!en</value>
+    <comment>输入的值必须大于或等于{0}!</comment>
+  </data>
+  <data name="SYS_Val_RangeOrEqual" xml:space="preserve">
+    <value>输入的数字应大于等于{0}或小于等于{1}!en</value>
+    <comment>输入的数字应大于或等于{0}小于或等于{1}!</comment>
+  </data>
+  <data name="SYS_Val_RangeLen" xml:space="preserve">
+    <value>输入的字符长度应大于{0}小于{1}!en</value>
+    <comment>输入的字符长度应大于{0}小于{1}!</comment>
+  </data>
+  <data name="SYS_Val_RangeLenOrEqMax" xml:space="preserve">
+    <value>输入的字符长度应大于{0}小于或等于{1}!en</value>
+    <comment>输入的字符长度应大于{0}小于或等于{1}!</comment>
+  </data>
+  <data name="SYS_Val_RangeLenOrEqMin" xml:space="preserve">
+    <value>输入的字符长度应大于或等于{0}小于{1}!en</value>
+    <comment>输入的字符长度应大于或等于{0}小于{1}!</comment>
+  </data>
+  <data name="SYS_Val_RangeLenOrEqual" xml:space="preserve">
+    <value>输入的字符长度应大于等于{0}或小于等于{1}!en</value>
+    <comment>输入的字符长度应大于或等于{0}小于或等于{1}!</comment>
+  </data>
+  <data name="SYS_Val_RangeOrEqMax" xml:space="preserve">
+    <value>输入的数字应大于{0}小于或等于{1}!en</value>
+    <comment>输入的数字应大于{0}小于或等于{1}!</comment>
+  </data>
+  <data name="SYS_Val_RangeOrEqMin" xml:space="preserve">
+    <value>输入的数字应大于或等于{0}小于{1}!en</value>
+    <comment>输入的数字应大于或等于{0}小于{1}!</comment>
+  </data>
+  <data name="SYS_Val_GeaterThanLen" xml:space="preserve">
+    <value>输入的字符长度应大于{0}!en</value>
+    <comment>输入的字符长度应大于{0}!</comment>
+  </data>
+  <data name="SYS_Val_GeaterThanLenOrEqual" xml:space="preserve">
+    <value>输入的字符长度应大于或等于{0}!en</value>
+    <comment>输入的字符长度应大于或等于{0}!</comment>
+  </data>
+  <data name="SYS_Val_LessThanLen" xml:space="preserve">
+    <value>输入的字符长度应小于{0}!en</value>
+    <comment>输入的字符长度应小于{0}!</comment>
+  </data>
+  <data name="SYS_Val_LessThanLenOrEqual" xml:space="preserve">
+    <value>输入的字符长度应小于或等于{0}!en</value>
+    <comment>输入的字符长度应小于或等于{0}!</comment>
+  </data>
+  <data name="SYS_Exp_NoProperty" xml:space="preserve">
+    <value>此类实例中未找到调用的属性{0}!en</value>
+    <comment>此类实例中未找到调用的属性{0}!</comment>
+  </data>
+  <data name="SYS_Exp_UnSupportType" xml:space="preserve">
+    <value>调用了不被支持的类型！en</value>
+    <comment>调用了不被支持的类型！</comment>
+  </data>
+  <data name="COM_Msg_AddFail" xml:space="preserve">
+    <value>添加失败！en</value>
+    <comment>添加失败！</comment>
+  </data>
+  <data name="COM_Msg_AddSuccess" xml:space="preserve">
+    <value>添加成功！en</value>
+    <comment>添加成功！</comment>
+  </data>
+  <data name="COM_Msg_SaveFail" xml:space="preserve">
+    <value>保存失败！en</value>
+    <comment>保存失败！</comment>
+  </data>
+  <data name="COM_Msg_SaveSuccess" xml:space="preserve">
+    <value>保存成功！en</value>
+    <comment>保存成功！</comment>
+  </data>
+  <data name="COM_Btn_Back" xml:space="preserve">
+    <value>返回en</value>
+    <comment>返回</comment>
+  </data>
+  <data name="COM_N_PleaseSelect" xml:space="preserve">
+    <value>=PleaseSelect=</value>
+    <comment>=PleaseSelect=</comment>
+  </data>
+  <data name="COM_N_AccountInfo" xml:space="preserve">
+    <value>账户信息en</value>
+    <comment>账户信息</comment>
+  </data>
+  <data name="COM_N_ChangeLang" xml:space="preserve">
+    <value>Language</value>
+    <comment>切换语言</comment>
+  </data>
+  <data name="COM_N_ChangePwd" xml:space="preserve">
+    <value>修改密码en</value>
+    <comment>修改密码</comment>
+  </data>
+  <data name="COM_N_DeskBg" xml:space="preserve">
+    <value>桌面背景en</value>
+    <comment>桌面背景</comment>
+  </data>
+  <data name="COM_N_Menu" xml:space="preserve">
+    <value>菜单en</value>
+    <comment>菜单</comment>
+  </data>
+  <data name="COM_N_Shortcut" xml:space="preserve">
+    <value>Quick</value>
+    <comment>快捷</comment>
+  </data>
+  <data name="COM_N_SystemBaseInfo" xml:space="preserve">
+    <value>系统基本信息en</value>
+    <comment>系统基本信息</comment>
+  </data>
+  <data name="COM_N_SystemSet" xml:space="preserve">
+    <value>系统设置en</value>
+    <comment>系统设置</comment>
+  </data>
+  <data name="COM_N_Window" xml:space="preserve">
+    <value>Window</value>
+    <comment>窗口</comment>
+  </data>
+  <data name="COM_N_AccountManage" xml:space="preserve">
+    <value>账户管理en</value>
+    <comment>账户管理</comment>
+  </data>
+  <data name="COM_N_BackSize" xml:space="preserve">
+    <value>还原en</value>
+    <comment>还原</comment>
+  </data>
+  <data name="COM_N_Close" xml:space="preserve">
+    <value>关闭en</value>
+    <comment>关闭</comment>
+  </data>
+  <data name="COM_N_ToMax" xml:space="preserve">
+    <value>最大化en</value>
+    <comment>最大化</comment>
+  </data>
+  <data name="COM_N_ToMin" xml:space="preserve">
+    <value>最小化en</value>
+    <comment>最小化</comment>
+  </data>
+  <data name="COM_N_LastLoginIP" xml:space="preserve">
+    <value>最后登录IPen</value>
+    <comment>最后登录IP</comment>
+  </data>
+  <data name="COM_N_LastLoginTime" xml:space="preserve">
+    <value>最后登陆时间en</value>
+    <comment>最后登陆时间</comment>
+  </data>
+  <data name="COM_N_LoginNum" xml:space="preserve">
+    <value>登录次数en</value>
+    <comment>登录次数</comment>
+  </data>
+  <data name="COM_N_RegIP" xml:space="preserve">
+    <value>注册IPen</value>
+    <comment>注册IP</comment>
+  </data>
+  <data name="COM_N_RegTime" xml:space="preserve">
+    <value>注册时间en</value>
+    <comment>注册时间</comment>
+  </data>
+  <data name="SYS_Val_NotEqal" xml:space="preserve">
+    <value>两次输入的{0}不一致！en</value>
+    <comment>两次输入的{0}不一致！</comment>
+  </data>
+  <data name="SYS_Val_StartWithComfirm" xml:space="preserve">
+    <value>确认en</value>
+    <comment>确认</comment>
+  </data>
+  <data name="COM_Btn_Close" xml:space="preserve">
+    <value>关闭en</value>
+    <comment>关闭</comment>
+  </data>
+  <data name="COM_Btn_Close1" xml:space="preserve">
+    <value>关闭en</value>
+    <comment>关闭</comment>
+  </data>
+  <data name="COM_Btn_Comfirm" xml:space="preserve">
+    <value>确认en</value>
+    <comment>确认</comment>
+  </data>
+  <data name="COM_Btn_Delete" xml:space="preserve">
+    <value>删除en</value>
+    <comment>删除</comment>
+  </data>
+  <data name="COM_Btn_EndPage" xml:space="preserve">
+    <value>尾页en</value>
+    <comment>尾页</comment>
+  </data>
+  <data name="COM_Btn_FistPage" xml:space="preserve">
+    <value>首页en</value>
+    <comment>首页</comment>
+  </data>
+  <data name="COM_Btn_GoAhead" xml:space="preserve">
+    <value>前进en</value>
+    <comment>前进</comment>
+  </data>
+  <data name="COM_Btn_GoBack" xml:space="preserve">
+    <value>后退en</value>
+    <comment>后退</comment>
+  </data>
+  <data name="COM_Btn_NextPage" xml:space="preserve">
+    <value>下一页en</value>
+    <comment>下一页</comment>
+  </data>
+  <data name="COM_Btn_PrePage" xml:space="preserve">
+    <value>上一页en</value>
+    <comment>上一页</comment>
+  </data>
+  <data name="COM_Btn_Save" xml:space="preserve">
+    <value>保存en</value>
+    <comment>保存</comment>
+  </data>
+  <data name="COM_Btn_Submit" xml:space="preserve">
+    <value>提交en</value>
+    <comment>提交</comment>
+  </data>
+  <data name="COM_Btn_UnDo" xml:space="preserve">
+    <value>撤销en</value>
+    <comment>撤销</comment>
+  </data>
+  <data name="COM_Btn_Update" xml:space="preserve">
+    <value>更新en</value>
+    <comment>更新</comment>
+  </data>
+  <data name="COM_N_OnNPage" xml:space="preserve">
+    <value>第{0}页en</value>
+    <comment>第{0}页</comment>
+  </data>
+  <data name="COM_N_PageState" xml:space="preserve">
+    <value>当前页en</value>
+    <comment>当前页</comment>
+  </data>
+  <data name="COM_N_TotalData" xml:space="preserve">
+    <value>共{0}条数据en</value>
+    <comment>共{0}条数据</comment>
+  </data>
+  <data name="COM_N_TotalPage" xml:space="preserve">
+    <value>总页数en</value>
+    <comment>总页数</comment>
+  </data>
+  <data name="COM_N_Login" xml:space="preserve">
+    <value>登录en</value>
+    <comment>登录</comment>
+  </data>
+  <data name="COM_N_Regist" xml:space="preserve">
+    <value>注册en</value>
+    <comment>注册</comment>
+  </data>
+  <data name="COM_JS_Week" xml:space="preserve">
+    <value>Sun,Mon,Tue,Wed,Thu,Fri,Sat</value>
+    <comment>用于JS日期提示</comment>
+  </data>
+  <data name="COM_N_Hello" xml:space="preserve">
+    <value>你好</value>
+    <comment>你好</comment>
+  </data>
+  <data name="COM_N_MutilRole" xml:space="preserve">
+    <value>多角色用户</value>
+    <comment>多角色用户</comment>
+  </data>
+  <data name="SYS_M_AccountInfo" xml:space="preserve">
+    <value>AccountInfo</value>
+    <comment>账户信息</comment>
+  </data>
+  <data name="SYS_M_AccountManager" xml:space="preserve">
+    <value>Account</value>
+    <comment>账户管理</comment>
+  </data>
+  <data name="SYS_M_AddUser" xml:space="preserve">
+    <value>AddUser</value>
+    <comment>添加用户</comment>
+  </data>
+  <data name="SYS_M_ChangeLang" xml:space="preserve">
+    <value>Language</value>
+    <comment>切换语言</comment>
+  </data>
+  <data name="SYS_M_ChangePwd" xml:space="preserve">
+    <value>ChangPassword</value>
+    <comment>修改密码</comment>
+  </data>
+  <data name="SYS_M_DeskBg" xml:space="preserve">
+    <value>DeskBackground</value>
+    <comment>桌面背景</comment>
+  </data>
+  <data name="SYS_M_SysInfo" xml:space="preserve">
+    <value>SystemInfo</value>
+    <comment>系统信息</comment>
+  </data>
+  <data name="SYS_M_SysSet" xml:space="preserve">
+    <value>System</value>
+    <comment>系统设置</comment>
+  </data>
+  <data name="Sys_R_SAdmin" xml:space="preserve">
+    <value>SuperAdmin</value>
+    <comment>超级管理员</comment>
+  </data>
+  <data name="SYS_M_Personalize" xml:space="preserve">
+    <value>Personalize</value>
+    <comment>个性化</comment>
+  </data>
+  <data name="SYS_M_Menu" xml:space="preserve">
+    <value>Menu</value>
+    <comment>菜单</comment>
+  </data>
+  <data name="COM_Btn_Broswer" xml:space="preserve">
+    <value>Broswer</value>
+    <comment>Broswer</comment>
+  </data>
+  <data name="SYS_Exp_DataHasRef" xml:space="preserve">
+    <value>数据存在引用en</value>
+    <comment>数据存在引用</comment>
+  </data>
+  <data name="COM_Var_Cant" xml:space="preserve">
+    <value>不能en</value>
+    <comment>不能</comment>
+  </data>
+  <data name="COM_Var_IsOrNot" xml:space="preserve">
+    <value>是否en</value>
+    <comment>是否</comment>
+  </data>
+  <data name="COM_Var_NotAllowed" xml:space="preserve">
+    <value>不允许en</value>
+    <comment>不允许</comment>
+  </data>
+  <data name="COM_Var_NoWay" xml:space="preserve">
+    <value>无法en</value>
+    <comment>无法</comment>
+  </data>
+  <data name="SYS_Exp_DataHadRef" xml:space="preserve">
+    <value>词条数据被使用不能执行{0}操作!en</value>
+    <comment>词条数据被使用不能执行相关操作!</comment>
+  </data>
+  <data name="SYS_Exp_DepInfoNotExits" xml:space="preserve">
+    <value>部门信息不存在</value>
+    <comment>部门信息不存在</comment>
+  </data>
+  <data name="SYS_Exp_DataExits" xml:space="preserve">
+    <value>数据已存在不允许进行相关操作!en</value>
+    <comment>数据已存在不允许进行相关操作!</comment>
+  </data>
+  <data name="COM_N_Company" xml:space="preserve">
+    <value>Company</value>
+    <comment>单位</comment>
+  </data>
+  <data name="COM_Btn_Reset" xml:space="preserve">
+    <value>Reset</value>
+    <comment>重置</comment>
+  </data>
+</root>

@@ -1,0 +1,36 @@
+﻿@using Ez.Lang;
+@using Ez.UI.HtmlExtend;
+@model Ez.Dtos.UserInfoDto
+@{
+    ViewBag.Title = EzLanguage.SYS_M_AccountInfo;
+    ViewBag.Layout_Body_CssText="";
+}
+@section CssScript{
+
+<script type="text/javascript">
+//       [{ title: "第三方网站", children: [
+//       { text: "百度网", src: "http://www.baidu.com" },
+//       { text: "点点网", src: "http://www.diandian.com", rpKey: {uid:"sid"} },
+//       { text: "祭奠在线", src: "http://www.jidianzaixian.com" }
+//       ]
+//    }]
+@Html.RenderJsonForCustomMenus(new CustomMenu{
+ new LinkBtns("第三方网站"){
+     new LinkBtn("百度网","http://www.baidu.com",LinkTarget._Blank),
+     new LinkBtn("点点网","http://www.diandian.com",LinkTarget._Blank),
+     new LinkBtn("祭奠在线","http://www.jidianzaixian.com",LinkTarget._Blank),
+     new LinkBtn("threejs","http://www.threejs.org",LinkTarget._Blank)
+ }
+})
+setParam({ uid: 1211 });
+
+var param = getParam();
+//alert(param.uid);
+
+setToolBar(function(value,btn){
+alert(param.uid);
+this.close();
+});
+</script>
+}
+@Html.SmartFormFor(Model, new { style = "width:55%;margin:0px auto;" })

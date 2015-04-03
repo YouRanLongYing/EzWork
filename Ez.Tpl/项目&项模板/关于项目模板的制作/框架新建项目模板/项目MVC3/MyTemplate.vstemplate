@@ -1,0 +1,30 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="ProjectGroup">
+  <TemplateData>
+    <Name>UBIQWebProject</Name>
+    <Description>优碧特软件(西安)有限公司 Web产品模板,请只在名称输入框中输入本次项目的项目代号即可.如项目为 UBIQ.DemoProject.* 那么请输入DemoProject作为本次项目的代号.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>1</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Template</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>Project_mvc3.png</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectCollection>
+      <ProjectTemplateLink ProjectName="$saferootprojectname$.Biz">UBIQ.Tpl.Biz\MyTemplate.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$saferootprojectname$.Config">UBIQ.Tpl.Config\MyTemplate.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$saferootprojectname$.Controller">UBIQ.Tpl.Controller\MyTemplate.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$saferootprojectname$.Dto">UBIQ.Tpl.Dto\MyTemplate.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$saferootprojectname$.IBiz">UBIQ.Tpl.IBiz\MyTemplate.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$saferootprojectname$.Resource">UBIQ.Tpl.Resource\MyTemplate.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$saferootprojectname$.UI">UBIQ.Tpl.UI\MyTemplate.vstemplate</ProjectTemplateLink>
+      <ProjectTemplateLink ProjectName="$saferootprojectname$.Web">UBIQ.Tpl.Web\MyTemplate.vstemplate</ProjectTemplateLink>
+    </ProjectCollection>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>UBIQProjTemplateWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8d74d41300c5ad2d</Assembly>
+    <FullClassName>UBIQProjTemplateWizard.RootWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

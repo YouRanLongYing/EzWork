@@ -1,0 +1,50 @@
+﻿body{margin:0px;padding:0px;font-size: 75%;font-family:@微软雅黑 Verdana, Tahoma, Arial, "Helvetica Neue", Helvetica, Sans-Serif;}
+h1,h2,h3,h4{ padding:0px; margin:0px;}
+a{color:#888; text-decoration:none;}
+a:before{margin:0px 2px 0px 0px; padding:0px 2px; }
+.loginbox{ width:60%; padding:5px; border:solid 1px #cdcdcd;}
+.loginbox li{ height:25px;}
+.loginbox li dl{}
+.loginbox li dl dt,.loginbox li dl dd{ height:35px; line-height:35px; float:left;}
+.loginbox li dl dt{ width:200px; text-align:left;}
+.loginbox li dl dd input{ height:33px; line-height:32px;}
+.ico{ background-image:url(../images/ui-icons_888888_256x240.png); position:absolute;}
+.ico_uid{ background-position:-148px -98px; width:12px; height:12px; top:10px; left:10px; z-index:1;}
+.ico_pwd{ background-position:-196px -98px; width:12px; height:12px; top:10px; left:10px; z-index:1;}
+
+
+
+.startpage-login {width:370px; height:470px;margin-left:auto;margin-right:auto;margin-top:10%;background-color:#5597B8; position:relative; }
+.startpage-login-header{ text-align:center;}
+.startpage-login-header h1{width:130px; margin:0px auto; color:#FFF; padding-top:10px;}
+.startpage-login-body{ height:auto;float:left;width:100%; padding-top:80px;}
+.startpage-login-body li{float:left;width:100%; padding-bottom:30px;}
+.startpage-login-body li input[type="text"],.startpage-login-body li input[type="password"]{ width:88%;}
+.startpage-login-body li .val_msg{top:50px;left:0px; height:auto; line-height:normal; position:absolute;}
+.startpage-login-footer{width:100%; position:absolute; bottom:15px;}
+.startpage-login-footer button,.startpage-login-footer a{margin-right:15px; float:right;}
+
+
+
+/*表单样式*/
+.formwraper{ position:relative; width:650px; border-radius:3px;margin:20px auto 0px auto;}
+.formwraper .context{ width:650px; border:solid 1px cdcdcd; position:absolute;top:0px; left:0px;  z-index:2; box-shadow:0px 0px 5px #000; background-color:#444; }
+.formwraper .form-alpha-cover{ width:650px; height:560px; /*background-color :#000;*/background-color :#666; opacity:0.3; position:absolute; top:0px; left:0px; z-index:1; }
+.formwraper .context .title{ text-align:center; }
+.formwraper .context .title h1{ background:#ABCAFF; width:130px; margin:0px auto; border-radius:0px 0px 5px 5px; color:#FFF;}
+.formwraper .context ul{ height:auto; padding:20px 20px 0px 20px;}
+.formwraper .context ul li{ height:35px; float:none; margin:0px 0px 15px 0px;}
+.formwraper .context ul li dl{}
+.formwraper .context ul li dl dt{ height:35px; line-height:35px; text-indent:15px; text-align:left; width:100px; float:left;color:#888; font-size:14px; }
+.formwraper .context ul li dl dd{ height:35px; line-height:35px; position:relative;}
+.formwraper .context ul li dl dd .val_msg{ position:absolute; top:38px;left:105px; height:auto; line-height:normal; width:270px;}
+.formwraper .context ul li dl dd input[type="text"],.formwraper .context ul li dl dd input[type="password"] {height:30px; width:255px; border:solid 1px #666;  /*background:#333;*/background:#f6f6f6;padding:1px;text-indent:10px; font-weight:bold; outline:none; color:#888; border-radius:3px; }
+.formwraper .context ul li dl dd input[type="password"]{ font-size:20px; text-indent:10px;}
+.formwraper .context ul li dl dd input:hover{box-shadow:0px 0px 1px #333;-box-shadow:0px 0px 1px #333;}
+.formwraper .context ul li dl dd .ctrl_spl_box{ color:#888;}
+.formwraper .context ul li dl dd select{height:30px; width:200px;border:solid 1px #666; /*background:#333;*/background:#f6f6f6;padding:1px;font-weight:bold; outline:none; color:#888;border-radius:3px;}
+.formwraper .context ul li dl dd select:hover{box-shadow:0px 0px 1px #333;-box-shadow:0px 0px 1px #333;}
+.formwraper .context .ctrlbox{ height:40px; line-height:40px;padding:0px 20px;}
+.formwraper .context .ctrlbox .btns{height:40px; line-height:40px; float:right; /*margin-left:100px;*/}
+.formwraper .context .ctrlbox input{ height:30px; width:55px; margin-right:8px; float:right; margin-top:5px;}
+

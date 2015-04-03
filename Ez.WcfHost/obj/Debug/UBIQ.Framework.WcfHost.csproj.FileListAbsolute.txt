@@ -1,0 +1,282 @@
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.exe.config
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.exe
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Biz.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IBiz.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Cache.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IDataBase.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Dtos.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\UI.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Core.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Helper.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Lang.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Config.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Memcached.ClientLibrary.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Spring.Aop.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\log4net.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Spring.Core.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Common.Logging.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Biz.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Biz.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IBiz.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IBiz.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Cache.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Cache.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IDataBase.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IDataBase.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Dtos.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Dtos.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\UI.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\UI.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Core.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Core.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Helper.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Helper.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Lang.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Lang.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Config.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Config.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Memcached.ClientLibrary.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\en-US\Lang.resources.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\zh-CN\Lang.resources.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\obj\Debug\UBIQ.Framework.WcfHost.csprojResolveAssemblyReference.cache
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\obj\Debug\WcfHost.exe
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\obj\Debug\WcfHost.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Config\Memcached.config
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Config\Log4Net.config
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.exe.config
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.exe
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Biz.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IBiz.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Cache.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IDataBase.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Dtos.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\UI.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Core.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Helper.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Lang.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Config.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Memcached.ClientLibrary.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Spring.Aop.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\log4net.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Spring.Core.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Common.Logging.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Biz.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Biz.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IBiz.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IBiz.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Cache.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Cache.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IDataBase.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IDataBase.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Dtos.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Dtos.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\UI.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\UI.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Core.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Core.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Helper.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Helper.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Lang.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Lang.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Config.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Config.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Memcached.ClientLibrary.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\en-US\Lang.resources.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\zh-CN\Lang.resources.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\obj\Debug\UBIQ.Framework.WcfHost.csprojResolveAssemblyReference.cache
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\obj\Debug\WcfHost.exe
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\obj\Debug\WcfHost.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Config\Memcached.config
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Config\Log4Net.config
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.exe.config
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.exe
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Biz.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IBiz.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Cache.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IDataBase.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Dtos.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\UI.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Core.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Helper.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Lang.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Config.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Memcached.ClientLibrary.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Spring.Aop.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\log4net.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Spring.Core.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Common.Logging.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Biz.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Biz.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IBiz.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IBiz.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Cache.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Cache.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IDataBase.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\IDataBase.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Dtos.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Dtos.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\UI.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\UI.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Core.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Core.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Helper.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Helper.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Lang.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Lang.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Config.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Config.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Memcached.ClientLibrary.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\en-US\Lang.resources.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\zh-CN\Lang.resources.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\obj\Debug\UBIQ.Framework.WcfHost.csprojResolveAssemblyReference.cache
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\obj\Debug\WcfHost.exe
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\obj\Debug\WcfHost.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Config\Memcached.config
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.WcfHost\bin\Debug\Config\Log4Net.config
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Config\Memcached.config
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Config\Log4Net.config
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.exe.config
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.exe
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Biz.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\IBiz.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Cache.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\IDataBase.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Dtos.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\UI.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Core.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Helper.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Config.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Lang.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Memcached.ClientLibrary.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Spring.Aop.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Spring.Core.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\log4net.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Common.Logging.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Biz.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Biz.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\IBiz.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\IBiz.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Cache.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Cache.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\IDataBase.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\IDataBase.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Dtos.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Dtos.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\UI.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\UI.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Core.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Core.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Helper.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Helper.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Config.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Config.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Lang.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Lang.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Memcached.ClientLibrary.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\en-US\Lang.resources.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\zh-CN\Lang.resources.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\obj\Debug\UBIQ.Framework.WcfHost.csprojResolveAssemblyReference.cache
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\obj\Debug\WcfHost.exe
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\obj\Debug\WcfHost.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Config\Memcached.config
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Config\Log4Net.config
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.exe.config
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.exe
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Biz.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\IBiz.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Cache.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\IDataBase.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Dtos.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\UI.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Core.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Helper.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Lang.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Config.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Memcached.ClientLibrary.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Spring.Aop.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\log4net.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Spring.Core.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\ICSharpCode.SharpZipLib.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Common.Logging.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Biz.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Biz.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\IBiz.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\IBiz.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Cache.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Cache.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\IDataBase.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\IDataBase.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Dtos.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Dtos.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\UI.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\UI.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Core.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Core.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Helper.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Helper.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Lang.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Lang.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Config.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Config.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Memcached.ClientLibrary.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\en-US\Lang.resources.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\zh-CN\Lang.resources.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\obj\Debug\UBIQ.Framework.WcfHost.csprojResolveAssemblyReference.cache
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\obj\Debug\WcfHost.exe
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.WcfHost\obj\Debug\WcfHost.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Config\Memcached.config
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Config\Log4Net.config
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.exe.config
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.exe
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\WcfHost.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzBiz.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzIBiz.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzCache.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzIDataBase.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzDtos.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzUI.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzCore.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzHelper.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzLang.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzConfig.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Memcached.ClientLibrary.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Spring.Aop.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Spring.Core.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\log4net.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Common.Logging.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzBiz.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzBiz.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzIBiz.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzIBiz.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzCache.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzCache.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzIDataBase.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzIDataBase.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzDtos.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzDtos.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzUI.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzUI.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzCore.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzCore.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzHelper.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzHelper.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzLang.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzLang.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzConfig.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\EzConfig.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\Memcached.ClientLibrary.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\en-US\EzLang.resources.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\bin\Debug\zh-CN\EzLang.resources.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\obj\Debug\UBIQ.Framework.WcfHost.csprojResolveAssemblyReference.cache
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\obj\Debug\WcfHost.exe
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.WcfHost\obj\Debug\WcfHost.pdb

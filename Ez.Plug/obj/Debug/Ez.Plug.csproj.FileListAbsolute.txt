@@ -1,0 +1,8 @@
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.Plug\bin\Debug\EzPlug.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.Plug\bin\Debug\EzPlug.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.Plug\obj\Debug\EzPlug.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.Plug\obj\Debug\EzPlug.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\Ez.Plug\bin\Debug\EzPlug.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\Ez.Plug\bin\Debug\EzPlug.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\Ez.Plug\obj\Debug\EzPlug.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\Ez.Plug\obj\Debug\EzPlug.pdb

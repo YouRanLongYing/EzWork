@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6FF2261D-6B25-4690-94E5-21D501B34169}</ProjectGuid>
+    <ProjectTypeGuids>{E53F8FEA-EAE0-44A6-8774-FFD645390401};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ez.Web</RootNamespace>
+    <AssemblyName>EzWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <MvcProjectUpgradeChecked>true</MvcProjectUpgradeChecked>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\EzWeb.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging">
+      <HintPath>..\lib\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Core, Version=1.3.2.40943, Culture=neutral, PublicKeyToken=65e474d141e25e07, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Spring.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Web">
+      <HintPath>..\lib\Spring.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Web.Mvc3">
+      <HintPath>..\lib\Spring.Web.Mvc3.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.WebPages" />
+    <Reference Include="System.Web.Helpers" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.html" />
+    <Content Include="bak\向页面自定义菜单注入参数.htm" />
+    <Content Include="bak\桌面头部菜单模版.html" />
+    <Content Include="bak\应用按钮模版.html" />
+    <Content Include="bak\对话框模版.html" />
+    <Content Include="buy.html" />
+    <Content Include="Content\libraries\assets\css\admin.css" />
+    <Content Include="Content\libraries\assets\css\amazeui.css" />
+    <Content Include="Content\libraries\assets\css\amazeui.flat.css" />
+    <Content Include="Content\libraries\assets\css\amazeui.flat.min.css" />
+    <Content Include="Content\libraries\assets\css\amazeui.min.css" />
+    <Content Include="Content\libraries\assets\css\app.css" />
+    <Content Include="Content\libraries\assets\i\app-icon72x72%402x.png" />
+    <Content Include="Content\libraries\assets\i\examples\admin-chrome.png" />
+    <Content Include="Content\libraries\assets\i\examples\admin-firefox.png" />
+    <Content Include="Content\libraries\assets\i\examples\admin-ie.png" />
+    <Content Include="Content\libraries\assets\i\examples\admin-opera.png" />
+    <Content Include="Content\libraries\assets\i\examples\admin-safari.png" />
+    <Content Include="Content\libraries\assets\i\examples\adminPage.png" />
+    <Content Include="Content\libraries\assets\i\examples\blogPage.png" />
+    <Content Include="Content\libraries\assets\i\examples\landing.png" />
+    <Content Include="Content\libraries\assets\i\examples\landingPage.png" />
+    <Content Include="Content\libraries\assets\i\examples\loginPage.png" />
+    <Content Include="Content\libraries\assets\i\examples\sidebarPage.png" />
+    <Content Include="Content\libraries\assets\i\favicon.png" />
+    <Content Include="Content\libraries\assets\i\startup-640x1096.png" />
+    <Content Include="Content\libraries\assets\js\amazeui.js" />
+    <Content Include="Content\libraries\assets\js\amazeui.legacy.js" />
+    <Content Include="Content\libraries\assets\js\amazeui.legacy.min.js" />
+    <Content Include="Content\libraries\assets\js\amazeui.min.js" />
+    <Content Include="Content\libraries\assets\js\amazeui.widgets.helper.js" />
+    <Content Include="Content\libraries\assets\js\amazeui.widgets.helper.min.js" />
+    <Content Include="Content\libraries\assets\js\app.js" />
+    <Content Include="Content\libraries\assets\js\handlebars.min.js" />
+    <Content Include="Content\libraries\assets\js\jquery.min.js" />
+    <Content Include="Content\libraries\assets\js\polyfill\rem.min.js" />
+    <Content Include="Content\libraries\assets\js\polyfill\respond.min.js" />
+    <Content Include="Content\libraries\assets\css\font-awesome.old.css" />
+    <Content Include="Content\layouts\desktop\default\images\deskbg02.gif" />
+    <Content Include="Content\layouts\desktop\default\images\layer_bg.png" />
+    <Content Include="Content\libraries\images\page-loading.gif" />
+    <Content Include="Content\libraries\assets\css\font-awesome.css" />
+    <Content Include="Content\libraries\assets\css\font-awesome.min.css" />
+    <Content Include="Content\plugins\froala_editor\froala_editor.css" />
+    <Content Include="Content\plugins\froala_editor\froala_editor.min.css" />
+    <Content Include="Content\plugins\froala_editor\froala_page.css" />
+    <Content Include="Content\plugins\froala_editor\froala_page.min.css" />
+    <Content Include="Content\plugins\froala_editor\themes\dark.css" />
+    <Content Include="Content\plugins\froala_editor\themes\dark.min.css" />
+    <Content Include="Content\plugins\froala_editor\themes\gray.css" />
+    <Content Include="Content\plugins\froala_editor\themes\gray.min.css" />
+    <Content Include="Content\plugins\froala_editor\themes\red.css" />
+    <Content Include="Content\plugins\froala_editor\themes\red.min.css" />
+    <Content Include="Content\plugins\froala_editor\themes\royal.css" />
+    <Content Include="Content\plugins\froala_editor\themes\royal.min.css" />
+    <Content Include="Content\plugins\ezgrid\ui.ezgrid.css" />
+    <Content Include="Content\plugins\jqgrid\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\plugins\jqgrid\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\plugins\jqgrid\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\plugins\jqgrid\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\plugins\jqgrid\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\plugins\jqgrid\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\plugins\jqgrid\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\plugins\jqgrid\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\plugins\jqgrid\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\plugins\jqgrid\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\plugins\jqgrid\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\plugins\jqgrid\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\plugins\jqgrid\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\plugins\jqgrid\jqgrid-ui-custom-style02.css" />
+    <Content Include="Content\plugins\jqgrid\ui.jqgrid.css" />
+    <Content Include="Content\plugins\jqgrid\jqgrid-ui-custom-style01.css" />
+    <Content Include="Scripts\libraries\core.js" />
+    <Content Include="Scripts\libraries\jquery-1.11.1.min.js" />
+    <Content Include="Scripts\libraries\agent.js" />
+    <Content Include="Scripts\libraries\jquery-1.11.2.js" />
+    <Content Include="Scripts\libraries\jquery-1.11.2.min.js" />
+    <Content Include="Scripts\libraries\jquery-migrate-1.2.1.js" />
+    <Content Include="Scripts\libraries\jquery-migrate-1.2.1-min.js" />
+    <Content Include="Scripts\plugins\froala_editor\froala_editor.min.js" />
+    <Content Include="Scripts\plugins\froala_editor\froala_editor_ie8.min.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\ar.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\bs.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\cs.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\da.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\de.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\en_ca.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\en_gb.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\en_us.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\es.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\fa.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\fi.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\fr.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\he.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\hr.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\hu.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\id.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\it.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\ja.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\ko.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\me.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\nb.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\nl.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\pl.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\pt_br.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\pt_pt.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\ro.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\ru.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\sr.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\sv.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\th.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\tr.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\zh_cn.js" />
+    <Content Include="Scripts\plugins\froala_editor\langs\zh_tw.js" />
+    <Content Include="Scripts\plugins\froala_editor\libs\jquery-1.11.1.min.js" />
+    <Content Include="Scripts\plugins\froala_editor\plugins\block_styles.min.js" />
+    <Content Include="Scripts\plugins\froala_editor\plugins\char_counter.min.js" />
+    <Content Include="Scripts\plugins\froala_editor\plugins\colors.min.js" />
+    <Content Include="Scripts\plugins\froala_editor\plugins\file_upload.min.js" />
+    <Content Include="Scripts\plugins\froala_editor\plugins\font_family.min.js" />
+    <Content Include="Scripts\plugins\froala_editor\plugins\font_size.min.js" />
+    <Content Include="Scripts\plugins\froala_editor\plugins\lists.min.js" />
+    <Content Include="Scripts\plugins\froala_editor\plugins\media_manager.min.js" />
+    <Content Include="Scripts\plugins\froala_editor\plugins\tables.min.js" />
+    <Content Include="Scripts\plugins\froala_editor\plugins\video.min.js" />
+    <Content Include="Content\layouts\tradition_mobile\default\images\avatar.png" />
+    <Content Include="Content\layouts\tradition_mobile\default\images\deskbg02.gif" />
+    <Content Include="Content\layouts\tradition_mobile\default\main.css" />
+    <Content Include="Content\layouts\tradition_mobile\default\page.css" />
+    <Content Include="Content\layouts\tradition_mobile\default\layout.css" />
+    <Content Include="Content\layouts\desktop\default\main.css" />
+    <Content Include="Content\layouts\desktop\default\layout.css" />
+    <Content Include="Content\layouts\desktop\default\page.css" />
+    <Content Include="Content\plugins\ezdialog\ui.ezdialog.css" />
+    <Content Include="Content\libraries\images\1403056902129.jpg" />
+    <Content Include="Content\libraries\images\logo.png" />
+    <Content Include="Content\layouts\desktop\default\images\app\big.png" />
+    <Content Include="Content\layouts\desktop\default\images\app\diskexplorer.png" />
+    <Content Include="Content\layouts\desktop\default\images\app\none.jpg" />
+    <Content Include="Content\libraries\images\deskbg.gif" />
+    <Content Include="Content\libraries\images\deskbg01.gif" />
+    <Content Include="Content\libraries\images\deskbg02.gif" />
+    <Content Include="Content\libraries\images\deskbg03.jpg" />
+    <Content Include="Content\libraries\images\deskbg04.png" />
+    <Content Include="Content\layouts\desktop\default\images\favicon.ico" />
+    <Content Include="Content\layouts\desktop\default\images\iOS7_01.jpg" />
+    <Content Include="Content\layouts\tradition_mobile\default\images\layer_bg.png" />
+    <Content Include="Content\libraries\images\ui-icons_888888_256x240.png" />
+    <Content Include="Global.asax" />
+    <Content Include="Content\libraries\Site.css" />
+    <Content Include="Content\libraries\themes\base\jquery-ui.css" />
+    <Content Include="Content\libraries\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\libraries\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\libraries\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\libraries\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\libraries\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\libraries\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\libraries\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\libraries\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\libraries\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\libraries\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\libraries\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\libraries\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\libraries\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Scripts\layouts\desktop\main.js" />
+    <Content Include="Scripts\libraries\common.js" />
+    <Content Include="Scripts\plugins\EzGrid\jquery.EzGrid.js" />
+    <Content Include="Scripts\plugins\jqgrid\grid.locale-en.js" />
+    <Content Include="Scripts\plugins\jqgrid\jqGrid.Agent.js" />
+    <Content Include="Scripts\plugins\jqgrid\jquery.fmatter.js" />
+    <Content Include="Scripts\plugins\jqgrid\jquery.jqGrid.src.js" />
+    <Content Include="Scripts\libraries\jquery.js" />
+    <Content Include="Scripts\libraries\Upload.js" />
+    <Content Include="Scripts\plugins\uploadify\jquery.uploadify.min.js" />
+    <Content Include="Scripts\plugins\uploadify\upload.jpg" />
+    <Content Include="Scripts\plugins\uploadify\uploadify-cancel.png" />
+    <Content Include="Scripts\plugins\uploadify\uploadify.css" />
+    <Content Include="Scripts\plugins\uploadify\uploadify.swf" />
+    <Content Include="Scripts\plugins\EzDialog\EzAdapter.js" />
+    <Content Include="Scripts\layouts\tradition_mobile\main.js" />
+    <Content Include="Scripts\plugins\EzDialog\jquery.EzDialog.js" />
+    <Content Include="remote.htm" />
+    <Content Include="Scripts\libraries\jquery.validate.ext.js" />
+    <Content Include="Files\Avatar\user0001\avatar_normal.png" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Scripts\libraries\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\libraries\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\libraries\jquery.validate.js" />
+    <Content Include="Scripts\libraries\jquery.validate.min.js" />
+    <Content Include="Scripts\libraries\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\libraries\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\libraries\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\libraries\jquery-ui.js" />
+    <Content Include="Scripts\libraries\jquery-ui.min.js" />
+    <Content Include="Scripts\libraries\MicrosoftAjax.js" />
+    <Content Include="Scripts\libraries\MicrosoftAjax.debug.js" />
+    <Content Include="Scripts\libraries\MicrosoftMvcAjax.js" />
+    <Content Include="Scripts\libraries\MicrosoftMvcAjax.debug.js" />
+    <Content Include="Scripts\libraries\MicrosoftMvcValidation.js" />
+    <Content Include="Scripts\libraries\MicrosoftMvcValidation.debug.js" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_MainLayout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Window\UCenter\EditMyInfo.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Window\desktop.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ez.Biz\Ez.Biz.csproj">
+      <Project>{1A5FA8A0-5B17-4721-9E9D-AD808ABF4D74}</Project>
+      <Name>Ez.Biz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Cache\Ez.Cache.csproj">
+      <Project>{6f2b9131-5ddc-4c7a-9f4f-0b039980d1f1}</Project>
+      <Name>Ez.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Config\Ez.Config.csproj">
+      <Project>{FFF84EB9-7BE4-4F00-AFA7-8E18B9C9ACE4}</Project>
+      <Name>Ez.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Controllers\Ez.Controllers.csproj">
+      <Project>{FB0FEACB-27BA-4020-9739-83BDB2CD21CE}</Project>
+      <Name>Ez.Controllers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.DB\Ez.DB.csproj">
+      <Project>{0EFC25AF-F5C8-4BD7-B876-9F1B04D435EB}</Project>
+      <Name>Ez.DB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Dtos\Ez.Dtos.csproj">
+      <Project>{299F0E12-F8BE-419E-8A78-60FEEF3CA008}</Project>
+      <Name>Ez.Dtos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Lang\Ez.Lang.csproj">
+      <Project>{96E57BDA-6F29-4A9C-BE75-BF79FC6105FA}</Project>
+      <Name>Ez.Lang</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.UI\Ez.UI.csproj">
+      <Project>{6BE4D1F7-86A7-4593-A1B5-F225D4224913}</Project>
+      <Name>Ez.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\UI.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\Log4Net.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Window\Login.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Error\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\DataBase.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Template\Tmp_Login.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="alipay\" />
+    <Folder Include="Content\layouts\tradition\" />
+    <Folder Include="Download\" />
+    <Folder Include="Files\Files\" />
+    <Folder Include="Files\test\" />
+    <Folder Include="Scripts\layouts\tradition\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\_PageLayout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\Secret.config" />
+    <Content Include="Config\Payment.config" />
+    <Content Include="Config\UpopPayment.config" />
+    <Content Include="Config\Memcached.config" />
+    <None Include="Content\libraries\assets\fonts\fontawesome-webfont.eot" />
+    <None Include="Content\libraries\assets\fonts\fontawesome-webfont.svg" />
+    <None Include="Content\libraries\assets\fonts\fontawesome-webfont.ttf" />
+    <None Include="Content\libraries\assets\fonts\fontawesome-webfont.woff" />
+    <None Include="Content\libraries\assets\fonts\fontawesome-webfont.woff2" />
+    <None Include="Content\libraries\assets\fonts\FontAwesome.otf" />
+    <Content Include="Views\Window\UCenter\CreateUser.cshtml" />
+    <Content Include="Views\Window\tradition_mobile.cshtml" />
+    <Content Include="Views\Window\UCenter\RoleView.cshtml" />
+    <Content Include="Views\Test\index.cshtml" />
+    <Content Include="Views\Window\tradition.cshtml" />
+    <Content Include="Views\Test\FormTest.cshtml" />
+    <Content Include="Views\Test\UploadTest.cshtml" />
+    <Content Include="Views\EzGridTest\ViewTest.cshtml" />
+    <Content Include="Views\EzGridTest\EditTest.cshtml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>4141</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://192.168.35.70:8005</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>http://192.168.35.70:8005</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

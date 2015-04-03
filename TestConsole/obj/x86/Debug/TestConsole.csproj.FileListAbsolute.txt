@@ -1,0 +1,285 @@
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\Config\Memcached.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\TestConsole.exe
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\TestConsole.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\obj\x86\Debug\TestConsole.exe
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\obj\x86\Debug\TestConsole.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\Config\Log4Net.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\TestConsole.exe.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\Memcached.ClientLibrary.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\Spring.Aop.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\log4net.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\Spring.Core.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\Common.Logging.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\Memcached.ClientLibrary.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\obj\x86\Debug\TestConsole.csprojResolveAssemblyReference.cache
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\Cache.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\Core.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\Cache.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\Cache.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\Core.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\TestConsole\bin\Debug\Core.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Config\Memcached.config
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Config\Log4Net.config
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\TestConsole.exe.config
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\TestConsole.exe
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\TestConsole.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Cache.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Core.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Dtos.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\IBiz.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Memcached.ClientLibrary.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Spring.Aop.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\log4net.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Spring.Core.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\UI.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Helper.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Config.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\IDataBase.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Common.Logging.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Lang.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Cache.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Cache.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Core.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Core.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Dtos.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Dtos.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\IBiz.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\IBiz.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Memcached.ClientLibrary.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\UI.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\UI.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Helper.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Helper.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Config.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Config.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\IDataBase.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\IDataBase.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Lang.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\Lang.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\en-US\Lang.resources.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\bin\Debug\zh-CN\Lang.resources.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\obj\x86\Debug\TestConsole.csprojResolveAssemblyReference.cache
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\obj\x86\Debug\TestConsole.exe
+E:\本地项目\公司产品框架\SourceCode v2.0\TestConsole\obj\x86\Debug\TestConsole.pdb
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Config\Memcached.config
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Config\Log4Net.config
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\TestConsole.exe.config
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\TestConsole.exe
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\TestConsole.pdb
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Cache.dll
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Core.dll
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Dtos.dll
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\IBiz.dll
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Memcached.ClientLibrary.dll
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Spring.Aop.dll
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\log4net.dll
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Spring.Core.dll
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\UI.dll
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Helper.dll
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Config.dll
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\IDataBase.dll
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Common.Logging.dll
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Lang.dll
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Cache.pdb
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Cache.xml
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Core.pdb
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Core.xml
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Dtos.pdb
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Dtos.xml
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\IBiz.pdb
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\IBiz.xml
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Memcached.ClientLibrary.pdb
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\UI.pdb
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\UI.xml
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Helper.pdb
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Helper.xml
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Config.pdb
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Config.xml
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\IDataBase.pdb
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\IDataBase.xml
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Lang.pdb
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\Lang.xml
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\en-US\Lang.resources.dll
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\bin\Debug\zh-CN\Lang.resources.dll
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\obj\x86\Debug\TestConsole.csprojResolveAssemblyReference.cache
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\obj\x86\Debug\TestConsole.exe
+F:\Framework\04 项目\SourceCode v2.0\TestConsole\obj\x86\Debug\TestConsole.pdb
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Config\Memcached.config
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Config\Log4Net.config
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\TestConsole.exe.config
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\TestConsole.exe
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\TestConsole.pdb
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Cache.dll
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Core.dll
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Dtos.dll
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\IBiz.dll
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Memcached.ClientLibrary.dll
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Spring.Aop.dll
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\log4net.dll
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Spring.Core.dll
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\UI.dll
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Helper.dll
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Config.dll
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\IDataBase.dll
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Common.Logging.dll
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Lang.dll
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Cache.pdb
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Cache.xml
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Core.pdb
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Core.xml
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Dtos.pdb
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Dtos.xml
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\IBiz.pdb
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\IBiz.xml
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Memcached.ClientLibrary.pdb
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\UI.pdb
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\UI.xml
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Helper.pdb
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Helper.xml
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Config.pdb
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Config.xml
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\IDataBase.pdb
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\IDataBase.xml
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Lang.pdb
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\Lang.xml
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\en-US\Lang.resources.dll
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\bin\Debug\zh-CN\Lang.resources.dll
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\obj\x86\Debug\TestConsole.csprojResolveAssemblyReference.cache
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\obj\x86\Debug\TestConsole.exe
+F:\Framework\10-源码\SourceCode v2.0\TestConsole\obj\x86\Debug\TestConsole.pdb
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Config\Memcached.config
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Config\Log4Net.config
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\TestConsole.exe.config
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\TestConsole.exe
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\TestConsole.pdb
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Cache.dll
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Core.dll
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Dtos.dll
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\IBiz.dll
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Memcached.ClientLibrary.dll
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Spring.Aop.dll
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Spring.Core.dll
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\log4net.dll
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\UI.dll
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Helper.dll
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Config.dll
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\IDataBase.dll
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Common.Logging.dll
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Lang.dll
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Cache.pdb
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Cache.xml
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Core.pdb
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Core.xml
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Dtos.pdb
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Dtos.xml
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\IBiz.pdb
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\IBiz.xml
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Memcached.ClientLibrary.pdb
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\UI.pdb
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\UI.xml
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Helper.pdb
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Helper.xml
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Config.pdb
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Config.xml
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\IDataBase.pdb
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\IDataBase.xml
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Lang.pdb
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Lang.xml
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\en-US\Lang.resources.dll
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\zh-CN\Lang.resources.dll
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\obj\x86\Debug\TestConsole.exe
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\obj\x86\Debug\TestConsole.pdb
+F:\Framework\10-源码\SourceCode v3.0\TestConsole\obj\x86\Debug\TestConsole.csprojResolveAssemblyReference.cache
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Config\Memcached.config
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Config\Log4Net.config
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\TestConsole.exe.config
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\TestConsole.exe
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\TestConsole.pdb
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Cache.dll
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Core.dll
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Dtos.dll
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\IBiz.dll
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Memcached.ClientLibrary.dll
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Spring.Aop.dll
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\log4net.dll
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Spring.Core.dll
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\UI.dll
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Helper.dll
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Config.dll
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\IDataBase.dll
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\ICSharpCode.SharpZipLib.dll
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Common.Logging.dll
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Lang.dll
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Cache.pdb
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Cache.xml
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Core.pdb
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Core.xml
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Dtos.pdb
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Dtos.xml
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\IBiz.pdb
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\IBiz.xml
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Memcached.ClientLibrary.pdb
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\UI.pdb
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\UI.xml
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Helper.pdb
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Helper.xml
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Config.pdb
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Config.xml
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\IDataBase.pdb
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\IDataBase.xml
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Lang.pdb
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\Lang.xml
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\en-US\Lang.resources.dll
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\bin\Debug\zh-CN\Lang.resources.dll
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\obj\x86\Debug\TestConsole.csprojResolveAssemblyReference.cache
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\obj\x86\Debug\TestConsole.exe
+I:\Framework\10-源码\SourceCode v3.0\TestConsole\obj\x86\Debug\TestConsole.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\Config\Memcached.config
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\Config\Log4Net.config
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\TestConsole.exe.config
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\TestConsole.exe
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\TestConsole.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzCache.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzCore.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzDtos.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\Memcached.ClientLibrary.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\Spring.Aop.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\Spring.Core.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\log4net.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzUI.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzHelper.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzConfig.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\Common.Logging.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzLang.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzCache.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzCache.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzCore.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzCore.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzDtos.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzDtos.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\Memcached.ClientLibrary.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzUI.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzUI.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzHelper.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzHelper.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzConfig.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzConfig.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzLang.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzLang.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\en-US\EzLang.resources.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\zh-CN\EzLang.resources.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\obj\x86\Debug\TestConsole.csprojResolveAssemblyReference.cache
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\obj\x86\Debug\TestConsole.exe
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\obj\x86\Debug\TestConsole.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzDBContract.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzDBContract.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzDBContract.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzBizContract.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzBizContract.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\TestConsole\bin\Debug\EzBizContract.xml

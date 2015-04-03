@@ -1,0 +1,33 @@
+C:\Users\Endfalse\Desktop\CSharpZip\bin\ICSharpCode.SharpZipLib.xml
+C:\Users\Endfalse\Desktop\CSharpZip\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\Endfalse\Desktop\CSharpZip\bin\ICSharpCode.SharpZipLib.pdb
+C:\Users\Endfalse\Desktop\CSharpZip\ICSharpCode.SharpZLib\obj\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Endfalse\Desktop\CSharpZip\ICSharpCode.SharpZLib\obj\Debug\ICSharpCode.SharpZipLib.pdb
+E:\Local Datum\Framework.Project\SourceCode\bin\ICSharpCode.SharpZipLib.dll
+E:\Local Datum\Framework.Project\SourceCode\bin\ICSharpCode.SharpZipLib.pdb
+E:\Local Datum\Framework.Project\SourceCode\ICSharpCode.SharpZLib\obj\Debug\ICSharpCode.SharpZipLib.dll
+E:\Local Datum\Framework.Project\SourceCode\ICSharpCode.SharpZLib\obj\Debug\ICSharpCode.SharpZipLib.pdb
+E:\Local Datum\Framework.Project\SourceCode\bin\ICSharpCode.SharpZipLib.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\bin\ICSharpCode.SharpZipLib.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\bin\ICSharpCode.SharpZipLib.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\ICSharpCode.SharpZLib\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\框架\Framework.Project\SourceCode\ICSharpCode.SharpZLib\obj\Debug\ICSharpCode.SharpZipLib.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\ICSharpCode.SharpZLib\obj\Debug\ICSharpCode.SharpZipLib.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\bin\ICSharpCode.SharpZipLib.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\bin\ICSharpCode.SharpZipLib.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\bin\ICSharpCode.SharpZipLib.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\ICSharpCode.SharpZLib\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\ICSharpCode.SharpZLib\obj\Debug\ICSharpCode.SharpZipLib.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\ICSharpCode.SharpZLib\obj\Debug\ICSharpCode.SharpZipLib.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\bin\ICSharpCode.SharpZipLib.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\bin\ICSharpCode.SharpZipLib.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\bin\ICSharpCode.SharpZipLib.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\ICSharpCode.SharpZLib\obj\Debug\ICSharpCode.SharpZipLib.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\ICSharpCode.SharpZLib\obj\Debug\ICSharpCode.SharpZipLib.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\bin\ICSharpCode.SharpZipLib.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\bin\ICSharpCode.SharpZipLib.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\bin\ICSharpCode.SharpZipLib.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\ICSharpCode.SharpZLib\obj\Debug\ResolveAssemblyReference.cache
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\ICSharpCode.SharpZLib\obj\Debug\ICSharpCode.SharpZipLib.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\ICSharpCode.SharpZLib\obj\Debug\ICSharpCode.SharpZipLib.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\bin\ICSharpCode.SharpZipLib.xml

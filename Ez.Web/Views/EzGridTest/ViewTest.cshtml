@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "测试EzGrid一览";
+}
+
+@section CssScript{
+<script type="text/javascript">
+    var api;
+    $(function () {
+        api = $("#viewlist").data("EzGridApi");
+        $("#query").click(function () {
+            api.query({ zone_name: $("#zone_name").val() });
+        });
+        $("#refresh").click(function () {
+            api.refresh();
+        })
+    })
+    var delezone = function (id) {
+        UBIQ.submit("/EzGridTest/delete", { "zone_id": id }, function (data) {
+            api.refresh();
+        })
+    }
+</script>
+}
+
+
+<div class="ez-grid-search">
+<dl>
+<dt>社区名:</dt>
+<dd><input id="zone_name" /></dd>
+<dd><a id="query" href="javascript:void(0)" class="am-btn am-btn-primary am-btn-xs"><i class="am-icon-search"></i>检索</a></dd>
+<dd><a id="refresh" href="javascript:void(0)" class="am-btn am-btn-primary am-btn-xs"><i class="am-icon-refresh"></i>刷新</a></dd>
+</dl>
+<div class="ez-grid-search-other">
+<a href="edit" class="am-btn am-btn-primary am-btn-xs"><i class="am-icon-plus-circle"></i>新增</a>
+</div>
+</div>
+<table id="viewlist" ezgrid="{url:'/EzGridTest/ViewTest_async',rows:3}">
+<thead >
+<tr>
+<th grid-header="zone_id"     grid-header-sortable="false" style="width:50px; display:none;">编号</th>
+<th grid-header="zone_name"   grid-header-sortable="false">名称</th>
+<th grid-header="dev_time"    grid-header-sortable="true">建造时间</th>
+<th grid-header="finish_time" grid-header-sortable="true">竣工时间</th>
+<th grid-header="zone_id"     grid-header-sortable="false">操作</th>
+</tr>
+</thead>
+<tbody style=" overflow:scroll; height:100px;">
+<tr>
+<td style="display:none;">${zone_id}</td>
+<td>${zone_name}</td>
+<td formater="yyyy-MM-dd">${dev_time}</td>
+<td formater="yyyy-MM-dd">${finish_time}</td>
+<td style="text-align:center;">
+<a href="/EzGridTest/EditTest?zone_id=${zone_id}" ><i class="am-icon-edit"></i>编辑</a>
+<a href="javascript:void(0)" onclick="delezone('${zone_id}')" ><i class="am-icon-trash"></i>删除</a>
+</td>
+</tr>
+</tbody>
+<tfoot></tfoot>
+</table>

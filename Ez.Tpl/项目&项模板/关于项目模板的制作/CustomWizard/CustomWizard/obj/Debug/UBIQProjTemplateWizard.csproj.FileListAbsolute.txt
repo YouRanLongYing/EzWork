@@ -1,0 +1,12 @@
+E:\测试项目\ETS\CustomWizard\CustomWizard\bin\Debug\UBIQProjTemplateWizard.dll
+E:\测试项目\ETS\CustomWizard\CustomWizard\bin\Debug\UBIQProjTemplateWizard.pdb
+E:\测试项目\ETS\CustomWizard\CustomWizard\obj\Debug\UBIQProjTemplateWizard.csproj.GenerateResource.Cache
+E:\测试项目\ETS\CustomWizard\CustomWizard\obj\Debug\UBIQProjTemplateWizard.dll
+E:\测试项目\ETS\CustomWizard\CustomWizard\obj\Debug\UBIQProjTemplateWizard.pdb
+E:\测试项目\ETS\CustomWizard\CustomWizard\obj\Debug\UBIQProjTemplateWizard.UBIQProjectDlg.resources
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Product.Tpl\项目&项模板\关于项目模板的制作\CustomWizard\CustomWizard\bin\Debug\UBIQProjTemplateWizard.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Product.Tpl\项目&项模板\关于项目模板的制作\CustomWizard\CustomWizard\bin\Debug\UBIQProjTemplateWizard.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Product.Tpl\项目&项模板\关于项目模板的制作\CustomWizard\CustomWizard\obj\Debug\UBIQProjTemplateWizard.UBIQProjectDlg.resources
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Product.Tpl\项目&项模板\关于项目模板的制作\CustomWizard\CustomWizard\obj\Debug\UBIQProjTemplateWizard.csproj.GenerateResource.Cache
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Product.Tpl\项目&项模板\关于项目模板的制作\CustomWizard\CustomWizard\obj\Debug\UBIQProjTemplateWizard.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Product.Tpl\项目&项模板\关于项目模板的制作\CustomWizard\CustomWizard\obj\Debug\UBIQProjTemplateWizard.pdb

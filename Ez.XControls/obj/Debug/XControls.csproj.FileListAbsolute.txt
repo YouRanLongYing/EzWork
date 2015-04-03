@@ -1,0 +1,11 @@
+E:\测试项目\UIStyle\XTextBox\bin\Debug\XControls.dll
+E:\测试项目\UIStyle\XTextBox\bin\Debug\XControls.pdb
+E:\测试项目\UIStyle\XTextBox\obj\Debug\XControls.XItemMenu.resources
+E:\测试项目\UIStyle\XTextBox\obj\Debug\XControls.XTabBar.resources
+E:\测试项目\UIStyle\XTextBox\obj\Debug\XControls.Properties.Resources.resources
+E:\测试项目\UIStyle\XTextBox\obj\Debug\XControls.XMenu.resources
+E:\测试项目\UIStyle\XTextBox\obj\Debug\XControls.XMenuChildren.resources
+E:\测试项目\UIStyle\XTextBox\obj\Debug\XControls.XMenuGroup.resources
+E:\测试项目\UIStyle\XTextBox\obj\Debug\XControls.csproj.GenerateResource.Cache
+E:\测试项目\UIStyle\XTextBox\obj\Debug\XControls.dll
+E:\测试项目\UIStyle\XTextBox\obj\Debug\XControls.pdb

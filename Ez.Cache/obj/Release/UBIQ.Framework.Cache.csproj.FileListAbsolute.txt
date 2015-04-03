@@ -1,0 +1,10 @@
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\bin\Release\Config\Memcached.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\bin\Release\Cache.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\bin\Release\Cache.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\bin\Release\Commons.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\bin\Release\ICSharpCode.SharpZipLib.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\bin\Release\log4net.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\bin\Release\Memcached.ClientLibrary.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\bin\Release\Memcached.ClientLibrary.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\obj\Release\Cache.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\obj\Release\Cache.pdb

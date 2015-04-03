@@ -1,0 +1,23 @@
+﻿一、格式：【一般会在主引导页面设置，其菜单一般为主引导页面的子页面】
+[{ title: "第三方网站", children: [
+       { text: "百度网", src: "http://www.baidu.com" },
+       { text: "点点网", src: "http://www.diandian.com", rpKey: {uid:"sid"} },
+       { text: "祭奠在线", src: "http://www.jidianzaixian.com" }
+       ]
+}]
+使用范例（C#）
+@Html.RenderJsonForCustomMenus(new CustomMenu{
+ new LinkBtns("第三方网站"){
+     new LinkBtn("百度网","http://www.baidu.com",LinkTarget._Blank),
+     new LinkBtn("点点网","http://www.diandian.com",LinkTarget._Blank),
+     new LinkBtn("祭奠在线","http://www.jidianzaixian.com",LinkTarget._Blank),
+ }
+});
+
+二、【一般会在主引导页面设置，其菜单一般为主引导页面的子页面】
+为自定定义菜单附加设置参数（js）
+setParam({ uid: 1211 });
+获取参数（js），【一般会在子引导页面使用置，主要获取主引导页面提供的参数进行下一步工作】
+getParam();
+
+一般子页面需要设置禁用关闭主引导页面提供的菜单

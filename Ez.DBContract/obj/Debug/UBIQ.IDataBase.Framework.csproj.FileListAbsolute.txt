@@ -1,0 +1,31 @@
+F:\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\obj\Debug\UBIQ.IDataBase.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\obj\Debug\UBIQ.IDataBase.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\obj\Debug\UBIQ.IDataBase.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\obj\Debug\UBIQ.IDataBase.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.XML
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\obj\Debug\UBIQ.IDataBase.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\obj\Debug\UBIQ.IDataBase.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.XML
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\obj\Debug\UBIQ.IDataBase.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\obj\Debug\UBIQ.IDataBase.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.XML
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\obj\Debug\UBIQ.IDataBase.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\obj\Debug\UBIQ.IDataBase.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.XML
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\obj\Debug\UBIQ.IDataBase.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\obj\Debug\UBIQ.IDataBase.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.IDataBase.Framework\bin\Debug\UBIQ.IDataBase.Framework.XML

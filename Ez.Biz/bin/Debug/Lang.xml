@@ -1,0 +1,644 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lang</name>
+    </assembly>
+    <members>
+        <member name="T:UBIQ.Framework.Lang.FrmLanguage">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.AssemblyProvider">
+             <summary>
+            产品资源入口
+             </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.Culture">
+            <summary>
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Btn_Back">
+            <summary>
+              查找类似 返回 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Btn_Broswer">
+            <summary>
+              查找类似 浏览 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Btn_Close">
+            <summary>
+              查找类似 关闭 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Btn_Comfirm">
+            <summary>
+              查找类似 确认 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Btn_Delete">
+            <summary>
+              查找类似 删除 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Btn_EndPage">
+            <summary>
+              查找类似 尾页 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Btn_FistPage">
+            <summary>
+              查找类似 首页 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Btn_GoAhead">
+            <summary>
+              查找类似 前进 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Btn_GoBack">
+            <summary>
+              查找类似 后退 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Btn_NextPage">
+            <summary>
+              查找类似 下一页 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Btn_PrePage">
+            <summary>
+              查找类似 上一页 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Btn_Reset">
+            <summary>
+              查找类似 重置 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Btn_Save">
+            <summary>
+              查找类似 保存 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Btn_Submit">
+            <summary>
+              查找类似 提交 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Btn_UnDo">
+            <summary>
+              查找类似 撤销 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Btn_Update">
+            <summary>
+              查找类似 更新 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_JS_Week">
+            <summary>
+              查找类似 星期日,星期一,星期二,星期三,星期四,星期五,星期六 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Msg_AccountError">
+            <summary>
+              查找类似 账户或密码错误！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Msg_AddFail">
+            <summary>
+              查找类似 添加失败！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Msg_AddSuccess">
+            <summary>
+              查找类似 添加成功！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Msg_EditFail">
+            <summary>
+              查找类似 修改失败！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Msg_EditSuccess">
+            <summary>
+              查找类似 修改成功！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Msg_SaveFail">
+            <summary>
+              查找类似 保存失败！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Msg_SaveSuccess">
+            <summary>
+              查找类似 保存成功！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_AccountInfo">
+            <summary>
+              查找类似 账户信息 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_AccountManage">
+            <summary>
+              查找类似 账户管理 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_Address">
+            <summary>
+              查找类似 地址 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_Age">
+            <summary>
+              查找类似 年龄 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_BackSize">
+            <summary>
+              查找类似 还原 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_ChangeLang">
+            <summary>
+              查找类似 切换语言 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_ChangePwd">
+            <summary>
+              查找类似 修改密码 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_Close">
+            <summary>
+              查找类似 关闭 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_Company">
+            <summary>
+              查找类似 单位 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_DeskBg">
+            <summary>
+              查找类似 桌面背景 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_Email">
+            <summary>
+              查找类似 邮箱地址 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_Gender">
+            <summary>
+              查找类似 性别 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_Hello">
+            <summary>
+              查找类似 你好 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_IdCard">
+            <summary>
+              查找类似 身份证 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_LastLoginIP">
+            <summary>
+              查找类似 最后登录IP 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_LastLoginTime">
+            <summary>
+              查找类似 最后登陆时间 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_Login">
+            <summary>
+              查找类似 登录 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_LoginName">
+            <summary>
+              查找类似 登录名 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_LoginNum">
+            <summary>
+              查找类似 登录次数 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_Menu">
+            <summary>
+              查找类似 菜单 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_Mobile">
+            <summary>
+              查找类似 手机 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_MutilRole">
+            <summary>
+              查找类似 多角色用户 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_OnNPage">
+            <summary>
+              查找类似 第{0}页 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_PageState">
+            <summary>
+              查找类似 当前页 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_Password">
+            <summary>
+              查找类似 密码 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_PleaseSelect">
+            <summary>
+              查找类似 =请选择= 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_QQ">
+            <summary>
+              查找类似 QQ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_RegIP">
+            <summary>
+              查找类似 注册IP 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_Regist">
+            <summary>
+              查找类似 注册 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_RegTime">
+            <summary>
+              查找类似 注册时间 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_Shortcut">
+            <summary>
+              查找类似 快捷 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_SystemBaseInfo">
+            <summary>
+              查找类似 系统基本信息 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_SystemSet">
+            <summary>
+              查找类似 系统设置 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_Tel">
+            <summary>
+              查找类似 座机 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_ToMax">
+            <summary>
+              查找类似 最大化 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_ToMin">
+            <summary>
+              查找类似 最小化 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_TotalData">
+            <summary>
+              查找类似 共{0}条数据 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_TotalPage">
+            <summary>
+              查找类似 总页数 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_UserName">
+            <summary>
+              查找类似 姓名 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_N_Window">
+            <summary>
+              查找类似 窗口 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_V_PerfectInfo">
+            <summary>
+              查找类似 完善资料 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Var_Cant">
+            <summary>
+              查找类似 不能 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Var_IsOrNot">
+            <summary>
+              查找类似 是否 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Var_NotAllowed">
+            <summary>
+              查找类似 不允许 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.COM_Var_NoWay">
+            <summary>
+              查找类似 无法 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Exp_DataExits">
+            <summary>
+              查找类似 数据已存在不允许进行相关操作! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Exp_DataHadRef">
+            <summary>
+              查找类似 词条数据被使用不能执行{0}操作! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Exp_DataHasRef">
+            <summary>
+              查找类似 数据存在引用 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Exp_DepInfoNotExits">
+            <summary>
+              查找类似 部门信息不存在 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Exp_NoProperty">
+            <summary>
+              查找类似 此类实例中未找到调用的属性{0}! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Exp_UnSupportType">
+            <summary>
+              查找类似 调用了不被支持的类型！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_M_AccountInfo">
+            <summary>
+              查找类似 账户信息 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_M_AccountManager">
+            <summary>
+              查找类似 账户管理 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_M_AddUser">
+            <summary>
+              查找类似 添加用户 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_M_ChangeLang">
+            <summary>
+              查找类似 切换语言 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_M_ChangePwd">
+            <summary>
+              查找类似 修改密码 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_M_DeskBg">
+            <summary>
+              查找类似 桌面背景 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_M_Menu">
+            <summary>
+              查找类似 菜单 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_M_Personalize">
+            <summary>
+              查找类似 个性化 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_M_SysInfo">
+            <summary>
+              查找类似 系统信息 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_M_SysSet">
+            <summary>
+              查找类似 系统设置 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_N_CompanyName">
+            <summary>
+              查找类似 优碧特软件（西安）软件有限公司 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_N_Copyright">
+            <summary>
+              查找类似 优碧特软件（西安）软件有限公司 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_N_Description">
+            <summary>
+              查找类似 基础框架，公司产品底层框架 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_N_SystemName">
+            <summary>
+              查找类似 UBIQ.Framework 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_N_Version">
+            <summary>
+              查找类似 v1.0.0.0 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.Sys_R_SAdmin">
+            <summary>
+              查找类似 超级管理员 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_V_LoginOut">
+            <summary>
+              查找类似 退出 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_ComMsg">
+            <summary>
+              查找类似 输入的内容不合法请检查！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_Date">
+            <summary>
+              查找类似 请正确输入日期！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_Email">
+            <summary>
+              查找类似 {0}应为邮件格式！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_GreaterThan">
+            <summary>
+              查找类似 输入的值必须大于{0}! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_GreaterThanLen">
+            <summary>
+              查找类似 输入的字符长度应大于{0}! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_GreaterThanLenOrEqual">
+            <summary>
+              查找类似 输入的字符长度应大于或等于{0}! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_GreaterThanOrEqual">
+            <summary>
+              查找类似 输入的值必须大于或等于{0}! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_IdCard">
+            <summary>
+              查找类似 请输入正确的身份证号码！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_Int">
+            <summary>
+              查找类似 请输入整数！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_LessThan">
+            <summary>
+              查找类似 输入的值必须小于{0}! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_LessThanLen">
+            <summary>
+              查找类似 输入的字符长度应小于{0}! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_LessThanLenOrEqual">
+            <summary>
+              查找类似 输入的字符长度应小于或等于{0}! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_LessThanOrEqual">
+            <summary>
+              查找类似 输入的值必须小于或等于{0}! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_MobileNumber">
+            <summary>
+              查找类似 请正确输入手机号码! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_NotEqal">
+            <summary>
+              查找类似 两次输入的{0}不一致！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_NotIP">
+            <summary>
+              查找类似 IP地址格式不正确！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_NotUrl">
+            <summary>
+              查找类似 Url格式不正确！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_Number">
+            <summary>
+              查找类似 {0}必须是数字！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_PhoneNumber">
+            <summary>
+              查找类似 请正确输入座机号码:格式可以是xxx-xxxxxxxx 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_PostCode">
+            <summary>
+              查找类似 请正确输入邮编！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_Range">
+            <summary>
+              查找类似 输入的数字应大于{0}小于{1}! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_RangeLen">
+            <summary>
+              查找类似 输入的字符长度应大于{0}小于{1}! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_RangeLenOrEqMax">
+            <summary>
+              查找类似 输入的字符长度应大于{0}小于或等于{1}! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_RangeLenOrEqMin">
+            <summary>
+              查找类似 输入的字符长度应大于或等于{0}小于{1}! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_RangeLenOrEqual">
+            <summary>
+              查找类似 输入的字符长度应大于等于{0}或小于等于{1}! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_RangeOrEqMax">
+            <summary>
+              查找类似 输入的数字应大于{0}小于或等于{1}! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_RangeOrEqMin">
+            <summary>
+              查找类似 输入的数字应大于或等于{0}小于{1}! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_RangeOrEqual">
+            <summary>
+              查找类似 输入的数字应大于等于{0}或小于等于{1}! 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_Required">
+            <summary>
+              查找类似 {0}为必填项！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_StartWith">
+            <summary>
+              查找类似 {0}必须以&quot;{1}&quot;开头！ 的本地化字符串。
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Lang.FrmLanguage.SYS_Val_StartWithComfirm">
+            <summary>
+              查找类似 确认 的本地化字符串。
+            </summary>
+        </member>
+    </members>
+</doc>

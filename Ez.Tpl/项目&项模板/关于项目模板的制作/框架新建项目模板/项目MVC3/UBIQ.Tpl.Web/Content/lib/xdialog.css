@@ -1,0 +1,40 @@
+﻿.window{ position:absolute; top:100px; left:100px;background:url(../images/layer_bg.png) #BDBDBB;box-shadow:0px 0px 5px #BDBDBB;border-radius:4px; overflow:hidden; z-index:10;}
+.window .win-wrapper{background-color:#BDBDBB;}
+.window .win-wrapper .win-header-bar{box-shadow:0px 0px 5px #727272; margin-bottom:1px; cursor:pointer; /* height:70px;*/ position:relative;}
+.window .win-wrapper .win-header-bar .win-menu-switchbox{ position:absolute; width:15px; top:8px; left:0px;z-index:12;}
+.window .win-wrapper .win-header-bar .win-menu-switchbox .angle-double-right:before{content:"\f101";margin-left:10px;margin-top:10px;color:#FFF;}
+
+.window .win-wrapper .win-header-bar .win-header-bar-top{ height:35px;z-index:10; position:relative;}
+.window .win-wrapper .win-header-bar .win-header-bar-top .win-header-left{ width:20%; height:35px; line-height:35px; float:left;}
+.window .win-wrapper .win-header-bar .win-header-bar-top .win-header-mid{ width:60%; height:35px; line-height:35px; text-align:center; color:#f6f6f6; /*text-shadow:0px 0px 5px #777;*/ float:left;}
+.window .win-wrapper .win-header-bar .win-header-bar-top .win-header-right{ width:20%; height:35px; line-height:35px; float:right;}
+.window .win-wrapper .win-header-bar .win-header-bar-top .win-header-right a.fa{ float:right; margin-right:10px; margin-top:10px;}
+.window .win-wrapper .win-header-bar .win-header-bar-top .win-header-right a.fa:before{content:"\f111";}
+.window .win-wrapper .win-header-bar .win-header-bar-top .win-header-right .win-close{color:#ED4E48 !important;}
+.window .win-wrapper .win-header-bar .win-header-bar-top .win-header-right .win-close:hover{color:#E33230 !important;text-shadow:0px 0px 5px #000 !important;}
+.window .win-wrapper .win-header-bar .win-header-bar-top .win-header-right .win-size-max{color:#FFD970 !important;}
+.window .win-wrapper .win-header-bar .win-header-bar-top .win-header-right .win-size-min{color:#C1F27F !important;}
+.window .win-wrapper .win-header-bar .win-header-bar-bottom{ height:35px;z-index:11; position:relative;}
+.window .win-wrapper .win-header-bar .win-header-bar-bottom .win-header-b-left{ width:75%; height:35px; line-height:35px; float:left;}
+.window .win-wrapper .win-header-bar .win-header-bar-bottom .win-header-b-right{ width:15%; height:35px; line-height:35px; float:right;}
+.window .win-wrapper .win-header-bar .win-header-bar-bottom .win-header-b-right .searchbox{ height:25px; margin:5px 0px; width:230px; border-radius:12px; background:#FFF; float:right; overflow:hidden; margin-right:10px; position:relative;}
+.window .win-wrapper .win-header-bar .win-header-bar-bottom .win-header-b-right .searchbox input{ height:17px; 
+                                                                                                  line-height:17px; 
+                                                                                                  width:195px; 
+                                                                                                  border-style:none; 
+                                                                                                  outline:none; padding:0px; margin:0px;  position:absolute; top:4px; left:25px;
+                                                                                                  overflow:hidden;
+                                                                                                  }
+.window .win-wrapper .win-header-bar .win-header-bar-bottom .win-header-b-right .searchbox .ico-search:before{content:"\f002"; position:absolute; left:8px; top:7px;}
+.window .win-wrapper .win-header-bar .win-header-bar-bottom .win-header-b-right .searchbox .ico-search:hover{text-shadow:0px 0px 2px #cdcdcd;}
+.window .win-wrapper .win-header-bar .win-header-bar-bottom .win-header-b-right .searchbox .ico-search:active{text-shadow:0px 0px 5px #cdcdcd;}
+.window .win-wrapper .win-body{ background-color:#FFF;   height:420px;/*width:700px;计算*/ position:relative;}
+
+.window .win-wrapper .win-body .win-body-menus{ width:150px; height:410px;float:left; padding:5px; background-color:#E9E9E9; position:absolute;}
+.window .win-wrapper .win-body .win-body-menus .menus-fun-list{}
+.window .win-wrapper .win-body .win-body-menus .menus-fun-list .menus-fun{ color:#444; line-height:20px;}
+.window .win-wrapper .win-body .win-body-menus .menus-fun-list .menus-fun-title{color:#555 !important;text-shadow:none !important;}
+.window .win-wrapper .win-body .win-body-menus .menus-fun-list .menus-fun .menus-fun-children{ padding-left:20px;}
+.window .win-wrapper .win-body .win-body-menus .menus-fun-list .menus-fun .menus-fun-children li:before{ padding-right:3px;}
+.window .win-wrapper .win-body .win-body-menus .menus-fun-list .menus-fun .menus-fun-children li a{ color:#555 !important;}
+.window .win-wrapper .win-body .win-body-viewport{ width:667px;height:420px;float:left;position:absolute;}

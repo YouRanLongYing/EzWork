@@ -1,0 +1,23 @@
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Plug\bin\Debug\UPlug.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Plug\bin\Debug\UPlug.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Plug\obj\Debug\UPlug.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Plug\obj\Debug\UPlug.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Plug\bin\Debug\UPlug.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Plug\bin\Debug\UPlug.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Plug\obj\Debug\UPlug.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Plug\obj\Debug\UPlug.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Plug\obj\Debug\UBIQ.Framework.Plug.csprojResolveAssemblyReference.cache
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Plug\bin\Debug\UPlug.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Plug\bin\Debug\UPlug.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Plug\obj\Debug\UPlug.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Plug\obj\Debug\UPlug.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Plug\obj\Debug\UBIQ.Framework.Plug.csprojResolveAssemblyReference.cache
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Plug\bin\Debug\UPlug.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Plug\bin\Debug\UPlug.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Plug\obj\Debug\UPlug.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Plug\obj\Debug\UPlug.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Plug\bin\Debug\UPlug.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Plug\bin\Debug\UPlug.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Plug\obj\Debug\UPlug.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Plug\obj\Debug\UPlug.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Plug\obj\Debug\UBIQ.Framework.Plug.csprojResolveAssemblyReference.cache

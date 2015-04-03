@@ -1,0 +1,4 @@
+E:\测试项目\UIStyle\XTextBox\bin\Debug\XTextBoxLib.dll
+E:\测试项目\UIStyle\XTextBox\bin\Debug\XTextBoxLib.pdb
+E:\测试项目\UIStyle\XTextBox\obj\Debug\XTextBoxLib.dll
+E:\测试项目\UIStyle\XTextBox\obj\Debug\XTextBoxLib.pdb

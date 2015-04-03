@@ -1,0 +1,5 @@
+F:\FrameWork.Project\SourceCode\UBIQ.Models.Framework\bin\Debug\UBIQ.Models.Framework.dll
+F:\FrameWork.Project\SourceCode\UBIQ.Models.Framework\bin\Debug\UBIQ.Models.Framework.pdb
+F:\FrameWork.Project\SourceCode\UBIQ.Models.Framework\obj\Debug\ResolveAssemblyReference.cache
+F:\FrameWork.Project\SourceCode\UBIQ.Models.Framework\obj\Debug\UBIQ.Models.Framework.dll
+F:\FrameWork.Project\SourceCode\UBIQ.Models.Framework\obj\Debug\UBIQ.Models.Framework.pdb

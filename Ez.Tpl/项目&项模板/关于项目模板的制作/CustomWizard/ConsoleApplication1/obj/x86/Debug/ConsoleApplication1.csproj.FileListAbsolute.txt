@@ -1,0 +1,10 @@
+E:\测试项目\ETS\CustomWizard\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\测试项目\ETS\CustomWizard\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\测试项目\ETS\CustomWizard\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+E:\测试项目\ETS\CustomWizard\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
+E:\测试项目\ETS\CustomWizard\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Product.Tpl\项目&项模板\关于项目模板的制作\CustomWizard\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Product.Tpl\项目&项模板\关于项目模板的制作\CustomWizard\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Product.Tpl\项目&项模板\关于项目模板的制作\CustomWizard\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Product.Tpl\项目&项模板\关于项目模板的制作\CustomWizard\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Product.Tpl\项目&项模板\关于项目模板的制作\CustomWizard\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb

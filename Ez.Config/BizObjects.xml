@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <object id="AccountBiz"           type="Ez.Biz.AccountBiz,EzBiz"/>
+  <object id="ShortUrlBiz"          type="Ez.Biz.ShortUrlBiz,EzBiz"/>
+  <object id="LayoutBiz"            type="Ez.Biz.LayoutBiz,EzBiz"/>
+  <object id="DepartmentBiz"        type="Ez.Biz.DepartmentBiz,EzBiz"/>
+  <object id="SysLogBiz"            type="Ez.Biz.SysLogBiz,EzBiz"/>
+  <object id="RoleBiz"              type="Ez.Biz.RoleBiz,EzBiz"/>
+  <object id="EzGrid_TestBiz"       type="Ez.Biz.EzGrid_TestBiz,EzBiz"/>
+</objects>

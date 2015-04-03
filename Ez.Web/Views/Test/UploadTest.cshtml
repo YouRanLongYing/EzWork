@@ -1,0 +1,79 @@
+﻿@model Ez.Dtos.FormDto
+@{
+    ViewBag.Title = "UploadTest";
+}
+@section CssScript{
+    <script type="text/javascript">
+        function success(data) {
+            $("#img").attr("src", data[0].sourcesrc);
+        }
+        function progress(file, bytesUploaded, bytesTotal) {
+            $("#progress").html(bytesUploaded + "/" + bytesTotal);
+        }
+    </script>
+}
+
+
+@Html.ActionLink("测试EzGrid", "ViewTest","EzGridTest")
+
+
+
+@Html.FileUpload(FileUpLoadType.image, 2, "success", "progress")
+@Html.FileUpload(FileUpLoadType.image, 1, "success", "progress","Broswer","/Files/tmp2/")
+<img id="img" />
+<div id="progress">
+</div>
+
+<div class="am-form">
+    EzTextBox:
+    @Html.EzTextBox("xx", "123", "测试", new { style = "color:red",placeholder="请输入姓名" })
+    EzTextBoxFor:
+    @Html.EzTextBoxFor(p=>p.Name)
+
+    EzTextArea:
+    @Html.EzTextArea("xx", "123", "测试", new { style = "color:red" })
+
+    EzTextAreaFor:
+    @Html.EzTextAreaFor(p => p.Name)
+
+    EzHtmlEditor:
+    @Html.EzHtmlEditor("xx", "123", "测试", new { style = "color:red" })
+
+    EzHtmlEditorFor:
+    @Html.EzHtmlEditorFor(p => p.Name)
+
+    EzUploadFile:
+    @Html.EzUploadFile("xx", "123", "测试", new { style = "color:red" })
+    EzUploadFileFor:
+    @Html.EzUploadFileFor(p => p.Name)
+
+    EzUploadFile:
+    @Html.EzPassword("xx", "123", "测试", new { style = "color:red" })
+    EzPasswordFor:
+    @Html.EzPasswordFor(p => p.Name)
+
+    EzDatePicker:
+    @Html.EzDatePicker("xx", "123", "测试", new { style = "color:red" })
+    EzDatePickerFor:
+    @Html.EzDatePickerFor(p => p.Name)
+
+    EzCheckBox:
+    @Html.EzCheckBox("xx", "123", "测试", new { style = "color:red" })
+    EzCheckBoxFor:
+    @Html.EzCheckBoxFor(p => p.Name)
+    
+    EzRadio:
+    @Html.EzRadio("xx", "123", "测试", new { style = "color:red" })
+    EzRadioFor:
+    @Html.EzRadioFor(p => p.Name)
+    
+    EzSelect:
+    @Html.EzSelect("xx", "123", "测试", new { style = "color:red" })
+    EzSelectFor:
+    @Html.EzSelectFor(p => p.Agent_Workyear)
+
+    EzSmartControl:
+    @Html.EzSmartControl(p=>p.Agent_Workyear)
+</div>
+
+

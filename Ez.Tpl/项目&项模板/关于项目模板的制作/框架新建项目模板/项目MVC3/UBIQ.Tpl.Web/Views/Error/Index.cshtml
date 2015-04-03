@@ -1,0 +1,29 @@
+﻿@model UBIQ.Framework.Dtos.ErrorDto
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "服务器发生错误-"+Model.Exception.Message;
+}
+@section CssScript{
+  <style type="text/css">
+        .exception{width: 70%;margin: auto auto;padding:20px 5px 5px 5px;}
+        .exception p.message{font-size: 25px;line-height: 30px;font-weight: bold;color: Red;margin: 0px; text-align:left;}
+        .exception p.stacktrace{line-height: 23px;margin: 0px;color: #E76464;}
+  </style>
+}
+
+@{
+     <div class="exception">
+    @if (Model.Debug)
+    {
+       
+            <p class="message">错误消息:@Model.Exception.Message</p>
+            <p class="stacktrace">@Model.Exception.StackTrace</p>
+       
+    }
+    else
+    {
+       <p class="message">非常抱歉，我们将尽快处理此服务器错误！</p>
+    }
+     </div>
+}
+

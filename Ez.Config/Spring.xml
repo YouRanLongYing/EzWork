@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net" xmlns:db="http://www.springframework.net/database">
+  <!--日志拦截器-->
+  <object id="LogInterceptor" type="Ez.Core.Interceptor.LogInterceptor,EzCore"/>
+  <!--异常拦截器-->
+  <object id="ExceptionInterceptor" type="Ez.Core.Interceptor.ExceptionInterceptor,EzCore" />
+  <!--事务、日志、异常自动代理配置-切入点配置-->
+  <object id="NameMatchAutoProxyCreator" type="Spring.Aop.Framework.AutoProxy.ObjectNameAutoProxyCreator, Spring.Aop">
+    <property name="ObjectNames">
+      <list>
+        <value>*Biz</value>
+        <value>*Ctrl</value>
+        <value>*DaoTarget</value>
+      </list>
+    </property>
+    <property name="InterceptorNames">
+      <list>
+        <!--<value>TransactionInterceptor</value>-->
+        <value>LogInterceptor</value>
+        <value>ExceptionInterceptor</value>
+      </list>
+    </property>
+  </object>
+  <object id="DbMasterDaoTarget" type="Ez.DB.DbMaster,EzDB"   singleton="true"/>
+  <object id="AuthorizationBiz"  type="Ez.Biz.AuthorizationBiz,EzBiz"     singleton="true"/>
+  <object id="SessionTarget"     type="Ez.Cache.SessionProxy,EzCache"     singleton="true"/>
+  <object id="CookieTarget"      type="Ez.Cache.CookieProxy,EzCache"      singleton="true"/>
+  <object id="CacheTarget"       type="Ez.Cache.CacheProxy,EzCache"       singleton="true"/>
+  <object id="MemcachedTarget"   type="Ez.Cache.MemcachedProxy,EzCache"   singleton="true"/>
+  <object id="ApplicationTarget" type="Ez.Cache.ApplicationProxy,EzCache" singleton="true"/>
+</objects>

@@ -1,0 +1,27 @@
+﻿@using Ez.Dtos;
+@using Ez.UI.HtmlExtend;
+@model Ez.Dtos.FormDto
+
+@Html.SmartFormFor(Model, new { style = "width:55%;margin:0px auto;" })
+
+<div class="am-form" style=" display:none;">
+  <div class="am-form-group am-form-success am-form-icon am-form-feedback">
+    <input type="text" class="am-form-field" placeholder="验证成功">
+    <span class="am-icon-check"></span>
+  </div>
+  <div class="am-form-group am-form-warning am-form-icon am-form-feedback">
+    <input type="text" class="am-form-field" placeholder="验证警告">
+    <span class="am-icon-warning"></span>
+  </div>
+  <div class="am-form-group am-form-error am-form-icon am-form-feedback">
+    <input type="text" class="am-form-field" placeholder="验证失败">
+    <span class="am-icon-times"></span>
+  </div>
+<div class="am-form-group am-form-warning am-form-icon am-form-feedback">
+<label for="Name">姓名</label>
+<input data-val="true" data-val-email="姓名应为邮件格式！" data-val-required="姓名为必填项！" id="Name" name="Name" placeholder="请输入用户名,格式要求为Email格式" type="text" value="孔京">
+<span class="am-icon-warning"></span></div>
+</div>
+
+
+

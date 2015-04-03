@@ -1,0 +1,342 @@
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\obj\Debug\UBIQ.Framework.Controllers.csprojResolveAssemblyReference.cache
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\Config\Memcached.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\Config\Log4Net.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\Config\Payment.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\Config\UpopPayment.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Controllers.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Controllers.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\log4net.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Cache.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Config.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Core.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Dtos.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Helper.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.IBiz.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Payment.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Resource.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.UI.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\Memcached.ClientLibrary.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\Spring.Aop.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\Spring.Core.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.IDataBase.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\Common.Logging.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Cache.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Cache.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Config.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Config.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Core.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Core.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Dtos.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Dtos.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Helper.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Helper.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.IBiz.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.IBiz.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Payment.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Payment.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Resource.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Resource.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.UI.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.UI.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\Memcached.ClientLibrary.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.IDataBase.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.IDataBase.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\en-US\UBIQ.Framework.Resource.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\zh-CN\UBIQ.Framework.Resource.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\obj\Debug\UBIQ.Framework.Controllers.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\obj\Debug\UBIQ.Framework.Controllers.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Controllers.Framework\bin\Debug\UBIQ.Framework.Controllers.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Config\Memcached.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Config\Log4Net.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Config\Payment.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Config\UpopPayment.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\log4net.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Memcached.ClientLibrary.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Spring.Aop.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Spring.Core.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Common.Logging.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Memcached.ClientLibrary.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\obj\Debug\UBIQ.Framework.Controllers.csprojResolveAssemblyReference.cache
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Controllers.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Controllers.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Cache.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Config.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Core.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Dtos.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Helper.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Payment.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\UI.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Cache.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Cache.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Config.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Config.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Core.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Core.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Dtos.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Dtos.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Helper.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Helper.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Payment.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Payment.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\UI.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\UI.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\obj\Debug\Controllers.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\obj\Debug\Controllers.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Lang.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Lang.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\Lang.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\en-US\Lang.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\zh-CN\Lang.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\IBiz.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\IDataBase.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\IBiz.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\IBiz.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\IDataBase.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Controllers\bin\Debug\IDataBase.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config\Memcached.config
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config\Log4Net.config
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config\Payment.config
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config\UpopPayment.config
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Controllers.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Controllers.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Controllers.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Cache.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Core.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Dtos.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Helper.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IBiz.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Lang.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\log4net.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Payment.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\UI.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Memcached.ClientLibrary.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Spring.Aop.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Spring.Core.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IDataBase.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Common.Logging.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Cache.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Cache.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Core.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Core.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Dtos.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Dtos.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Helper.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Helper.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IBiz.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IBiz.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Payment.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Payment.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Lang.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Lang.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\UI.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\UI.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Memcached.ClientLibrary.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IDataBase.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IDataBase.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\en-US\Lang.resources.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\zh-CN\Lang.resources.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\obj\Debug\UBIQ.Framework.Controllers.csprojResolveAssemblyReference.cache
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\obj\Debug\Controllers.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Controllers\obj\Debug\Controllers.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config\Memcached.config
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config\Log4Net.config
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config\Payment.config
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config\UpopPayment.config
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Controllers.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Controllers.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Controllers.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Cache.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Core.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Dtos.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Helper.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IBiz.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Lang.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\log4net.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Payment.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\UI.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Memcached.ClientLibrary.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Spring.Aop.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Spring.Core.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IDataBase.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Common.Logging.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Cache.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Cache.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Core.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Core.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Dtos.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Dtos.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Helper.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Helper.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IBiz.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IBiz.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Payment.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Payment.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Lang.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Lang.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\UI.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\UI.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Memcached.ClientLibrary.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IDataBase.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IDataBase.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\en-US\Lang.resources.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\zh-CN\Lang.resources.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\obj\Debug\UBIQ.Framework.Controllers.csprojResolveAssemblyReference.cache
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\obj\Debug\Controllers.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Controllers\obj\Debug\Controllers.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config\Memcached.config
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config\Log4Net.config
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config\Payment.config
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config\UpopPayment.config
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Controllers.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Controllers.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Controllers.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Cache.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Core.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Dtos.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Helper.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IBiz.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Lang.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\log4net.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Payment.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\UI.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Memcached.ClientLibrary.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Spring.Aop.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Spring.Core.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IDataBase.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Common.Logging.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Cache.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Cache.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Config.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Core.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Core.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Dtos.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Dtos.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Helper.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Helper.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IBiz.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IBiz.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Payment.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Payment.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Lang.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Lang.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\UI.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\UI.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\Memcached.ClientLibrary.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IDataBase.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\IDataBase.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\en-US\Lang.resources.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\bin\Debug\zh-CN\Lang.resources.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\obj\Debug\UBIQ.Framework.Controllers.csprojResolveAssemblyReference.cache
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\obj\Debug\Controllers.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Controllers\obj\Debug\Controllers.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Config\Memcached.config
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Config\Log4Net.config
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Config\Payment.config
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Config\UpopPayment.config
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Controllers.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Controllers.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Controllers.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Cache.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Config.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Core.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Dtos.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Helper.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\IBiz.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Lang.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\log4net.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Payment.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\UI.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Memcached.ClientLibrary.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Spring.Aop.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Spring.Core.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\IDataBase.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Common.Logging.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Cache.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Cache.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Config.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Config.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Core.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Core.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Dtos.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Dtos.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Helper.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Helper.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\IBiz.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\IBiz.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Payment.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Payment.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Lang.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Lang.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\UI.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\UI.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Memcached.ClientLibrary.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\IDataBase.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\IDataBase.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\en-US\Lang.resources.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\zh-CN\Lang.resources.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\obj\Debug\UBIQ.Framework.Controllers.csprojResolveAssemblyReference.cache
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\obj\Debug\Controllers.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\obj\Debug\Controllers.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Config\Memcached.config
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Config\Log4Net.config
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Config\Payment.config
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Config\UpopPayment.config
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Controllers.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Controllers.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Cache.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Config.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Core.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Dtos.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Helper.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\IBiz.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Lang.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\log4net.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Payment.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\UI.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Memcached.ClientLibrary.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Spring.Aop.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Spring.Core.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\ICSharpCode.SharpZipLib.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\IDataBase.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Common.Logging.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Cache.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Cache.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Config.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Config.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Core.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Core.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Dtos.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Dtos.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Helper.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Helper.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\IBiz.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\IBiz.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Payment.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Payment.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Lang.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Lang.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\UI.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\UI.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Memcached.ClientLibrary.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\IDataBase.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\IDataBase.xml
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\en-US\Lang.resources.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\zh-CN\Lang.resources.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\obj\Debug\UBIQ.Framework.Controllers.csprojResolveAssemblyReference.cache
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\obj\Debug\Controllers.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\obj\Debug\Controllers.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Controllers\bin\Debug\Controllers.xml

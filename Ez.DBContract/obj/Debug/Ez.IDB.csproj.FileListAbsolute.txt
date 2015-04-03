@@ -1,0 +1,5 @@
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.IDataBase\bin\Debug\EzIDB.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.IDataBase\bin\Debug\EzIDB.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.IDataBase\bin\Debug\EzIDB.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.IDataBase\obj\Debug\EzIDB.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.IDataBase\obj\Debug\EzIDB.pdb

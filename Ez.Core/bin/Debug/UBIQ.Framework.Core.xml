@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UBIQ.Framework.Core</name>
+    </assembly>
+    <members>
+        <member name="T:UBIQ.Framework.Core.Json">
+            <summary>
+            解决常见类型到Json的转换
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.Core.ExtentionFun.ToSafeInt(System.Object,System.Int32,System.Boolean)">
+            <summary>
+            将类型为int的Object转化为Int类型返回
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.Core.Utils.GetSpringObject``1(System.String)">
+            <summary>
+            获取Spring.net 容器中的对象
+            </summary>
+            <typeparam name="T">接口类型</typeparam>
+            <param name="objName">实现的对象名</param>
+            <returns>T类型的实例</returns>
+        </member>
+        <member name="T:UBIQ.Framework.Core.Interceptor.LogInterceptor">
+            <summary>
+            日志拦截器
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.Core.Interceptor.AsyncOutputDelegate">
+            <summary>
+            日志异步输出委托 coding...
+            </summary>
+            <param name="executeInfo">业务方法执行信息</param>
+        </member>
+        <member name="T:UBIQ.Framework.Core.Interceptor.Log4NetManager">
+            <summary>
+            Log4net封装类
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.Core.Interceptor.Log4NetManager.#cctor">
+            <summary>
+            静态构造器
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.Core.Interceptor.Log4NetManager.Output(UBIQ.Framework.Core.Interceptor.ExecuteInfo)">
+            <summary>
+            输出日志
+            </summary>
+            <param name="executeInfo">调用目标执行信息</param>
+        </member>
+        <member name="P:UBIQ.Framework.Core.Interceptor.Log4NetManager.DefaultLogger">
+            <summary>
+            默认使用的日志对象
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.Core.Interceptor.ExecuteInfo">
+            <summary>
+            方法执行信息
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.Core.Interceptor.ExecuteInfo.#ctor(System.Type,System.Reflection.MethodInfo,System.Object[],UBIQ.Framework.Core.Interceptor.LogLevel,System.Boolean,System.Exception)">
+            <summary>
+            构造子
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.Core.Interceptor.ExecuteInfo.#ctor(AopAlliance.Intercept.IMethodInvocation,System.Boolean,UBIQ.Framework.Core.Interceptor.LogLevel)">
+            <summary>
+            构造子
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Core.Interceptor.ExecuteInfo.TargetType">
+            <summary>
+            调用目标类型信息
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Core.Interceptor.ExecuteInfo.MethodName">
+            <summary>
+            调用方法名称
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Core.Interceptor.ExecuteInfo.Args">
+            <summary>
+            参数列表
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Core.Interceptor.ExecuteInfo.LogLevel">
+            <summary>
+            日志类型
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Core.Interceptor.ExecuteInfo.IsEndPoint">
+            <summary>
+            是否结束标记
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Core.Interceptor.ExecuteInfo.Exception">
+            <summary>
+            异常对象
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Core.Interceptor.ExecuteInfo.StackTrace">
+            <summary>
+            调试堆栈
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.Core.Interceptor.LogLevel">
+            <summary>
+            日志级别枚举
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Core.Interceptor.LogLevel.Off">
+            <summary>
+            关闭
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Core.Interceptor.LogLevel.Error">
+            <summary>
+            错误
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Core.Interceptor.LogLevel.Info">
+            <summary>
+            信息
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Core.Interceptor.LogLevel.Debug">
+            <summary>
+            调试
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Core.Interceptor.LogLevel.Fatal">
+            <summary>
+            严重故障
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Core.Interceptor.LogLevel.Warn">
+            <summary>
+            警告
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Core.Interceptor.LogLevel.All">
+            <summary>
+            所有
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Core.Constans.DESIGNER">
+            <summary>
+            框架设计人
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Core.Constans.DESIGNER_EMAIL">
+            <summary>
+            框架设计人邮箱
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Core.Constans.SYS_LANAGUE_KEY">
+            <summary>
+            系统语言标识
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Core.Constans.SYS_UICONFIG_FILE_PATH">
+            <summary>
+            系统UI配置文件的路径
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Core.Constans.OPENED_WINDOW_LIST_ID">
+            <summary>
+            用于桌面打开窗口时需要记入的列表容器的id，对应桌面左侧的“窗口菜单”
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Core.Constans.DEVELOP_KEY_FOR_LANGUAGE">
+            <summary>
+            系统语言键，框架硬编码常量 对应数据库表Frm_U_Rights 列 dev_key的值"language" 共框架语言更换之用
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Core.Constans.SYS_LAYOUT_STYLE_KEY">
+            <summary>
+            系统布局风格
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,7 @@
+﻿@model UBIQ.Framework.Dtos.LoginInfoDto
+@{
+    ViewBag.Title = "系统登录";
+    //ViewBag.Layout_Body_CssText = "background:url(/content/images/1403056902129.jpg) no-repeat !important;";
+}
+[@Html.ActionLink("测试", "index", "Test")]
+@Html.Partial("Tmp_Login.cshtml", Model,"page_loginWraper")

@@ -1,0 +1,10 @@
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.IDataBase\bin\Debug\EzDBContract.xml
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.IDataBase\bin\Debug\EzDBContract.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.IDataBase\bin\Debug\EzDBContract.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.IDataBase\obj\Debug\EzDBContract.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\UBIQ.Framework.IDataBase\obj\Debug\EzDBContract.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\Ez.DBContract\bin\Debug\EzDBContract.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\Ez.DBContract\bin\Debug\EzDBContract.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\Ez.DBContract\obj\Debug\EzDBContract.dll
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\Ez.DBContract\obj\Debug\EzDBContract.pdb
+C:\Users\EndFalse\Desktop\Ez\SourceCode v3.0\Ez.DBContract\bin\Debug\EzDBContract.xml

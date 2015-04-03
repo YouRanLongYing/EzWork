@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FB0FEACB-27BA-4020-9739-83BDB2CD21CE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ez.Controllers</RootNamespace>
+    <AssemblyName>EzControllers</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\EzControllers.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FileController.cs" />
+    <Compile Include="Library\AuthenticationAttribute.cs" />
+    <Compile Include="Library\BaseController.cs" />
+    <Compile Include="Library\DefaultController.cs" />
+    <Compile Include="Library\ErrorWatcherAttribute.cs" />
+    <Compile Include="ErrorController.cs" />
+    <Compile Include="Library\LicenseAttribute.cs" />
+    <Compile Include="Test\EzGridTestController.cs" />
+    <Compile Include="UrlController.cs" />
+    <Compile Include="TemplateController.cs" />
+    <Compile Include="Window\WindowController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test\TestController.cs" />
+    <Compile Include="Window\UCenterController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ez.BizContract\Ez.BizContract.csproj">
+      <Project>{2DA79ADD-CD4B-46CF-B2BF-858A5F9C688A}</Project>
+      <Name>Ez.BizContract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Cache\Ez.Cache.csproj">
+      <Project>{6F2B9131-5DDC-4C7A-9F4F-0B039980D1F1}</Project>
+      <Name>Ez.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Config\Ez.Config.csproj">
+      <Project>{FFF84EB9-7BE4-4F00-AFA7-8E18B9C9ACE4}</Project>
+      <Name>Ez.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Core\Ez.Core.csproj">
+      <Project>{28697493-02E3-4DF9-9D52-34200ACF84FD}</Project>
+      <Name>Ez.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Dtos\Ez.Dtos.csproj">
+      <Project>{299F0E12-F8BE-419E-8A78-60FEEF3CA008}</Project>
+      <Name>Ez.Dtos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Helper\Ez.Helper.csproj">
+      <Project>{C62E0ECE-88B6-4FCC-8C53-0420E3F9A7F0}</Project>
+      <Name>Ez.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Lang\Ez.Lang.csproj">
+      <Project>{96E57BDA-6F29-4A9C-BE75-BF79FC6105FA}</Project>
+      <Name>Ez.Lang</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Payment\Ez.Payment.csproj">
+      <Project>{96A49E70-BD5C-4F4D-B2D0-9602DC0578E0}</Project>
+      <Name>Ez.Payment</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.UI\Ez.UI.csproj">
+      <Project>{6BE4D1F7-86A7-4593-A1B5-F225D4224913}</Project>
+      <Name>Ez.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

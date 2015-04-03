@@ -1,0 +1,79 @@
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\Config\Memcached.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Framework.Cache.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Framework.Cache.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\Commons.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\log4net.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\Memcached.ClientLibrary.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\Memcached.ClientLibrary.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\obj\Debug\UBIQ.Framework.Cache.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\obj\Debug\UBIQ.Framework.Cache.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Framework.Cache.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\bin\Debug\Config\Memcached.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\bin\Debug\Commons.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\bin\Debug\log4net.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\bin\Debug\Memcached.ClientLibrary.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\bin\Debug\Memcached.ClientLibrary.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\bin\Debug\Cache.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\bin\Debug\Cache.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\obj\Debug\Cache.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\obj\Debug\Cache.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.Cache\obj\Debug\UBIQ.Framework.Cache.csprojResolveAssemblyReference.cache
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Config\Memcached.config
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Cache.xml
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Cache.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Cache.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Commons.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\log4net.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Memcached.ClientLibrary.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Memcached.ClientLibrary.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Cache\obj\Debug\Cache.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.Cache\obj\Debug\Cache.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Config\Memcached.config
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Cache.xml
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Cache.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Cache.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Commons.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\log4net.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Memcached.ClientLibrary.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Memcached.ClientLibrary.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Cache\obj\Debug\Cache.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Cache\obj\Debug\Cache.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.Cache\obj\Debug\UBIQ.Framework.Cache.csprojResolveAssemblyReference.cache
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Config\Memcached.config
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Cache.xml
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Cache.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Cache.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Commons.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\log4net.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Memcached.ClientLibrary.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Cache\bin\Debug\Memcached.ClientLibrary.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Cache\obj\Debug\Cache.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Cache\obj\Debug\Cache.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.Cache\obj\Debug\UBIQ.Framework.Cache.csprojResolveAssemblyReference.cache
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\bin\Debug\Config\Memcached.config
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\bin\Debug\Cache.xml
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\bin\Debug\Cache.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\bin\Debug\Cache.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\bin\Debug\Commons.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\bin\Debug\ICSharpCode.SharpZipLib.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\bin\Debug\log4net.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\bin\Debug\Memcached.ClientLibrary.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\bin\Debug\Memcached.ClientLibrary.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\obj\Debug\Cache.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\obj\Debug\Cache.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\bin\Debug\Config\Memcached.config
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\bin\Debug\Cache.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\bin\Debug\Cache.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\bin\Debug\Commons.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\bin\Debug\ICSharpCode.SharpZipLib.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\bin\Debug\log4net.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\bin\Debug\Memcached.ClientLibrary.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\bin\Debug\Memcached.ClientLibrary.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\obj\Debug\Cache.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\obj\Debug\Cache.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.Cache\obj\Debug\UBIQ.Framework.Cache.csprojResolveAssemblyReference.cache

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2DA79ADD-CD4B-46CF-B2BF-858A5F9C688A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ez.BizContract</RootNamespace>
+    <AssemblyName>EzBizContract</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\EzBizContract.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BizResult.cs" />
+    <Compile Include="IAuthorizationBiz.cs" />
+    <Compile Include="IBaseBiz.cs" />
+    <Compile Include="IBizSequence.cs" />
+    <Compile Include="IDefaultBiz.cs" />
+    <Compile Include="IDepartmentBiz.cs" />
+    <Compile Include="IRoleBiz.cs" />
+    <Compile Include="IShortUrlBiz.cs" />
+    <Compile Include="ISysLogBiz.cs" />
+    <Compile Include="IAccountBiz.cs" />
+    <Compile Include="ILayoutBiz.cs" />
+    <Compile Include="IEzGrid_TestBiz.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ez.Cache\Ez.Cache.csproj">
+      <Project>{6F2B9131-5DDC-4C7A-9F4F-0B039980D1F1}</Project>
+      <Name>Ez.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Dtos\Ez.Dtos.csproj">
+      <Project>{299F0E12-F8BE-419E-8A78-60FEEF3CA008}</Project>
+      <Name>Ez.Dtos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.DBContract\Ez.DBContract.csproj">
+      <Project>{E4758656-6AF0-49A0-85ED-31CA7DC6E291}</Project>
+      <Name>Ez.DBContract</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

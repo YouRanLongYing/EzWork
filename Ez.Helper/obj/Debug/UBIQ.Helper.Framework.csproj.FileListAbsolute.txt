@@ -1,0 +1,77 @@
+F:\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Helper.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Helper.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\UBIQ.Helper.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\UBIQ.Helper.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\UBIQ.Helper.Framework.csprojResolveAssemblyReference.cache
+F:\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Resource.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Resource.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+F:\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Helper.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Helper.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Resource.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Resource.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\UBIQ.Helper.Framework.csprojResolveAssemblyReference.cache
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\UBIQ.Helper.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\UBIQ.Helper.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Resource.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\ICSharpCode.SharpZipLib.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\ICSharpCode.SharpZipLib.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Helper.Framework.XML
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Helper.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Helper.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Resource.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\ICSharpCode.SharpZipLib.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\ICSharpCode.SharpZipLib.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Resource.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Resource.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\UBIQ.Helper.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\UBIQ.Helper.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Helper.Framework.XML
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Helper.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Helper.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Resource.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\ICSharpCode.SharpZipLib.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\ICSharpCode.SharpZipLib.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Resource.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Resource.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\UBIQ.Helper.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\UBIQ.Helper.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Helper.Framework.XML
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Helper.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Helper.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Resource.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\ICSharpCode.SharpZipLib.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\ICSharpCode.SharpZipLib.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Resource.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Resource.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\UBIQ.Helper.Framework.csprojResolveAssemblyReference.cache
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\UBIQ.Helper.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\UBIQ.Helper.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Helper.Framework.XML
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Helper.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Helper.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Resource.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Resource.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Resource.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\UBIQ.Helper.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\UBIQ.Helper.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\obj\Debug\UBIQ.Helper.Framework.csprojResolveAssemblyReference.cache
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Helper.Framework\bin\Debug\UBIQ.Helper.Framework.XML

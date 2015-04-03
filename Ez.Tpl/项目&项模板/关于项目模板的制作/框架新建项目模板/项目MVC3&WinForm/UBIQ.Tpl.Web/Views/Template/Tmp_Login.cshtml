@@ -1,0 +1,30 @@
+﻿@using UBIQ.Framework.Lang
+@model UBIQ.Framework.Dtos.LoginInfoDto
+
+    <div class="@ViewBag.className">
+    <div class="body">
+    @using (Html.BeginForm("AsyncLogin", "Window", FormMethod.Post, new { isajax = true, callback = "callback", errorcallback = "" }))
+    {
+        <div class="title"><h1>LOGIN</h1></div>
+        <ul>
+        <li><dl><dt></dt><dd>@Html.TextBoxFor(p=>p.login_name)<span class="fa  fa-user per"></span><div class="val_msg">@Html.ValidationMessageFor(p=>p.login_name)</div></dd></dl></li>
+        <li><dl><dt></dt><dd>@Html.PasswordFor(p => p.password)<span class="fa fa-lock per"></span><div class="val_msg">@Html.ValidationMessageFor(p => p.password)</div></dd></dl></li>
+        </ul>
+        <div class="ctrlbox"><div class="btns"><input type="button" value="@FrmLanguage.COM_N_Regist"/><input type="submit" value="@FrmLanguage.COM_N_Login"/></div></div>
+        @Html.Hidden("returnUrl", Request["returnUrl"])
+    }
+    </div>
+    <div class="form-alpha-cover"></div>
+    </div>
+
+<script type="text/javascript">
+    $(function () {
+        /*
+        $("#login").initSubmit(function (response) { }, null, true);
+        */
+    })
+    function callback(data) { 
+    
+    
+    }
+</script>

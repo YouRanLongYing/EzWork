@@ -1,0 +1,14 @@
+F:\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.dll
+F:\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.pdb
+F:\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\en-US\UBIQ.Resource.resources.dll
+F:\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\zh-CN\UBIQ.Resource.resources.dll
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\ResolveAssemblyReference.cache
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Language.resources
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Language.en-US.resources
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Language.zh-CN.resources
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\GenerateResource.read.1.tlog
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\GenerateResource.write.1.tlog
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\en-US\UBIQ.Resource.resources.dll
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\zh-CN\UBIQ.Resource.resources.dll
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.dll
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.pdb

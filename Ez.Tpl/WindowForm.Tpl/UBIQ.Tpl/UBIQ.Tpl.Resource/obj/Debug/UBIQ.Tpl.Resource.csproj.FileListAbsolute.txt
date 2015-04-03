@@ -1,0 +1,12 @@
+C:\Users\EndFalse\Desktop\新建文件夹\UBIQ.Tpl\UBIQ.Tpl.Resource\obj\Debug\UBIQ.Tpl.Resource.Language.resources
+C:\Users\EndFalse\Desktop\新建文件夹\UBIQ.Tpl\UBIQ.Tpl.Resource\obj\Debug\UBIQ.Tpl.Resource.Language.en-US.resources
+C:\Users\EndFalse\Desktop\新建文件夹\UBIQ.Tpl\UBIQ.Tpl.Resource\obj\Debug\UBIQ.Tpl.Resource.Language.zh-CN.resources
+C:\Users\EndFalse\Desktop\新建文件夹\UBIQ.Tpl\UBIQ.Tpl.Resource\obj\Debug\UBIQ.Tpl.Resource.csproj.GenerateResource.Cache
+C:\Users\EndFalse\Desktop\新建文件夹\UBIQ.Tpl\UBIQ.Tpl.Resource\bin\Debug\UBIQ.Tpl.Resource.dll
+C:\Users\EndFalse\Desktop\新建文件夹\UBIQ.Tpl\UBIQ.Tpl.Resource\bin\Debug\UBIQ.Tpl.Resource.pdb
+C:\Users\EndFalse\Desktop\新建文件夹\UBIQ.Tpl\UBIQ.Tpl.Resource\bin\Debug\en-US\UBIQ.Tpl.Resource.resources.dll
+C:\Users\EndFalse\Desktop\新建文件夹\UBIQ.Tpl\UBIQ.Tpl.Resource\bin\Debug\zh-CN\UBIQ.Tpl.Resource.resources.dll
+C:\Users\EndFalse\Desktop\新建文件夹\UBIQ.Tpl\UBIQ.Tpl.Resource\obj\Debug\en-US\UBIQ.Tpl.Resource.resources.dll
+C:\Users\EndFalse\Desktop\新建文件夹\UBIQ.Tpl\UBIQ.Tpl.Resource\obj\Debug\zh-CN\UBIQ.Tpl.Resource.resources.dll
+C:\Users\EndFalse\Desktop\新建文件夹\UBIQ.Tpl\UBIQ.Tpl.Resource\obj\Debug\UBIQ.Tpl.Resource.dll
+C:\Users\EndFalse\Desktop\新建文件夹\UBIQ.Tpl\UBIQ.Tpl.Resource\obj\Debug\UBIQ.Tpl.Resource.pdb

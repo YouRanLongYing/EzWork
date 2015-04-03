@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C93412B2-9DC2-43AF-8DC6-5930CFBACD01}</ProjectGuid>
+    <ProjectTypeGuids>{E53F8FEA-EAE0-44A6-8774-FFD645390401};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UBIQ.Tpl.Web</RootNamespace>
+    <AssemblyName>UBIQ.Tpl.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cache, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RefDll\Cache.dll</HintPath>
+    </Reference>
+    <Reference Include="Common.Logging">
+      <HintPath>..\..\RefDll\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Config, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RefDll\Config.dll</HintPath>
+    </Reference>
+    <Reference Include="DataBase">
+      <HintPath>..\..\RefDll\DataBase.dll</HintPath>
+    </Reference>
+    <Reference Include="Dtos, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RefDll\Dtos.dll</HintPath>
+    </Reference>
+    <Reference Include="Lang, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RefDll\Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\RefDll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Aop">
+      <HintPath>..\..\RefDll\Spring.Aop.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Core">
+      <HintPath>..\..\RefDll\Spring.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Data">
+      <HintPath>..\..\RefDll\Spring.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Web">
+      <HintPath>..\..\RefDll\Spring.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Web.Mvc3">
+      <HintPath>..\..\RefDll\Spring.Web.Mvc3.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.WebPages" />
+    <Reference Include="System.Web.Helpers" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="UI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RefDll\UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Web">
+      <HintPath>..\..\RefDll\Web.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="buy.html" />
+    <Content Include="Content\css\font-awesome.css" />
+    <Content Include="Content\desktop\default\images\app\big.png" />
+    <Content Include="Content\desktop\default\images\app\diskexplorer.png" />
+    <Content Include="Content\desktop\default\images\app\none.jpg" />
+    <Content Include="Content\desktop\default\images\app\web3d.png" />
+    <Content Include="Content\desktop\default\images\deskbg02.gif" />
+    <Content Include="Content\desktop\default\images\favicon.ico" />
+    <Content Include="Content\desktop\default\images\iOS7_01.jpg" />
+    <Content Include="Content\desktop\default\images\layer_bg.png" />
+    <Content Include="Content\desktop\default\layout.css" />
+    <Content Include="Content\desktop\default\main.css" />
+    <Content Include="Content\desktop\default\page.css" />
+    <Content Include="Content\images\1403056902129.jpg" />
+    <Content Include="Content\images\deskbg.gif" />
+    <Content Include="Content\images\deskbg01.gif" />
+    <Content Include="Content\images\deskbg02.gif" />
+    <Content Include="Content\images\deskbg03.jpg" />
+    <Content Include="Content\images\deskbg04.png" />
+    <Content Include="Content\images\header.png" />
+    <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\page-loading.gif" />
+    <Content Include="Content\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\lib\jqgrid\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\lib\jqgrid\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\lib\jqgrid\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\lib\jqgrid\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\lib\jqgrid\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\lib\jqgrid\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\lib\jqgrid\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\lib\jqgrid\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\lib\jqgrid\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\lib\jqgrid\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\lib\jqgrid\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\lib\jqgrid\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\lib\jqgrid\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\lib\jqgrid\jqgrid-ui-custom-style01.css" />
+    <Content Include="Content\lib\jqgrid\jqgrid-ui-custom-style02.css" />
+    <Content Include="Content\lib\jqgrid\ui.jqgrid.css" />
+    <Content Include="Content\lib\Site.css" />
+    <Content Include="Content\lib\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\lib\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\lib\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\lib\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\lib\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\lib\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\lib\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\lib\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\lib\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\lib\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\lib\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\lib\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\lib\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\lib\themes\base\jquery-ui.css" />
+    <Content Include="Content\lib\xdialog.css" />
+    <Content Include="Content\tradition\default\images\avatar.png" />
+    <Content Include="Content\tradition\default\images\deskbg02.gif" />
+    <Content Include="Content\tradition\default\images\layer_bg.png" />
+    <Content Include="Content\tradition\default\layout.css" />
+    <Content Include="Content\tradition\default\main.css" />
+    <Content Include="Content\tradition\default\page.css" />
+    <Content Include="crossdomain.xml" />
+    <Content Include="Download\Files\tickets\N-00000100.jpg" />
+    <Content Include="favicon.ico" />
+    <Content Include="Files\Avatar\user0001\avatar_normal.png" />
+    <Content Include="Files\Files\tickets\N-00000100.jpg" />
+    <Content Include="Files\tmp2\20141128142406_1_0.png" />
+    <Content Include="Files\tmp2\20141128182604_1_0.png" />
+    <Content Include="Files\tmp2\20141205183644_0_0.png" />
+    <Content Include="Files\tmp2\20141205183647_0_0.png" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\desktop\desktop.js" />
+    <Content Include="Scripts\desktop\main.js" />
+    <Content Include="Scripts\lib\ajaxhelper.jquery.js" />
+    <Content Include="Scripts\lib\Common.js" />
+    <Content Include="Scripts\lib\jqgrid\grid.locale-en.js" />
+    <Content Include="Scripts\lib\jqgrid\jqGrid.Agent.js" />
+    <Content Include="Scripts\lib\jqgrid\jquery.fmatter.js" />
+    <Content Include="Scripts\lib\jqgrid\jquery.jqGrid.src.js" />
+    <Content Include="Scripts\lib\jquery-ui.js" />
+    <Content Include="Scripts\lib\jquery-ui.min.js" />
+    <Content Include="Scripts\lib\jquery.js" />
+    <Content Include="Scripts\lib\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\lib\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\lib\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\lib\jquery.validate.ext.js" />
+    <Content Include="Scripts\lib\jquery.validate.js" />
+    <Content Include="Scripts\lib\jquery.validate.min.js" />
+    <Content Include="Scripts\lib\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\lib\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\lib\MicrosoftAjax.debug.js" />
+    <Content Include="Scripts\lib\MicrosoftAjax.js" />
+    <Content Include="Scripts\lib\MicrosoftMvcAjax.debug.js" />
+    <Content Include="Scripts\lib\MicrosoftMvcAjax.js" />
+    <Content Include="Scripts\lib\MicrosoftMvcValidation.debug.js" />
+    <Content Include="Scripts\lib\MicrosoftMvcValidation.js" />
+    <Content Include="Scripts\lib\Upload.js" />
+    <Content Include="Scripts\lib\uploadify\jquery.uploadify.min.js" />
+    <Content Include="Scripts\lib\uploadify\upload.jpg" />
+    <Content Include="Scripts\lib\uploadify\uploadify-cancel.png" />
+    <Content Include="Scripts\lib\uploadify\uploadify.css" />
+    <Content Include="Scripts\lib\uploadify\uploadify.swf" />
+    <Content Include="Scripts\lib\xAdapter.js" />
+    <Content Include="Scripts\lib\xdialog.jquery - 副本.js" />
+    <Content Include="Scripts\lib\xdialog.jquery.js" />
+    <Content Include="Scripts\lib\副本 xdialog.jquery.js" />
+    <Content Include="Scripts\tradition\desktop.js" />
+    <Content Include="Scripts\tradition\main.js" />
+    <Content Include="Scripts\tradition\副本 desktop.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UBIQ.Tpl.Biz\UBIQ.Tpl.Biz.csproj">
+      <Project>{DC73EC95-BA4A-437C-823D-48DCA27A8ACF}</Project>
+      <Name>UBIQ.Tpl.Biz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UBIQ.Tpl.Config\UBIQ.Tpl.Config.csproj">
+      <Project>{6B0C0096-8D78-4922-BEBA-E3D4BE2DA2D5}</Project>
+      <Name>UBIQ.Tpl.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UBIQ.Tpl.Controller\UBIQ.Tpl.Controller.csproj">
+      <Project>{8C47C2EB-5468-46D2-94A5-C3E687FAB6D6}</Project>
+      <Name>UBIQ.Tpl.Controller</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UBIQ.Tpl.Dto\UBIQ.Tpl.Dto.csproj">
+      <Project>{D6DA40EC-1C80-436F-AE69-CB4BCC4540A4}</Project>
+      <Name>UBIQ.Tpl.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UBIQ.Tpl.Resource\UBIQ.Tpl.Resource.csproj">
+      <Project>{B93A12E4-46B1-4279-8FD7-D99F094BE2B4}</Project>
+      <Name>UBIQ.Tpl.Resource</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UBIQ.Tpl.UI\UBIQ.Tpl.UI.csproj">
+      <Project>{640030AF-BF90-48A2-A44A-B32A123B8605}</Project>
+      <Name>UBIQ.Tpl.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\DataBase.config" />
+    <Content Include="Config\Log4Net.config" />
+    <Content Include="Config\Memcached.config" />
+    <Content Include="Config\Payment.config" />
+    <Content Include="Config\Secret.config" />
+    <Content Include="Config\UI.config" />
+    <Content Include="Config\UpopPayment.config" />
+    <None Include="Content\css\fonts\fontawesome-webfont.eot" />
+    <None Include="Content\css\fonts\fontawesome-webfont.ttf" />
+    <None Include="Content\css\fonts\fontawesome-webfont.woff" />
+    <Content Include="Views\Demo\index.cshtml" />
+    <Content Include="Views\Error\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\_Layout2.cshtml" />
+    <Content Include="Views\Shared\_MainLayout.cshtml" />
+    <Content Include="Views\Shared\_PageLayout.cshtml" />
+    <Content Include="Views\Template\Tmp_Login.cshtml" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\window\desktop.cshtml" />
+    <Content Include="Views\window\Login.cshtml" />
+    <Content Include="Views\window\tradition.cshtml" />
+    <Content Include="Views\window\UCenter\CreateUser.cshtml" />
+    <Content Include="Views\window\UCenter\EditMyInfo.cshtml" />
+    <Content Include="Views\window\UCenter\RoleView.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Files\test\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>22212</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>http://192.168.1.122:802</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

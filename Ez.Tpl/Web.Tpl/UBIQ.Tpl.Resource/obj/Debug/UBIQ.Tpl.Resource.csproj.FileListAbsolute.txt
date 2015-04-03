@@ -1,0 +1,17 @@
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Product.Tpl\Web.Tpl\UBIQ.Tpl.Resource\obj\Debug\UBIQ.Tpl.Resource.csproj.GenerateResource.Cache
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Product.Tpl\Web.Tpl\UBIQ.Tpl.Resource\bin\Debug\UBIQ.Tpl.Resource.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Product.Tpl\Web.Tpl\UBIQ.Tpl.Resource\bin\Debug\UBIQ.Tpl.Resource.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Product.Tpl\Web.Tpl\UBIQ.Tpl.Resource\bin\Debug\en-US\UBIQ.Tpl.Resource.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Product.Tpl\Web.Tpl\UBIQ.Tpl.Resource\bin\Debug\zh-CN\UBIQ.Tpl.Resource.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Product.Tpl\Web.Tpl\UBIQ.Tpl.Resource\obj\Debug\UBIQ.Tpl.Resource.Language.resources
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Product.Tpl\Web.Tpl\UBIQ.Tpl.Resource\obj\Debug\UBIQ.Tpl.Resource.Language.en-US.resources
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Product.Tpl\Web.Tpl\UBIQ.Tpl.Resource\obj\Debug\UBIQ.Tpl.Resource.Language.zh-CN.resources
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Product.Tpl\Web.Tpl\UBIQ.Tpl.Resource\obj\Debug\en-US\UBIQ.Tpl.Resource.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Product.Tpl\Web.Tpl\UBIQ.Tpl.Resource\obj\Debug\zh-CN\UBIQ.Tpl.Resource.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Product.Tpl\Web.Tpl\UBIQ.Tpl.Resource\obj\Debug\UBIQ.Tpl.Resource.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Product.Tpl\Web.Tpl\UBIQ.Tpl.Resource\obj\Debug\UBIQ.Tpl.Resource.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Product.Tpl\Web.Tpl\UBIQ.Tpl.Resource\bin\Debug\Lang.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Product.Tpl\Web.Tpl\UBIQ.Tpl.Resource\bin\Debug\Lang.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Product.Tpl\Web.Tpl\UBIQ.Tpl.Resource\bin\Debug\Lang.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Product.Tpl\Web.Tpl\UBIQ.Tpl.Resource\bin\Debug\en-US\Lang.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Product.Tpl\Web.Tpl\UBIQ.Tpl.Resource\bin\Debug\zh-CN\Lang.resources.dll

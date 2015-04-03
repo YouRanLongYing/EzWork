@@ -1,0 +1,629 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Helper</name>
+    </assembly>
+    <members>
+        <member name="T:UBIQ.Framework.Helper.CustomAES">
+            <summary> 
+            AES加密
+            </summary> 
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsNullOrEmpty``1(``0)">
+            <summary>
+            检测对象是否为空，为空返回true ->RequiredAttribute
+            </summary>
+            <typeparam name="T">要验证的对象的类型</typeparam>
+            <param name="data">要验证的对象</param>        
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsNullOrEmpty(System.Object)">
+            <summary>
+            检测对象是否为空，为空返回true ->Required
+            </summary>
+            <param name="data">要验证的对象</param>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsNullOrEmpty(System.String)">
+            <summary>
+            检测字符串是否为空，为空返回true ->Required
+            </summary>
+            <param name="text">要检测的字符串</param>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsIP(System.String)">
+            <summary>
+            验证IP地址是否合法->IPAttribute
+            </summary>
+            <param name="ip">要验证的IP地址</param>        
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsEmail(System.String)">
+            <summary>
+            验证EMail是否合法 ->EmailAttribute
+            </summary>
+            <param name="email">要验证的Email</param>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsInt(System.String)">
+            <summary>
+            验证是否为整数  ->InputTypeAttribute
+            </summary>
+            <param name="number">要验证的整数</param>        
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsNumber(System.String)">
+            <summary>
+            验证是否为数字(为空为验证不合格)  ->InputTypeAttribute
+            </summary>
+            <param name="number">要验证的数字</param>        
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsNumberNotNull(System.String)">
+            <summary>
+            验证是否为数字(为空为验证不合格)
+            </summary>
+            <param name="number">要验证的数字</param>        
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsDate(System.String@)">
+            <summary>
+            验证日期是否合法,对不规则的作了简单处理
+            </summary>
+            <param name="date">日期</param>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.splitID(System.String)">
+            <summary>
+            拆分身份证
+            </summary>
+            <param name="Id">身份证号</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsIdCard(System.String,System.Boolean)">
+            <summary>
+            验证身份证是否合法 -> idcard
+            </summary>
+            <param name="idCard">身份证号</param>
+            <param name="checkEmpty">是否检测空值</param>
+            <returns>true成功，false失败</returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsValidInput(System.String@)">
+            <summary>
+            检测客户输入的字符串是否有效,并将原始字符串修改为有效字符串或空字符串。
+            当检测到客户的输入中有攻击性危险字符串,则返回false,有效返回true。
+            </summary>
+            <param name="input">要检测的字符串</param>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsMatch(System.String,System.String)">
+            <summary>
+            验证输入字符串是否与模式字符串匹配，匹配返回true
+            </summary>
+            <param name="input">输入字符串</param>
+            <param name="pattern">模式字符串</param>        
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsMatch(System.String,System.String,System.Text.RegularExpressions.RegexOptions)">
+            <summary>
+            验证输入字符串是否与模式字符串匹配，匹配返回true
+            </summary>
+            <param name="input">输入的字符串</param>
+            <param name="pattern">模式字符串</param>
+            <param name="options">筛选条件,比如是否忽略大小写</param>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsHasCHZN(System.String)">
+            <summary>
+            检测是否有中文字符
+            </summary>
+            <param name="inputData"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsPhoneNumber(System.String)">
+            <summary>
+            检测是否符合电话格式(为空返回false) ->PhoneNumberAttribute
+            </summary>
+            <param name="phoneNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsPhoneNumberNotNull(System.String)">
+            <summary>
+            检测是否符合电话格式(为空返回true)
+            </summary>
+            <param name="phoneNumber"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsMobileNumber(System.String)">
+            <summary>
+            检测是否手机号码格式(为空返回true)  ->MobileNumberAttribute
+            </summary>
+            <param name="phoneNumber">手机号</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsURL(System.String)">
+            <summary>
+            检测是否符合url格式,前面必需含有http://  ->UrlAttribute
+            </summary>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsTime(System.String)">
+            <summary>
+            检测是否符合时间格式
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsPostCode(System.String)">
+            <summary>
+            检测是否符合邮编格式->PostCodeAttribute
+            </summary>
+            <param name="postCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsNTS(System.String)">
+            <summary>
+             验证是否为汉字,拼音数字
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsLengthStr(System.String,System.Int32,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            看字符串的长度是不是在限定数之间 一个中文为两个字符->RangeLenAttribute
+            </summary>
+            <param name="source">字符串</param>
+            <param name="begin">大于等于</param>
+            <param name="end">小于等于</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsLessThanStr(System.String,System.Int32,System.Boolean)">
+            <summary>
+            检测字符串长度是否小于等于指定长度 ->LessThanLenAttribute
+            </summary>
+            <param name="source">要检测的字符串</param>
+            <param name="maxLength">最大长度</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsGreaterThanStr(System.String,System.Int32,System.Boolean)">
+            <summary>
+            检测字符串长度是否大于等于指定长度
+            </summary>
+            <param name="source">要检测的字符串</param>
+            <param name="lessLength">最小长度</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.IsNormalChar(System.String)">
+            <summary>
+            验证是不是正常字符 字母，数字，下划线的组合
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.RemoveSofChinese(System.String)">
+            <summary>
+            移除中文中的空格
+            </summary>
+            <param name="input">替换字符</param>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.ValidationHelper.isnum(System.String)">
+            <summary>
+            是否是数字或百分比,如123，12.34，12.34%
+            </summary>
+            <param name="stringtext">校验字符</param>
+        </member>
+        <member name="T:UBIQ.Framework.Helper.DownLoadType">
+            <summary>
+            下载方式
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Helper.DownLoadType.TransmitFile">
+            <summary>
+            Response.TransmitFile方式
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Helper.DownLoadType.WriteFile">
+            <summary>
+            Response.WriteFile方式
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Helper.DownLoadType.StreamBlock">
+            <summary>
+            Response.OutputStream.Write分块下载方式
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Helper.DownLoadType.Stream">
+            <summary>
+            Response.BinaryWrite整个文件流方式
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.WebDownLoadExtenion.DownLoad(System.IO.FileInfo,System.String,UBIQ.Framework.Helper.DownLoadType,System.Boolean)">
+            <summary>
+            Web服务器文件下载
+            </summary>
+            <param name="fileInfo">文件信息</param>
+            <param name="savename">文件保存名（下载时显示的文件名）</param>
+            <param name="downLoadType">下载方式</param>
+            <param name="delete">下载完是否删除文件(此功能暂不开放)</param>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.WebDownLoadExtenion.DownLoad(System.String,System.String,UBIQ.Framework.Helper.DownLoadType,System.Boolean)">
+            <summary>
+            Web服务器文件下载
+            </summary>
+            <param name="filePathName">文件物理路径</param>
+            <param name="savename">文件保存名（下载时显示的文件名）</param>
+            <param name="downLoadType">下载方式</param>
+            <param name="delete">下载完是否删除文件(此功能暂不开放)</param>
+        </member>
+        <member name="T:UBIQ.Framework.Helper.Tools">
+            <summary>
+            通用工具类
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.GetMapPath(System.String)">
+            <summary>
+            获得当前绝对路径
+            </summary>
+            <param name="p_strPath">指定的路径</param>
+            <returns>绝对路径</returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.GetConfigValue(System.String,System.String,System.Boolean)">
+            <summary>
+            读取配置文件指定节点值
+            </summary>
+            <param name="target">目标节点</param>
+            <param name="xmlPath">文件路径</param>
+            <param name="cdata">是否为cdata</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.GetAppSetString(System.String)">
+            <summary>
+            获取Web类型站点下Web.Config AppSet节点的值
+            </summary>
+            <param name="key">键</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.GetConfigNodeAttribut(System.String,System.String,System.String)">
+            <summary>
+            获取某个配置文件节点的属性值
+            </summary>
+            <param name="target">目标节点</param>
+            <param name="xmlPath">文件路径</param>
+            <param name="attrname">属性名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.GetSessionValue(System.String)">
+            <summary>
+            获取当前的会话信息
+            </summary>
+            <param name="key">key</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.GetResourceString(System.String)">
+            <summary>
+            获取资源文件的字符串值
+            </summary>
+            <param name="key">键</param>
+            <returns>值</returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.GetResourceString(System.String,System.String)">
+            <summary>
+            获取资源文件的字符串值
+            </summary>
+            <param name="key">键</param>
+            <param name="defaultstring">为获取到值的给定值</param>
+            <returns>资源值</returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.Request(System.String)">
+            <summary>
+            获取Request值
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.RequestForm(System.String)">
+            <summary>
+            获取Request 的Form值
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.RequestQuery(System.String)">
+            <summary>
+            获取Request 的Query值
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.MakeSureDirectoryPathExists(System.String)">
+            <summary>
+            创建目录
+            </summary>
+            <param name="name">名称</param>
+            <returns>创建是否成功</returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.CreateDir(System.String)">
+            <summary>
+            建立文件夹
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.DelFile(System.String)">
+            <summary>
+            删除文件
+            </summary>
+            <param name="path">文件路径</param>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.DelDir(System.String)">
+            <summary>
+            删除文件夹
+            </summary>
+            <param name="path">文件夹路径</param>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.GetTextFileContent(System.String)">
+            <summary>
+            读取并返回一个文本文件的内容
+            </summary>
+            <param name="filePath">文件的物理路径</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.GetClientIp">
+            <summary>
+            取得用户客户端IP(穿过代理服务器取远程用户真实IP地址)
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.GetReferrerUrl">
+            <summary>
+            取得前一个（上次提交或链接进来的）网页的URL
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.GetSubString(System.String,System.Int32,System.Int32,System.String)">
+            <summary>
+            取指定长度的字符串
+            </summary>
+            <param name="p_SrcString">要检查的字符串</param>
+            <param name="p_StartIndex">起始位置</param>
+            <param name="p_Length">指定长度</param>
+            <param name="p_TailString">用于替换的字符串</param>
+            <returns>截取后的字符串</returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.GetSubString(System.String,System.Int32,System.String)">
+            <summary>
+            字符串如果操过指定长度则将超出的部分用指定字符串代替
+            </summary>
+            <param name="p_SrcString">要检查的字符串</param>
+            <param name="p_Length">指定长度</param>
+            <param name="p_TailString">用于替换的字符串</param>
+            <returns>截取后的字符串</returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.GetRootUrl(System.String)">
+            <summary>
+            获取站点根目录URL
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.GetBarCodeImage(System.String,UBIQ.Framework.Helper.BarCode.Code128.Encode)">
+            <summary>
+            生成条形码
+            </summary>
+            <param name="text">待编码文本</param>
+            <param name="ecode">编码方式</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.GetBarCodeImage(System.String)">
+            <summary>
+            按照Code128B方式编码 获取条形码
+            </summary>
+            <param name="text">待编码文本</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.CreateZipFile(System.String,System.String,System.String)">
+            <summary>
+            创建Zip文件
+            </summary>
+            <param name="filesPath">文件所在目录</param>
+            <param name="zipFilePath">输出目录</param>
+            <param name="password">压缩密码为空时不设置</param>
+            <returns>执行的错误信息，若大于0说明执行有错误产生</returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.CreateZipFile(System.String[],System.String,System.String)">
+            <summary>
+            创建Zip文件
+            </summary>
+            <param name="filenames">文件路径列表</param>
+            <param name="zipFilePath">输出目录</param>
+            <param name="password">压缩密码为空时不设置</param>
+            <returns>执行的错误信息，若大于0说明执行有错误产生</returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.UnZipFile(System.String,System.String)">
+            <summary>
+            解压ZIP文件
+            </summary>
+            <param name="zipFilePath">ZIP文件路径</param>
+            <param name="password">解压密码</param>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.ShortUrl(System.String)">
+            <summary>
+            生成短Url
+            </summary>
+            <param name="url">原始Url地址</param>
+            <returns>短地址</returns>
+        </member>
+        <member name="F:UBIQ.Framework.Helper.Tools.chars">
+            <summary>
+            随机数 
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.RandomChars(System.Int32)">
+            <summary>
+            生成随机码
+            </summary>
+            <param name="len">随机码长度</param>
+            <returns>随机码</returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.GetFileContentType(System.String)">
+            <summary>
+            获取文件Content Type
+            </summary>
+            <param name="filename">文件名</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.Tools.ReplaceHtmlTag(System.String,System.Int32)">
+            <summary>
+            清除html标签
+            </summary>
+            <param name="html">标签内容</param>
+            <param name="length">截取长度</param>
+            <returns></returns>
+        </member>
+        <member name="T:UBIQ.Framework.Helper.CustomDES">
+            <summary>
+            DES 加密
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.Helper.CustomDES.DefaultIV">
+            <summary>
+            默认密钥向量
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.CustomDES.Encrypt(System.String,System.Byte[],System.Byte[])">
+            <summary>
+            DES加密
+            </summary>
+            <param name="EncryptString">待加密的字符串</param>
+            <param name="Key">加密密钥</param>
+            <param name="IV">密钥向量</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.CustomDES.Decrypt(System.String,System.Byte[],System.Byte[])">
+            <summary>
+            DES解密
+            </summary>
+            <param name="DecryptString">待解密的字符串</param>
+            <param name="Key">解密密钥,要求为8位,和加密密钥相同</param>
+            <param name="IV">密钥向量</param>
+            <returns>解密成功返回解密后的字符串,失败返源串</returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.CustomDES.Encode(System.String)">
+            <summary>
+            DES加密字符串
+            </summary>
+            <param name="encryptString">待加密的字符串</param>
+            <returns>加密成功返回加密后的字符串,失败返回源串</returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.CustomDES.Decode(System.String)">
+            <summary>
+            DES解密字符串
+            </summary>
+            <param name="decryptString">待解密的字符串</param>
+            <returns>解密成功返回解密后的字符串,失败返源串</returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.CustomDES.Encode(System.String,System.String)">
+            <summary>
+            DES加密字符串
+            </summary>
+            <param name="encryptString">待加密的字符串</param>
+            <param name="encryptKey">加密密钥,要求为8位</param>
+            <returns>加密成功返回加密后的字符串,失败返回源串</returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.CustomDES.Decode(System.String,System.String)">
+            <summary>
+            DES解密字符串
+            </summary>
+            <param name="decryptString">待解密的字符串</param>
+            <param name="decryptKey">解密密钥,要求为8位,和加密密钥相同</param>
+            <returns>解密成功返回解密后的字符串,失败返源串</returns>
+        </member>
+        <member name="T:UBIQ.Framework.Helper.CustomRSA">
+            <summary>
+            RSA加解密算法
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.CustomRSA.Encrypt(System.String,System.String)">
+            <summary>
+            RSA加密函数
+            </summary>
+            <param name="xmlPublicKey">说明KEY必须是XML的行式,返回的是字符串</param>
+            <param name="EncryptString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.CustomRSA.Decrypt(System.String,System.String)">
+            <summary>
+            RSA解密函数
+            </summary>
+            <param name="xmlPrivateKey"></param>
+            <param name="DecryptString"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.CustomRSA.RSAKey(System.String@,System.String@)">
+            <summary>
+            产生RSA的密钥
+            </summary>
+            <param name="xmlKeys">私钥</param>
+            <param name="xmlPublicKey">公钥</param>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.CustomMD5.Powered(System.String,UBIQ.Framework.Helper.PowerMode,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            执行MD5加密
+            </summary>
+            <param name="powerString">需要加密的字符串</param>
+            <param name="powerType">加密方式</param>
+            <param name="loop">加密次数</param>
+            <param name="len">获取签名长度</param>
+            <param name="start">获取签名开始位置(此参数在随即迷失下可缺省其他模式可根据情况赋值)</param>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.CustomMD5.Powered(System.String)">
+             <summary>
+            执行MD5加密,不同MD5加密方式
+             </summary>
+             <param name="powerString">需要加密的字符串</param>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.BarCode.Code128.GetCodeImage(System.String,UBIQ.Framework.Helper.BarCode.Code128.Encode)">
+            <summary>
+            获取128图形
+            </summary>
+            <param name="p_Text">文字</param>
+            <param name="p_Code">编码</param>      
+            <returns>图形</returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.BarCode.Code128.GetValue(UBIQ.Framework.Helper.BarCode.Code128.Encode,System.String,System.Int32@)">
+            <summary>
+            获取目标对应的数据
+            </summary>
+            <param name="p_Code">编码</param>
+            <param name="p_Value">数值 A b  30</param>
+            <param name="p_SetID">返回编号</param>
+            <returns>编码</returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.BarCode.Code128.GetValue(System.Int32)">
+            <summary>
+            根据编号获得条纹
+            </summary>
+            <param name="p_CodeId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.BarCode.Code128.GetImage(System.String)">
+            <summary>
+            获得条码图形
+            </summary>
+            <param name="p_Text">文字</param>
+            <returns>图形</returns>
+        </member>
+        <member name="M:UBIQ.Framework.Helper.BarCode.Code128.GetViewText(System.Drawing.Bitmap,System.String)">
+            <summary>
+            显示可见条码文字 如果小于40 不显示文字
+            </summary>
+            <param name="p_Bitmap">图形</param>           
+        </member>
+        <member name="P:UBIQ.Framework.Helper.BarCode.Code128.Height">
+            <summary>
+            高度
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Helper.BarCode.Code128.ValueFont">
+            <summary>
+            是否显示可见号码  如果为NULL不显示号码
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.Helper.BarCode.Code128.Magnify">
+            <summary>
+            放大倍数
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.Helper.BarCode.Code128.Encode">
+            <summary>
+            条码类别
+            </summary>
+        </member>
+    </members>
+</doc>

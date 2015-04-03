@@ -1,0 +1,29 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>UBIQ.Tpl.Config</Name>
+    <Description>&lt;spring配置&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>UBIQ.Tpl.Config</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="UBIQ.Tpl.Config.csproj" File="UBIQ.Tpl.Config.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="BizObjects.xml">BizObjects.xml</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="CtrlObjects.xml">CtrlObjects.xml</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>UBIQProjTemplateWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8d74d41300c5ad2d</Assembly>
+    <FullClassName>UBIQProjTemplateWizard.ChildWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

@@ -1,0 +1,701 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UBIQ.Cache.Framework</name>
+    </assembly>
+    <members>
+        <member name="T:UBIQ.Cache.Framework.CacheProxy">
+            <summary>
+            asp.net 缓存代理
+            </summary>
+        </member>
+        <member name="T:UBIQ.Cache.Framework.ICache">
+            <summary>
+            Cache 接口
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.ICache.Set(System.String,System.Object,System.Int32)">
+            <summary>
+            添加到缓存
+            </summary>
+            <param name="key">缓存的键</param>
+            <param name="value">缓存值</param>
+            <param name="expire">过期时间（分钟）默认20分钟</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.ICache.Remove(System.String)">
+            <summary>
+            移除缓存
+            </summary>
+            <param name="key">要移除的缓存的键</param>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.ICache.Item(System.String)">
+            <summary>
+            设置缓存
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.CacheProxy.Set(System.String,System.Object,System.Int32)">
+            <summary>
+            添加到缓存
+            </summary>
+            <param name="key">缓存的键</param>
+            <param name="value">缓存值</param>
+            <param name="expire">过期时间（分钟）默认20分钟</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.CacheProxy.Remove(System.String)">
+            <summary>
+            移除缓存
+            </summary>
+            <param name="key">要移除的缓存的键</param>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.CacheProxy.Instance">
+            <summary>
+            获取实例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.CacheProxy.Item(System.String)">
+            <summary>
+            设置缓存
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UBIQ.Cache.Framework.IApplication">
+            <summary>
+            Application 接口
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IApplication.Set(System.String,System.Object)">
+            <summary>
+            设置缓存数据
+            </summary>
+            <param name="key">键</param>
+            <param name="value">值</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IApplication.Get(System.String)">
+            <summary>
+            获取缓存数据
+            </summary>
+            <param name="key">键</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IApplication.Remove(System.String)">
+            <summary>
+            移除指定键的缓存
+            </summary>
+            <param name="key">键</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IApplication.RemoveAll">
+            <summary>
+            移除全部缓存数据
+            </summary>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.IApplication.Item(System.String)">
+            <summary>
+            application对象索引
+            </summary>
+            <param name="key">键</param>
+            <returns></returns>
+        </member>
+        <member name="T:UBIQ.Cache.Framework.IMemCached">
+            <summary>
+            Memcached 接口
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IMemCached.Clear(System.String)">
+            <summary>
+            清除缓存数据
+            </summary>
+            <param name="key">缓存数据的键</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IMemCached.Clear(System.String,System.DateTime)">
+            <summary>
+            清除缓存数据
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <param name="expiry">指定时间作为过期时间来清除缓存</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IMemCached.Clear(System.String,System.Object,System.DateTime)">
+            <summary>
+            清除缓存数据
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <param name="hashcode">指定缓存键的哈希值</param>
+            <param name="expiry">指定时间作为过期时间来清除缓存</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IMemCached.Get(System.String)">
+            <summary>
+            获取缓存数据
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <returns>缓存数据</returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IMemCached.Get(System.String,System.Int32)">
+            <summary>
+            获取缓存数据
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <param name="hashCode">指定缓存键的哈希值</param>
+            <returns>缓存数据</returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IMemCached.Get(System.String,System.Int32,System.Boolean)">
+            <summary>
+            获取缓存数据
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <param name="hashCode">指定缓存键的哈希值</param>
+            <param name="asstring">作为字符串类型返回</param>
+            <returns>缓存数据</returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IMemCached.Set(System.String,System.Object)">
+            <summary>
+            设置缓存
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <param name="value">缓存数据的值</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IMemCached.Set(System.String,System.Object,System.DateTime)">
+            <summary>
+            设置缓存
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <param name="value">缓存数据的值</param>
+            <param name="expriy">设置缓存过期的时间</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IMemCached.Set(System.String,System.Object,System.DateTime,System.Int32)">
+            <summary>
+            设置缓存
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <param name="value">缓存数据的值</param>
+            <param name="expriy">设置缓存过期的时间</param>
+            <param name="hashCode">指定缓存键的哈希值</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IMemCached.Set(System.String,System.Object,System.Int32)">
+            <summary>
+            设置缓存
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <param name="value">缓存数据的值</param>
+            <param name="hashCode">指定缓存键的哈希值</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IMemCached.FlushAll">
+            <summary>
+            清除所有缓冲区
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IMemCached.FlushAll(System.Collections.ArrayList)">
+            <summary>
+            清除指定缓存服务的冲区
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IMemCached.KeyExists(System.String,System.Object[])">
+            <summary>
+            检测缓存是否存在
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <returns>true:存在，false:不存在</returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IMemCached.GetMultiple(System.String[])">
+            <summary>
+            获取多个指定键的缓存数据
+            </summary>
+            <param name="keys">缓存键集合</param>
+            <returns>键值对应的哈希表</returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IMemCached.GetStatInfo">
+            <summary>
+            获取运行的信息
+            </summary>
+            <returns>键值对应的参数</returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.IMemCached.GetProxy(System.String)">
+            <summary>
+            获取缓存的代理对象
+            </summary>
+            <param name="poolName"></param>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.IMemCached.Item(System.String)">
+            <summary>
+            获取缓存数据的对象索引
+            </summary>
+            <param name="key">键</param>
+            <returns></returns>
+        </member>
+        <member name="T:UBIQ.Cache.Framework.SessionProxy">
+            <summary>
+            Session代理
+            </summary>
+        </member>
+        <member name="T:UBIQ.Cache.Framework.ISession">
+            <summary>
+            Session 接口
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.ISession.Clear">
+            <summary>
+            移除所有键值对
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.ISession.Set(System.String,System.Object)">
+            <summary>
+            添加缓存信息
+            </summary>
+            <param name="key">键</param>
+            <param name="value">值</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.ISession.Abandon">
+            <summary>
+            取消当前会话
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.ISession.ClearVarSessionAll">
+            <summary>
+            清除掉所有非共同Session变量
+            </summary>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.ISession.Item(System.String)">
+            <summary>
+            获取或设置Session数据
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.SessionProxy.ClearVarSessionAll">
+            <summary>
+            清除掉所有非共通Session变量
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.SessionProxy.SetLoginInfo(System.Object)">
+            <summary>
+            设置登录信息
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.SessionProxy.GetLoginInfo">
+            <summary>
+            获取登录信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.SessionProxy.Instance">
+            <summary>
+            获取实例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.SessionProxy.Item(System.String)">
+            <summary>
+            获取或设置Session数据
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.Service.weight">
+            <summary>
+            权重
+            </summary>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.MemcachedCfg.Services">
+            <summary>
+            缓存服务器
+            </summary>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.MemcachedCfg.initconns">
+            <summary>
+            初始连接数
+            </summary>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.MemcachedCfg.minconns">
+            <summary>
+            最小连接数
+            </summary>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.MemcachedCfg.maxconns">
+            <summary>
+            最大连接数
+            </summary>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.MemcachedCfg.socket_timeout">
+            <summary>
+            通讯的超时时间,设置为3秒（单位ms）.NET版本没有实现
+            </summary>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.MemcachedCfg.connect_timeout">
+            <summary>
+            连接超时时间
+            </summary>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.MemcachedCfg.maintenance_sleep">
+            <summary>
+            维护线程的间隔激活时间，下面设置为60秒（单位s），设置为0表示不启用维护线程
+            </summary>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.MemcachedCfg.failover">
+            <summary>
+            故障切换
+            </summary>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.MemcachedCfg.nagle">
+            <summary>
+            ?
+            </summary>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.MemcachedCfg.enable_compression">
+            <summary>
+            启用压缩
+            </summary>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.MemcachedCfg.hashing_algorithm">
+            <summary>
+            Native,OldCompatibleHash,NewCompatibleHash
+            </summary>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.MemcachedCfg.maxidle">
+            <summary>
+            连接的最大空闲时间，下面设置为6个小时（单位ms），超过这个设置时间，连接会被释放掉
+            </summary>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.MemcachedCfg.max_busy">
+            <summary>
+            socket单次任务的最大时间，超过这个时间socket会被强行中断掉（当前任务失败）
+            </summary>
+        </member>
+        <member name="T:UBIQ.Cache.Framework.ICookie">
+            <summary>
+            Cookie接口
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.ICookie.Set(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Cookies赋值
+            </summary>
+            <param name="key">主键</param>
+            <param name="value">键值</param>
+            <param name="expiresday">有效天数</param>
+            <param name="domain">当要跨域名访问的时候,给cookie指定域名即可,格式为.xxx.com</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.ICookie.Set(System.String,System.String,System.DateTime,System.String)">
+            <summary>
+            Cookies赋值
+            </summary>
+            <param name="key">主键</param>
+            <param name="value">键值</param>
+            <param name="expires">过期时间</param>
+            <param name="domain">当要跨域名访问的时候,给cookie指定域名即可,格式为.xxx.com</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.ICookie.Get(System.String)">
+            <summary>
+            读取Cookies
+            </summary>
+            <param name="key">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.ICookie.Remove(System.String,System.String)">
+            <summary>
+            删除Cookies
+            </summary>
+            <param name="key">主键</param>
+            <param name="domain">当要跨域名访问的时候,给cookie指定域名即可,格式为.xxx.com</param>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.ICookie.Item(System.String)">
+            <summary>
+            Cookie对象索引
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="T:UBIQ.Cache.Framework.MemcachedProxy">
+            <summary>
+            Memcached 的缓存代理
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.#cctor">
+            <summary>
+            静态构造器，用于初始化系统缓存的配置
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.#ctor(System.String)">
+            <summary>
+            实例指定缓存池名称的实例
+            </summary>
+            <param name="poolName">p缓存池名称</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.#ctor">
+            <summary>
+            构造器初始化缓存运行参数
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.Clear(System.String)">
+            <summary>
+            清除缓存数据
+            </summary>
+            <param name="key">缓存数据的键</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.Clear(System.String,System.DateTime)">
+            <summary>
+            清除缓存数据
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <param name="expiry">指定时间作为过期时间来清除缓存</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.Clear(System.String,System.Object,System.DateTime)">
+            <summary>
+            清除缓存数据
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <param name="hashcode">指定缓存键的哈希值</param>
+            <param name="expiry">指定时间作为过期时间来清除缓存</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.Get(System.String)">
+            <summary>
+            获取缓存数据
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <returns>缓存数据</returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.Get(System.String,System.Int32)">
+            <summary>
+            获取缓存数据
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <param name="hashCode">指定缓存键的哈希值</param>
+            <returns>缓存数据</returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.Get(System.String,System.Int32,System.Boolean)">
+            <summary>
+            获取缓存数据
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <param name="hashCode">指定缓存键的哈希值</param>
+            <param name="asstring">作为字符串类型返回</param>
+            <returns>缓存数据</returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.Set(System.String,System.Object)">
+            <summary>
+            设置缓存
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <param name="value">缓存数据的值</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.Set(System.String,System.Object,System.DateTime)">
+            <summary>
+            设置缓存
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <param name="value">缓存数据的值</param>
+            <param name="expriy">设置缓存过期的时间</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.Set(System.String,System.Object,System.DateTime,System.Int32)">
+            <summary>
+            设置缓存
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <param name="value">缓存数据的值</param>
+            <param name="expriy">设置缓存过期的时间</param>
+            <param name="hashCode">指定缓存键的哈希值</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.Set(System.String,System.Object,System.Int32)">
+            <summary>
+            设置缓存
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <param name="value">缓存数据的值</param>
+            <param name="hashCode">指定缓存键的哈希值</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.FlushAll">
+            <summary>
+            清除所有缓冲区
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.FlushAll(System.Collections.ArrayList)">
+            <summary>
+            清除指定缓存服务的冲区
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.KeyExists(System.String,System.Object[])">
+            <summary>
+            检测缓存是否存在
+            </summary>
+            <param name="key">缓存数据的键</param>
+            <returns>true:存在，false:不存在</returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.GetMultiple(System.String[])">
+            <summary>
+            获取多个指定键的缓存数据
+            </summary>
+            <param name="keys">缓存键集合</param>
+            <returns>键值对应的哈希表</returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.GetStatInfo">
+            <summary>
+            获取运行的信息
+            </summary>
+            <returns>键值对应的参数</returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedProxy.GetProxy(System.String)">
+            <summary>
+            获取缓存的代理对象
+            </summary>
+            <param name="poolName"></param>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.MemcachedProxy.Instance">
+            <summary>
+            获取实例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.MemcachedProxy.Item(System.String)">
+            <summary>
+            获取缓存数据的对象索引
+            </summary>
+            <param name="key">键</param>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.MemcachedProxy.Client">
+            <summary>
+            缓存管理客户端
+            </summary>
+        </member>
+        <member name="T:UBIQ.Cache.Framework.SessionKeys">
+            <summary>
+            Session键定义
+            </summary>
+        </member>
+        <member name="F:UBIQ.Cache.Framework.SessionKeys.FRM_LOGININFO">
+            <summary>
+            用户信息存储键:COM_USERINFO
+            </summary>
+        </member>
+        <member name="F:UBIQ.Cache.Framework.SessionKeys.FRM_LANAGUAGE">
+            <summary>
+            存储当前语种信息
+            </summary>
+        </member>
+        <member name="T:UBIQ.Cache.Framework.CacheKeys">
+            <summary>
+            缓存键key,可作用于 memcahced、Cache
+            </summary>
+        </member>
+        <member name="F:UBIQ.Cache.Framework.CacheKeys.FRM_USER_INFORMATION">
+            <summary>
+            系统用户信息,{0}:用户编号
+            </summary>
+        </member>
+        <member name="T:UBIQ.Cache.Framework.MemcachedHandler">
+            <summary>
+            缓存配置信息的处理对象
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.MemcachedHandler.Create(System.Object,System.Object,System.Xml.XmlNode)">
+            <summary>
+            读取配置信息并配置到配置信息中
+            </summary>
+            <param name="parent">父级节点</param>
+            <param name="configContext"></param>
+            <param name="section">配置节点信息</param>
+            <returns>配置信息</returns>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.MemcachedHandler.Config">
+            <summary>
+            配置信息
+            </summary>
+        </member>
+        <member name="T:UBIQ.Cache.Framework.CookieProxy">
+            <summary>
+            Cookie代理
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.CookieProxy.Set(System.String,System.String,System.Int32,System.String)">
+            <summary>
+            Cookies赋值
+            </summary>
+            <param name="key">主键</param>
+            <param name="value">键值</param>
+            <param name="expiresday">有效天数</param>
+            <param name="domain">当要跨域名访问的时候,给cookie指定域名即可,格式为.xxx.com</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.CookieProxy.Set(System.String,System.String,System.DateTime,System.String)">
+            <summary>
+            Cookies赋值
+            </summary>
+            <param name="key">主键</param>
+            <param name="value">键值</param>
+            <param name="expires">过期时间</param>
+            <param name="domain">当要跨域名访问的时候,给cookie指定域名即可,格式为.xxx.com</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.CookieProxy.Get(System.String)">
+            <summary>
+            读取Cookies
+            </summary>
+            <param name="key">主键</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.CookieProxy.Remove(System.String,System.String)">
+            <summary>
+            删除Cookies
+            </summary>
+            <param name="key">主键</param>
+            <param name="domain">当要跨域名访问的时候,给cookie指定域名即可,格式为.xxx.com</param>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.CookieProxy.Instance">
+            <summary>
+            获取实例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.CookieProxy.Item(System.String)">
+            <summary>
+            Cookie 索引
+            </summary>
+            <param name="key">cookie键</param>
+            <returns></returns>
+        </member>
+        <member name="T:UBIQ.Cache.Framework.ApplicationProxy">
+            <summary>
+            application 代理
+            </summary>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.ApplicationProxy.Set(System.String,System.Object)">
+            <summary>
+            设置缓存数据
+            </summary>
+            <param name="key">键</param>
+            <param name="value">值</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.ApplicationProxy.Get(System.String)">
+            <summary>
+            获取缓存数据
+            </summary>
+            <param name="key">键</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.ApplicationProxy.Remove(System.String)">
+            <summary>
+            移除指定键的缓存
+            </summary>
+            <param name="key">键</param>
+        </member>
+        <member name="M:UBIQ.Cache.Framework.ApplicationProxy.RemoveAll">
+            <summary>
+            移除全部缓存数据
+            </summary>
+        </member>
+        <member name="P:UBIQ.Cache.Framework.ApplicationProxy.Item(System.String)">
+            <summary>
+            application对象索引
+            </summary>
+            <param name="key">键</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

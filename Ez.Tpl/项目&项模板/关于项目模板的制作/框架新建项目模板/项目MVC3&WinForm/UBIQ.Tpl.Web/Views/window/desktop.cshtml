@@ -1,0 +1,110 @@
+﻿@using UBIQ.Framework.Config;
+@using UBIQ.Framework.Lang;
+@using UBIQ.Framework.UI.HtmlExtend
+@model UBIQ.Framework.Dtos.WindowDto
+@{
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+    ViewBag.Title = "Desktop";
+    var username = (Model.UserInfo!=null&&Model.UserInfo.id > 0) ? Model.UserInfo.username : Model.LoginInfo.login_name;
+    var role = "";
+    if(Model.LoginInfo.Roles!=null)
+    {
+       if(Model.LoginInfo.Roles.Count()==1)
+       {
+           role = FrmLanguage.COM_N_Hello +","+ Model.LoginInfo.Roles.FirstOrDefault().role_name+"!";
+       }
+       else if(Model.LoginInfo.Roles.Count()>1)
+       {
+           List<string> list =new List<string>();
+           foreach (var item in Model.LoginInfo.Roles)
+	       {
+		     list.Add(item.role_name);
+	       }
+
+           role = FrmLanguage.COM_N_MutilRole + string.Join(",", list.ToArray()); 
+       }
+    }
+    ViewBag.Layout_Body_CssText = "background:url(/content/desktop/"+UIConfig.Model.UIStyle+"/images/iOS7_01.jpg) no-repeat #f6f6f6;";
+    
+}
+@section CssScript{
+<script type="text/javascript">
+    $(window).resize(function () {
+        var r = document.body.offsetWidth / window.screen.availWidth;
+        $(document.body).css("-webkit-transform", "scale(" + r + ")");
+    });
+    $(function () {
+        window["desk"] = $.startDeskTop({ WEEK_LIST: "@FrmLanguage.COM_JS_Week" });
+    });
+ </script>
+}
+
+<div id="log"></div>
+<div id="desktop" class="container">
+<div id="wrapper" class="wrapper">
+<!--topbar-->
+<div id="desktop_bar" class="desktop-bar">
+<div class="desktop-bar-left">
+<span class="fa ico-fa-apple" title="系统Logo"></span>
+@Html.TopBarMenu(p => p.TopBar.TopMenus, new {id="desk_top_menu_bar"})
+</div>
+<div class="desktop-bar-mid"></div>
+<div class="desktop-bar-right">
+<div class="desktop-bar-right-warper">
+<a href="#" class="fa desktop-bar-q-user" title="@role"><i>Hi!</i><span>@username</span></a>
+<a href="#" class="fa desktop-bar-q-mail"></a>
+<a href="#" class="fa desktop-bar-q-audo"></a>
+<a id="systemtime" href="#" class="desktop-bar-q-time" title="2014/07/18">12:22:59</a>
+@Html.LoginOutLink("", new { style = "padding:0px;" })
+</div>
+<div class="desktop-bar-right-activbox">
+ <a class="fa win-size-min shadow" title="@Html.Lang("COM_N_ToMin")" href="javascript:void(0)"></a>
+ <a class="fa win-size-max shadow" title="@Html.Lang("COM_N_BackSize")" href="javascript:void(0)"></a>
+ <a class="fa win-close shadow" title="@Html.Lang("COM_N_Close")" href="javascript:void(0)"></a>
+</div>
+</div>
+</div>
+<!--/topbar-->
+<!--main-->
+<div id="main" class="main">
+<div id="log"></div>
+@{int counter = 0;}
+@if (Model.ShortCuts != null)
+{
+    foreach (ShortCut item in Model.ShortCuts)
+    {
+        string posstyle = "";
+        if (counter == 0) { posstyle = "top:" + Model.ShortCuts.StartTop + "px;left:" + Model.ShortCuts.StartLeft + "px;"; }
+        var iswin = item.IsWin ? "data-iswin=" + item.IsWin.ToString() : "";
+        var winsize = item.IsWin ? "data-win-size=" + item.WinSize.ToString().ToLower() : "";
+        var hasleftmenu = "data-win-hasmenu=" + (item.UseLeftMenu ? "true" : "false");
+        var hassearch = "data-win-hassearch=" + (item.UseTopSearchBar ? "true" : "false");
+        var win_width = item.Win_Width > 0 ? "data-win-width=" + item.Win_Width : "";
+        var win_height = item.Win_Width > 0 ? "data-win-height=" + item.Win_Height : "";
+    <div id="app_btn_@{@counter}" class="shortcut app-btn" style="@posstyle"  data-src="@item.Url" @iswin @winsize @hasleftmenu @hassearch @win_width @win_height>
+    <div class="shortcut app-btn-ico"><img src="@Url.Content("~/content/desktop/" + UIConfig.Model.UIStyle + "/images/app/" + item.Ico)" alt="@item.Name" data-isdrag="true" data-drag-id="app_btn_@{@counter}"/></div>
+    <div class="app-btn-name">@item.Name</div>
+    </div>
+     counter++;
+    }
+}
+<div id="select_region" class="select-region"></div>
+
+
+
+</div>
+<!--/main-->
+<!--footer-wrapper-->
+<div class="footer-wrapper">
+<div class="footer-wrapper-left"></div>
+<div class="footer-wrapper-mid">@*优碧特软件(西安)有限公司*@</div>
+<div class="footer-wrapper-right"></div>
+</div>
+<!--/footer-wrapper-->
+</div>
+</div>
+
+
+
+
+

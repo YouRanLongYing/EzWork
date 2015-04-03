@@ -1,0 +1,4 @@
+C:\Users\EndFalse\Desktop\新建文件夹\UBIQ.Tpl\UBIQ.Tpl.Config\bin\Debug\UBIQ.Tpl.Config.dll
+C:\Users\EndFalse\Desktop\新建文件夹\UBIQ.Tpl\UBIQ.Tpl.Config\bin\Debug\UBIQ.Tpl.Config.pdb
+C:\Users\EndFalse\Desktop\新建文件夹\UBIQ.Tpl\UBIQ.Tpl.Config\obj\Debug\UBIQ.Tpl.Config.dll
+C:\Users\EndFalse\Desktop\新建文件夹\UBIQ.Tpl\UBIQ.Tpl.Config\obj\Debug\UBIQ.Tpl.Config.pdb

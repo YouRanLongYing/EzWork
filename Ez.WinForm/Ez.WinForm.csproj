@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7872AC28-144F-4374-B099-2BB845CFA062}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ez.WinForm</RootNamespace>
+    <AssemblyName>EzWinForm</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>versioncue.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging, Version=1.2.0.0, Culture=neutral, PublicKeyToken=af08829b84f0328e">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Aop, Version=1.3.2.40943, Culture=neutral, PublicKeyToken=65e474d141e25e07, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Spring.Aop.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Core, Version=1.3.2.40943, Culture=neutral, PublicKeyToken=65e474d141e25e07, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Spring.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Data">
+      <HintPath>..\lib\Spring.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Library\BizStore.cs" />
+    <Compile Include="innerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="innerForm.designer.cs">
+      <DependentUpon>innerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Library\FormBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library\FormDefault.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library\FormPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Library\Utils.cs" />
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartForm.Designer.cs">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test.designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test2.Designer.cs">
+      <DependentUpon>Test2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test3.Designer.cs">
+      <DependentUpon>Test3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Account\index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Account\index.Designer.cs">
+      <DependentUpon>index.cs</DependentUpon>
+    </Compile>
+    <None Include="Resources\switchl.png" />
+    <None Include="Resources\switchr.png" />
+    <Content Include="versioncue.ico" />
+    <None Include="Resources\versioncue1.ico" />
+    <None Include="Resources\versioncue.ico" />
+    <EmbeddedResource Include="Library\FormPage.resx">
+      <DependentUpon>FormPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test3.resx">
+      <DependentUpon>Test3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Account\index.resx">
+      <DependentUpon>index.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="imgs\newprj.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="Test2.resx">
+      <DependentUpon>Test2.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="images\semail.png" />
+    <None Include="images\newprj.png" />
+    <EmbeddedResource Include="innerForm.resx">
+      <DependentUpon>innerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartForm.resx">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="Config\DataBase.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Log4Net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Memcached.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Payment.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\Secret.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\UI.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config\UpopPayment.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ez.BizContract\Ez.BizContract.csproj">
+      <Project>{2DA79ADD-CD4B-46CF-B2BF-858A5F9C688A}</Project>
+      <Name>Ez.BizContract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Biz\Ez.Biz.csproj">
+      <Project>{1a5fa8a0-5b17-4721-9e9d-ad808abf4d74}</Project>
+      <Name>Ez.Biz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Cache\Ez.Cache.csproj">
+      <Project>{6f2b9131-5ddc-4c7a-9f4f-0b039980d1f1}</Project>
+      <Name>Ez.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Config\Ez.Config.csproj">
+      <Project>{fff84eb9-7be4-4f00-afa7-8e18b9c9ace4}</Project>
+      <Name>Ez.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Core\Ez.Core.csproj">
+      <Project>{28697493-02e3-4df9-9d52-34200acf84fd}</Project>
+      <Name>Ez.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Dtos\Ez.Dtos.csproj">
+      <Project>{299f0e12-f8be-419e-8a78-60feef3ca008}</Project>
+      <Name>Ez.Dtos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.DBContract\Ez.DBContract.csproj">
+      <Project>{e4758656-6af0-49a0-85ed-31ca7dc6e291}</Project>
+      <Name>Ez.DBContract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.Plug\Ez.Plug.csproj">
+      <Project>{6487da74-5f1e-40d0-a472-e6aa4f9bec20}</Project>
+      <Name>Ez.Plug</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.UI\Ez.UI.csproj">
+      <Project>{6be4d1f7-86a7-4593-a1b5-f225d4224913}</Project>
+      <Name>Ez.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ez.XControls\Ez.XControls.csproj">
+      <Project>{5743757c-8fa3-4140-a79a-0f7b1195d843}</Project>
+      <Name>Ez.XControls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\_close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\ico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\max.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\min.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\slideup.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,336 @@
+F:\FrameWork.Project\SourceCode\UBIQ.Web3D.Site\bin\UBIQ.Site.Framework.dll
+F:\FrameWork.Project\SourceCode\UBIQ.Web3D.Site\bin\UBIQ.Site.Framework.pdb
+F:\FrameWork.Project\SourceCode\UBIQ.Web3D.Site\obj\Debug\ResolveAssemblyReference.cache
+F:\FrameWork.Project\SourceCode\UBIQ.Web3D.Site\obj\Debug\UBIQ.Site.Framework.dll
+F:\FrameWork.Project\SourceCode\UBIQ.Web3D.Site\obj\Debug\UBIQ.Site.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Site.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Site.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Common.Logging.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\log4net.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Core.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Web.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Web.Mvc3.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Biz.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Config.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Controllers.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.DataBase.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Dtos.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Resource.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.UI.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IBiz.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IDataBase.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Helper.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Core.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Cache.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Aop.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Biz.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Config.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Controllers.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.DataBase.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Dtos.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Resource.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.UI.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IBiz.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IDataBase.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Helper.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Core.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Cache.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\en-US\UBIQ.Resource.Framework.resources.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\zh-CN\UBIQ.Resource.Framework.resources.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\UBIQ.Site.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\UBIQ.Site.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\UBIQ.Site.Framework.csprojResolveAssemblyReference.cache
+F:\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Data.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Site.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Site.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Common.Logging.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\log4net.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Core.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Web.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Web.Mvc3.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Biz.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Config.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Controllers.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.DataBase.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Dtos.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Resource.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.UI.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IBiz.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IDataBase.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Helper.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Core.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Cache.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Data.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Aop.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Biz.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Config.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Controllers.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.DataBase.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Dtos.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Resource.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.UI.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IBiz.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IDataBase.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Helper.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Core.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Cache.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\en-US\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\UBIQ.Site.Framework.csprojResolveAssemblyReference.cache
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\UBIQ.Site.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\UBIQ.Site.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Biz.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Config.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Controllers.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.DataBase.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Dtos.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Resource.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.UI.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IBiz.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IDataBase.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Helper.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Core.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Cache.Framework.xml
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\MySql.Data.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\ICSharpCode.SharpZipLib.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\ICSharpCode.SharpZipLib.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\ICSharpCode.SharpZipLib.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Site.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Site.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Common.Logging.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\log4net.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Core.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Web.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Web.Mvc3.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Biz.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Config.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Controllers.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.DataBase.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Dtos.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Resource.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.UI.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IBiz.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IDataBase.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Helper.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Core.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Cache.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Data.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\MySql.Data.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\ICSharpCode.SharpZipLib.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Aop.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Biz.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Biz.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Config.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Config.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Controllers.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Controllers.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.DataBase.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.DataBase.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Dtos.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Dtos.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Resource.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Resource.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.UI.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.UI.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IBiz.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IBiz.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IDataBase.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IDataBase.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Helper.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Helper.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Core.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Core.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Cache.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Cache.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\ICSharpCode.SharpZipLib.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\ICSharpCode.SharpZipLib.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\en-US\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\UBIQ.Site.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\UBIQ.Site.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Payment.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Payment.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Payment.Framework.xml
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Site.Framework.XML
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Site.Framework.XML
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Site.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Site.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Common.Logging.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\log4net.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Core.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Web.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Web.Mvc3.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Biz.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Config.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Controllers.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.DataBase.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Dtos.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Resource.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.UI.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IBiz.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IDataBase.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Helper.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Core.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Cache.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Data.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Payment.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\MySql.Data.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\ICSharpCode.SharpZipLib.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Aop.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Biz.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Biz.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Config.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Config.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Controllers.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Controllers.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.DataBase.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.DataBase.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Dtos.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Dtos.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Resource.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Resource.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.UI.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.UI.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IBiz.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IBiz.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IDataBase.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IDataBase.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Helper.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Helper.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Core.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Core.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Cache.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Cache.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Payment.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Payment.Framework.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\ICSharpCode.SharpZipLib.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\ICSharpCode.SharpZipLib.xml
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\en-US\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\UBIQ.Site.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\UBIQ.Site.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\UBIQ.Site.Framework.csprojResolveAssemblyReference.cache
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\UBIQ.Site.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\UBIQ.Site.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Config\DataBase.config
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Config\Log4Net.config
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Site.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Site.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Common.Logging.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\log4net.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Core.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Web.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Web.Mvc3.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Biz.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Config.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Controllers.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.DataBase.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Dtos.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Resource.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.UI.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IBiz.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IDataBase.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Helper.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Core.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Cache.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Data.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Payment.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\MySql.Data.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\ICSharpCode.SharpZipLib.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Aop.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Biz.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Biz.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Config.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Config.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Controllers.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Controllers.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.DataBase.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.DataBase.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Dtos.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Dtos.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Resource.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Resource.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.UI.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.UI.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IBiz.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IBiz.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IDataBase.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IDataBase.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Helper.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Helper.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Core.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Core.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Cache.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Cache.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Payment.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Payment.Framework.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\ICSharpCode.SharpZipLib.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\ICSharpCode.SharpZipLib.xml
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\en-US\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Site.Framework.XML
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Config\Payment.config
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Config\UpopPayment.config
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Config\Memcached.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Config\Memcached.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Config\DataBase.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Config\Log4Net.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Site.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Site.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Common.Logging.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\log4net.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Core.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Web.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Web.Mvc3.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Biz.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Cache.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Config.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Controllers.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.DataBase.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Dtos.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Resource.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.UI.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IBiz.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IDataBase.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Helper.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Core.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Data.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\MySql.Data.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\ICSharpCode.SharpZipLib.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Spring.Aop.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Biz.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Biz.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Cache.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Cache.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Config.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Config.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Controllers.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Controllers.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.DataBase.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.DataBase.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Dtos.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Dtos.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Resource.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Resource.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.UI.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.UI.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IBiz.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IBiz.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IDataBase.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.IDataBase.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Helper.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Helper.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Core.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Core.Framework.xml
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\en-US\UBIQ.Resource.Framework.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\UBIQ.Site.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\UBIQ.Site.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Memcached.ClientLibrary.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Memcached.ClientLibrary.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\obj\Debug\UBIQ.Site.Framework.csprojResolveAssemblyReference.cache
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\UBIQ.Site.Framework.XML
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Config\Payment.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Site.Framework\bin\Config\UpopPayment.config

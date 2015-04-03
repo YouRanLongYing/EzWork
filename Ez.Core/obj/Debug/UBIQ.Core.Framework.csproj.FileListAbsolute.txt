@@ -1,0 +1,57 @@
+F:\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\UBIQ.Core.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\log4net.dll
+F:\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Spring.Aop.dll
+F:\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Spring.Core.dll
+F:\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Common.Logging.dll
+F:\Framework.Project\SourceCode\UBIQ.Core.Framework\obj\Debug\UBIQ.Core.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Core.Framework\obj\Debug\UBIQ.Core.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Core.Framework\obj\Debug\UBIQ.Core.Framework.csprojResolveAssemblyReference.cache
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\UBIQ.Core.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\log4net.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Spring.Aop.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Spring.Core.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Common.Logging.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Core.Framework\obj\Debug\UBIQ.Core.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Core.Framework\obj\Debug\UBIQ.Core.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\UBIQ.Core.Framework.XML
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\UBIQ.Core.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\log4net.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Spring.Aop.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Spring.Core.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Common.Logging.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Core.Framework\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Core.Framework\obj\Debug\UBIQ.Core.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Core.Framework\obj\Debug\UBIQ.Core.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\UBIQ.Core.Framework.XML
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\UBIQ.Core.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\log4net.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Spring.Aop.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Spring.Core.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Common.Logging.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\obj\Debug\UBIQ.Core.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\obj\Debug\UBIQ.Core.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\UBIQ.Core.Framework.XML
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\UBIQ.Core.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\log4net.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Spring.Aop.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Spring.Core.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Common.Logging.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\obj\Debug\UBIQ.Core.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\obj\Debug\UBIQ.Core.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\UBIQ.Core.Framework.XML
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\UBIQ.Core.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\UBIQ.Core.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\log4net.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Spring.Aop.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Spring.Core.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Common.Logging.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\obj\Debug\UBIQ.Core.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\obj\Debug\UBIQ.Core.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\Config\Log4Net.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Core.Framework\bin\Debug\UBIQ.Core.Framework.XML

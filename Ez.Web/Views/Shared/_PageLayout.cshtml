@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    @{var EzDialogid = Request["EzDialogid"];}
+    <link   href="@Url.Content("~/Content/libraries/assets/css/font-awesome.css")" rel="stylesheet" type="text/css" />
+    <link   href="@Url.Content("~/Content/libraries/Site.css")" rel="stylesheet" type="text/css" />
+    <link  href="@Url.Content("~/Content/libraries/assets/css/amazeui.min.css")" rel="stylesheet" type="text/css" />
+    <link   href="@Url.Content("~/Content/layouts/" + ViewBag.LayoutAction + "/" + ViewBag.UIStyle + "/main.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/layouts/" + ViewBag.LayoutAction + "/" + ViewBag.UIStyle + "/page.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/plugins/jqgrid/ui.jqgrid.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/plugins/jqgrid/jqgrid-ui-custom-style02.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/plugins/ezgrid/ui.ezgrid.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/libraries/jquery-1.11.2.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/libraries/jquery-migrate-1.2.1.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/libraries/core.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/libraries/agent.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/libraries/jquery.validate.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/libraries/jquery.validate.unobtrusive.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/libraries/jquery.unobtrusive-ajax.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/libraries/jquery.validate.ext.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/plugins/EzGrid/jquery.EzGrid.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/plugins/jqgrid/jquery.jqGrid.src.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/plugins/jqgrid/jquery.fmatter.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/plugins/jqgrid/grid.locale-en.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/plugins/jqgrid/jqGrid.Agent.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/plugins/EzDialog/EzAdapter.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Content/libraries/assets/js/amazeui.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Content/libraries/assets/js/amazeui.legacy.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Content/libraries/assets/js/amazeui.widgets.helper.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/libraries/common.js")" type="text/javascript"></script>
+    <script type="text/javascript"> window["cur__EzDialogid__"] = "@EzDialogid";</script>
+    @RenderSection("CssScript",false)
+</head>
+<body style="@ViewBag.Layout_Body_CssText">
+    @RenderBody()
+</body>
+</html>

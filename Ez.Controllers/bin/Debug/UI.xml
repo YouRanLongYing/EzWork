@@ -1,0 +1,1488 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UI</name>
+    </assembly>
+    <members>
+        <member name="M:UBIQ.Framework.UI.Validations.UrlAttribute.IsValid(System.Object)">
+            <summary>
+            是否通过验证
+            </summary>
+            <param name="value">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.UrlAttribute.FormatErrorMessage(System.String)">
+            <summary>
+            格式化错误信息
+            </summary>
+            <param name="name">指定的字段名</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.RangeNumAttribute.IsValid(System.Object)">
+            <summary>
+            是否通过验证
+            </summary>
+            <param name="value">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.RangeNumAttribute.FormatErrorMessage(System.String)">
+            <summary>
+            格式化错误信息
+            </summary>
+            <param name="name">指定的字段名</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.GreaterThanAttribute.#ctor(System.Double,System.Boolean)">
+            <summary>
+            验证是否小于指定值
+            </summary>
+            <param name="maxNumber">最大值</param>
+            <param name="canequal">是否登录最大值</param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.GreaterThanAttribute.IsValid(System.Object)">
+            <summary>
+            是否通过验证
+            </summary>
+            <param name="value">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.GreaterThanAttribute.FormatErrorMessage(System.String)">
+            <summary>
+            格式化错误信息
+            </summary>
+            <param name="name">指定的字段名</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.MobileNumberAttribute.IsValid(System.Object)">
+            <summary>
+            是否通过验证
+            </summary>
+            <param name="value">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.MobileNumberAttribute.FormatErrorMessage(System.String)">
+            <summary>
+            格式化错误信息
+            </summary>
+            <param name="name">指定的字段名</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlHelperExtentionUtils.FormItemWraperForTextBox(System.Web.Mvc.MvcHtmlString,System.String,System.String)">
+            <summary>
+            生成表单输入项包裹
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlHelperExtentionUtils.FormItemWraperForRadioOrCheckbox(System.Web.Mvc.MvcHtmlString,System.String)">
+            <summary>
+            生成表单输入项包裹
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlHelperExtentionUtils.FilterRouteValueDictionary(System.Web.Routing.RouteValueDictionary,UBIQ.Framework.UI.HtmlExtends.TagType)">
+            <summary>
+            过滤标签属性
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlHelperExtentionUtils.ConvertToRouteValueDictionary(System.Object)">
+            <summary>
+            获取标签属性
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlHelperExtentionUtils.MergeWithRouteValueDictionary(System.Web.Routing.RouteValueDictionary,System.Collections.Generic.IDictionary{System.String,System.Object},System.Boolean)">
+            <summary>
+            合并两个字典集合
+            </summary>
+            <param name="RouteDicTarget">要合并到的集合</param>
+            <param name="RouteDicSource">被合并的集合</param>
+            <param name="replaceExists">是否替换掉已存在的键对应的值</param>
+            <returns>合并好的集合</returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlHelperExtentionUtils.MergeWithRouteValueDictionary(System.Web.Routing.RouteValueDictionary,System.Web.Routing.RouteValueDictionary,System.Boolean)">
+            <summary>
+            合并两个字典集合
+            </summary>
+            <param name="RouteDicTarget">要合并到的集合</param>
+            <param name="RouteDicSource">被合并的集合</param>
+            <param name="replaceExists">是否替换掉已存在的键对应的值</param>
+            <returns>合并好的集合</returns>
+        </member>
+        <member name="T:UBIQ.Framework.UI.Entities.Menu">
+            <summary>
+            菜单模型
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.Menu.Id">
+            <summary>
+            菜单编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.Menu.WinTitle">
+            <summary>
+            窗口标题，非跨域情况下可不设置
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.Menu.Name">
+            <summary>
+            菜单名
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.Menu.Children">
+            <summary>
+            子菜单集合
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.Menu.Attributes">
+            <summary>
+            构成html标签后附加的html属性
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.Menu.Sort">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.Menu.Url">
+            <summary>
+            菜单导向地址
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.Menu.Ico">
+            <summary>
+            图标
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.Menu.IsWin">
+            <summary>
+            是否为窗口
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.Menu.Win_Width">
+            <summary>
+            若为窗口，则窗口宽度
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.Menu.Win_Height">
+            <summary>
+            若为窗口，则窗口高度
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.Menu.WinSize">
+            <summary>
+            窗口默认尺寸模式，若为Normal时 设置的 宽度和高度才可用
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.Menu.UseLeftMenu">
+            <summary>
+            是否使用左侧菜单列
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.Menu.UseTopSearchBar">
+            <summary>
+            是否使用头部快捷搜索，需要对应的编码才能实现搜索功能
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.Menu.IsNoRight">
+            <summary>
+            是否有权限,默认有
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.MenuBar.Children">
+            <summary>
+            分组
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.MGroup.Children">
+            <summary>
+            分组
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.EmailAttribute.IsValid(System.Object)">
+            <summary>
+            是否通过验证
+            </summary>
+            <param name="value">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.EmailAttribute.FormatErrorMessage(System.String)">
+            <summary>
+            格式化错误信息
+            </summary>
+            <param name="name">指定的字段名</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtends.FormAttributes.PropertyUIAttribute.GetAttributes">
+            <summary>
+            获取设置的特性
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.FormAttributes.PropertyUIAttribute.ShowTitle">
+            <summary>
+            是否在表单中显示此属性的标题
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.FormAttributes.PropertyUIAttribute.UIType">
+            <summary>
+            UI类型
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.FormAttributes.PropertyUIAttribute.PlaceHolder">
+            <summary>
+            提示文本
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.StartsWithAttribute.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="param">指定的开头字符串</param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.StartsWithAttribute.IsValid(System.Object)">
+            <summary>
+            是否通过验证
+            </summary>
+            <param name="value">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.StartsWithAttribute.FormatErrorMessage(System.String)">
+            <summary>
+            格式化错误信息
+            </summary>
+            <param name="name">指定的字段名</param>
+            <returns></returns>
+        </member>
+        <member name="T:UBIQ.Framework.UI.Entities.MenuGroup">
+            <summary>
+            菜单所在组模型
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Entities.MenuGroup.Add(UBIQ.Framework.UI.Entities.Menu)">
+            <summary>
+            为此组添加一个菜单
+            </summary>
+            <param name="menu"></param>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.MenuGroup.GroupNum">
+            <summary>
+            菜单所在组编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.MenuGroup.Menus">
+            <summary>
+            菜单列表
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.Entities.TopMenu">
+            <summary>
+            桌面顶部菜单模型
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Entities.TopMenu.#ctor(System.String,System.Object)">
+            <summary>
+            顶级菜单
+            </summary>
+            <param name="name">顶级菜单名</param>
+            <param name="attributes">构成html标签后附加的html属性</param>
+        </member>
+        <member name="T:UBIQ.Framework.UI.Entities.TopBar">
+            <summary>
+            桌面顶部菜单模型集合
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.TopBar.TopMenus">
+            <summary>
+            顶级菜单
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.CompareToAttribute.IsValid(System.Object,System.ComponentModel.DataAnnotations.ValidationContext)">
+            <summary>
+            是否通过验证
+            </summary>
+            <param name="value">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="T:UBIQ.Framework.UI.Entities.WinSizeEnum">
+            <summary>
+            用于客户端Xdialog的尺寸模式
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.UI.Entities.WinSizeEnum.Max">
+            <summary>
+            窗口最大化
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.UI.Entities.WinSizeEnum.Min">
+            <summary>
+            窗口最小化
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.UI.Entities.WinSizeEnum.Normal">
+            <summary>
+            默认大小，设置此值后 需要指定窗口的尺寸
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.Entities.ShortCut">
+            <summary>
+            快捷按钮模型
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.ShortCut.Top">
+            <summary>
+            菜单快捷按钮的DomElement元素在容器的Top值
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.ShortCut.Left">
+            <summary>
+            菜单快捷按钮的DomElement元素在容器的Left值
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.Entities.ShortCutCollection">
+            <summary>
+            快捷按钮集合
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Entities.ShortCutCollection.#ctor(System.Double,System.Double)">
+            <summary>
+            快捷按钮集合
+            </summary>
+            <param name="startop">起始快捷按钮的DomElement元素在容器的Top值,用于定义其他按钮的布局</param>
+            <param name="startleft">起始快捷按钮的DomElement元素在容器的Left值,用于定义其他按钮的布局</param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Entities.ShortCutCollection.Add(UBIQ.Framework.UI.Entities.ShortCut)">
+            <summary>
+            添加一个快捷按钮
+            </summary>
+            <param name="shortcut"></param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Entities.ShortCutCollection.ToString">
+            <summary>
+            快捷按钮的Json格式数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.ShortCutCollection.StartTop">
+            <summary>
+            起始快捷按钮的DomElement元素在容器的Top值,用于定义其他按钮的布局
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.ShortCutCollection.StartLeft">
+            <summary>
+            起始快捷按钮的DomElement元素在容器的Left值,用于定义其他按钮的布局
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Entities.ShortCutCollection.Item(System.Int32)">
+            <summary>
+            通过索引获取一个快捷按钮
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.PostCodeAttribute.IsValid(System.Object)">
+            <summary>
+            是否通过验证
+            </summary>
+            <param name="value">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.PostCodeAttribute.FormatErrorMessage(System.String)">
+            <summary>
+            格式化错误信息
+            </summary>
+            <param name="name">指定的字段名</param>
+            <returns></returns>
+        </member>
+        <member name="T:UBIQ.Framework.UI.Validations.NumericAttribute">
+            <summary>
+            ready http://tech.it168.com/a2012/0216/1312/000001312495.shtml
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.IPAttribute.IsValid(System.Object)">
+            <summary>
+            是否通过验证
+            </summary>
+            <param name="value">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.IPAttribute.FormatErrorMessage(System.String)">
+            <summary>
+            格式化错误信息
+            </summary>
+            <param name="name">指定的字段名</param>
+            <returns></returns>
+        </member>
+        <member name="F:UBIQ.Framework.UI.HtmlExtends.PropAgentItem.selected">
+            <summary>
+            是否选中
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.PropAgentItem.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.PropAgentItem.Text">
+            <summary>
+            显示文本
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtends.PropAgent.#ctor(System.Linq.Expressions.Expression{System.Func{System.Object,System.Object}})">
+            <summary>
+            UI控件模型，注:代理的属性类型只能为一般类型，如string、int，建议使用string避免装箱和拆箱
+            </summary>
+            <param name="ctrlType">展示类型</param>
+            <param name="agentPropertyName">代理的属性名</param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtends.PropAgent.Add(UBIQ.Framework.UI.HtmlExtends.PropAgentItem)">
+            <summary>
+            添加一个选项
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtends.PropAgent.FindByValue(System.String)">
+            <summary>
+            按照值查找
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtends.PropAgent.SetSelected(System.String[])">
+            <summary>
+            用于初始时设置相关选项的初始值，其他地方调用会修改代理选项的选中状态
+            </summary>
+            <param name="selectedval">为代理的属性的值</param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtends.PropAgent.GetSelectedValues">
+            <summary>
+            获取选中的值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtends.PropAgent.GetAgentPropertyValue``1">
+            <summary>
+            请保证泛型类型T与代理属性的类型一致
+            </summary>
+            <typeparam name="T">代理属性的类型</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtends.PropAgent.GetAgentPropertyValue">
+            <summary>
+            请保证泛型类型T与代理属性的类型一致
+            </summary>
+            <typeparam name="T">代理属性的类型</typeparam>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.PropAgent.Item(System.Int32)">
+            <summary>
+            代理类索引
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.PropAgent.Length">
+            <summary>
+            选项长度
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtends.FormAttributes.PasswordUIAttribute.GetAttributes">
+            <summary>
+            获取设置的特性
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.PhoneNumberAttribute.IsValid(System.Object)">
+            <summary>
+            是否通过验证
+            </summary>
+            <param name="value">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.PhoneNumberAttribute.FormatErrorMessage(System.String)">
+            <summary>
+            格式化错误信息
+            </summary>
+            <param name="name">指定的字段名</param>
+            <returns></returns>
+        </member>
+        <member name="F:UBIQ.Framework.UI.Validations.DateTimeFormat.YYYY_MM_DD">
+            <summary>
+            yyyy-MM-dd
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.UI.Validations.DateTimeFormat.HH_MM_SS">
+            <summary>
+            HH-mm-ss
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.UI.Validations.DateTimeFormat.YYYY_MM_DD__HH_MM_SS">
+            <summary>
+            yyyy-MM-dd HH:mm:ss
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.InputTypeAttribute.IsValid(System.Object)">
+            <summary>
+            是否通过验证
+            </summary>
+            <param name="value">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.InputTypeAttribute.FormatErrorMessage(System.String)">
+            <summary>
+            格式化错误信息
+            </summary>
+            <param name="name">指定的字段名</param>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Framework.UI.Validations.InputTypeAttribute.DateFormat">
+            <summary>
+            You can use it when the InputType's value is 'DateTime'!If not, you  will get a exception!
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.IdCardAttribute.IsValid(System.Object)">
+            <summary>
+            是否通过验证
+            </summary>
+            <param name="value">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.IdCardAttribute.FormatErrorMessage(System.String)">
+            <summary>
+            格式化错误信息
+            </summary>
+            <param name="name">指定的字段名</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.ViewExtend.CRouter.MapRouterRules(System.Web.Routing.RouteCollection)">
+            <summary>
+            扩展路由表
+            </summary>
+            <param name="routes"></param>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtend.PropertyAgentItem.Selected">
+            <summary>
+            是否选中
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtend.PropertyAgentItem.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtend.PropertyAgentItem.Text">
+            <summary>
+            显示文本
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtend.PropertyAgent.#ctor(UBIQ.Framework.UI.HtmlExtend.PropertyAgentType,System.Linq.Expressions.Expression{System.Func{System.Object,System.Object}},System.String[])">
+            <summary>
+            UI控件模型，注:代理的属性类型只能为一般类型，如string、int，建议使用string避免装箱和拆箱
+            </summary>
+            <param name="ctrlType">展示类型</param>
+            <param name="agentPropertyName">代理的属性名</param>
+            <param name="mutile">是否可复选，默认不可</param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtend.PropertyAgent.#ctor(System.Linq.Expressions.Expression{System.Func{System.Object,System.Object}},System.String[])">
+            <summary>
+            UI控件模型，注:代理的属性类型只能为一般类型，如string、int，建议使用string避免装箱和拆箱
+            </summary>
+            <param name="agentPropertyName">代理的属性名</param>
+            <param name="mutile">是否可复选，默认不可</param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtend.PropertyAgent.Add(UBIQ.Framework.UI.HtmlExtend.PropertyAgentItem)">
+            <summary>
+            添加一个选项
+            </summary>
+            <param name="item"></param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtend.PropertyAgent.FindByValue(System.String)">
+            <summary>
+            按照值查找
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtend.PropertyAgent.SetSelected(System.String[])">
+            <summary>
+            用于初始时设置相关选项的初始值，其他地方调用会修改代理选项的选中状态
+            </summary>
+            <param name="selectedval">为代理的属性的值</param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtend.PropertyAgent.GetSelectedValues">
+            <summary>
+            获取选中的值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtend.PropertyAgent.GetAgentPropertyValue``1">
+            <summary>
+            请保证泛型类型T与代理属性的类型一致
+            </summary>
+            <typeparam name="T">代理属性的类型</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtend.PropertyAgent.GetAgentPropertyValue">
+            <summary>
+            请保证泛型类型T与代理属性的类型一致
+            </summary>
+            <typeparam name="T">代理属性的类型</typeparam>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtend.PropertyAgent.Item(System.Int32)">
+            <summary>
+            代理类索引
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtend.PropertyAgent.Length">
+            <summary>
+            选项长度
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtends.FormAttributes.SelectUIAttribute.GetAttributes">
+            <summary>
+            获取设置的特性
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:UBIQ.Framework.UI.JsResult">
+            <summary>
+            异步相应结果
+            created by kongjing
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.JsResult.#ctor(System.Object,System.Boolean,System.String,System.Boolean)">
+            <summary>
+            操作反馈
+            </summary>
+            <param name="data">响应的数据</param>
+            <param name="success">是否成功</param>
+            <param name="message">消息</param>
+            <param name="closeXdialog">若要在提示后关闭窗口请设置为true</param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.JsResult.#ctor(System.Object,System.Boolean,System.String,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            消息反馈后跳转
+            </summary>
+            <param name="data">响应的数据</param>
+            <param name="success">是否成功</param>
+            <param name="message">消息</param>
+            <param name="redirect">跳转页面</param>
+            <param name="redirctToBroswerTab">若跳转到浏览器的tab显示请设置为true</param>
+            <param name="closeXdialog">若要在提示后关闭窗口请设置为true,若设置为true则参数redirctToBroswerTab的设置将失效，默认被强制设置为true</param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.JsResult.#ctor(System.Object,System.Boolean,System.String)">
+            <summary>
+            直接跳转
+            </summary>
+            <param name="data">响应的数据</param>
+            <param name="success">是否成功</param>
+            <param name="redirect">跳转页面</param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.JsResult.#ctor(System.Boolean,System.Object,System.String)">
+            <summary>
+            只做反馈
+            </summary>
+            <param name="data">响应的数据</param>
+            <param name="success">是否成功</param>
+            <param name="message">消息</param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.JsResult.#ctor(System.Object)">
+            <summary>
+            不附加json内容 For Grid
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.LessThanLenAttribute.#ctor(System.Int32,System.Boolean)">
+            <summary>
+            验证是否小于指定值
+            </summary>
+            <param name="maxNumber">最大值</param>
+            <param name="canequal">是否登录最大值</param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.LessThanLenAttribute.IsValid(System.Object)">
+            <summary>
+            是否通过验证
+            </summary>
+            <param name="value">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.LessThanLenAttribute.FormatErrorMessage(System.String)">
+            <summary>
+            格式化错误信息
+            </summary>
+            <param name="name">指定的字段名</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtends.FormAttributes.RadioUIAttribute.GetAttributes">
+            <summary>
+            获取设置的特性
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtends.FormAttributes.UploadFileUIAttribute.GetAttributes">
+            <summary>
+            获取属性结合
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.FormAttributes.UploadFileUIAttribute.UIType">
+            <summary>
+            UI类型
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.FormAttributes.UploadFileUIAttribute.Allownum">
+            <summary>
+            允许上传的数量
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.FormAttributes.UploadFileUIAttribute.Auto">
+            <summary>
+            是否自动上传
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.COM_N_UserName">
+            <summary>
+            资源，用户名 等价于 [CDisplayName(LangKey = "COM_N_UserName", DefaultName = "COM_N_UserName")]
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.COM_N_Gender">
+            <summary>
+            资源，用户性别 等价于 [CDisplayName(LangKey = "COM_N_Gender", DefaultName = "COM_N_Gender")]
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.COM_N_Age">
+            <summary> 
+            资源，年龄 等价于 [CDisplayName(LangKey = "COM_N_Age", DefaultName = "COM_N_Age")]
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.COM_N_IdCard">
+            <summary>
+            资源，身份证 等价于 [CDisplayName(LangKey = "COM_N_IdCard", DefaultName = "COM_N_IdCard")]
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.COM_N_Tel">
+            <summary>
+            资源，座机号 等价于 [CDisplayName(LangKey = "COM_N_Tel", DefaultName = "COM_N_Tel")]
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.COM_N_Mobile">
+            <summary>
+            资源，手机号 等价于 [CDisplayName(LangKey = "COM_N_Mobile", DefaultName = "COM_N_Mobile")]
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.COM_N_QQ">
+            <summary>
+             资源，QQ号 等价于 [CDisplayName(LangKey = "COM_N_QQ", DefaultName = "COM_N_QQ")]
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.COM_N_Email">
+            <summary>
+             资源，邮箱地址 等价于 [CDisplayName(LangKey = "COM_N_Email", DefaultName = "COM_N_Email")]
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.COM_N_Address">
+            <summary>
+            资源，住址或地址 等价于 [CDisplayName(LangKey = "COM_N_Address", DefaultName = "COM_N_Address")]
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.COM_N_LoginName">
+            <summary>
+            资源，登录名 等价于 [CDisplayName(LangKey = "COM_N_LoginName", DefaultName = "COM_N_LoginName")]
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.COM_N_Password">
+            <summary>
+            资源，登录密码 等价于 [CDisplayName(LangKey = "COM_N_Password", DefaultName = "COM_N_Password")]
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.COM_N_LoginNum">
+            <summary>
+            资源，登录次数 等价于 [CDisplayName(LangKey = "COM_N_LoginNum", DefaultName = "COM_N_LoginNum")]
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.COM_N_LastLoginTime">
+            <summary>
+            资源，最后登录时间 等价于 [CDisplayName(LangKey = "COM_N_LastLoginTime", DefaultName = "COM_N_LastLoginTime")]
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.COM_N_RegTime">
+            <summary>
+            资源，注册时间 等价于 [CDisplayName(LangKey = "COM_N_RegTime", DefaultName = "COM_N_RegTime")]
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.COM_N_RegIP">
+            <summary>
+            资源，注册IP 等价于 [CDisplayName(LangKey = "COM_N_RegIP", DefaultName = "COM_N_RegIP")]
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.COM_N_LastLoginIP">
+            <summary>
+            资源，最后登录IP 等价于 [CDisplayName(LangKey = "COM_N_LastLoginIP", DefaultName = "COM_N_LastLoginIP")]
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.RangeLenAttribute.IsValid(System.Object)">
+            <summary>
+            是否通过验证
+            </summary>
+            <param name="value">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.RangeLenAttribute.FormatErrorMessage(System.String)">
+            <summary>
+            格式化错误信息
+            </summary>
+            <param name="name">指定的字段名</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtends.FormAttributes.TextAreaUIAttribute.GetAttributes">
+            <summary>
+            获取设置的特性
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.FormAttributes.TextAreaUIAttribute.Rows">
+            <summary>
+            允许行数
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.FormAttributes.TextAreaUIAttribute.Columns">
+            <summary>
+            允许列数
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.CultureInfoAttribute">
+            <summary>
+            系统语言控制
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.GreaterThanLenAttribute.#ctor(System.Int32,System.Boolean)">
+            <summary>
+            验证是否小于指定值
+            </summary>
+            <param name="maxNumber">最大值</param>
+            <param name="canequal">是否登录最大值</param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.GreaterThanLenAttribute.IsValid(System.Object)">
+            <summary>
+            是否通过验证
+            </summary>
+            <param name="value">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.GreaterThanLenAttribute.FormatErrorMessage(System.String)">
+            <summary>
+            格式化错误信息
+            </summary>
+            <param name="name">指定的字段名</param>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.PropUIMetadata.UIType">
+            <summary>
+            控件类型
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.PropUIMetadata.ModelType">
+            <summary>
+            模型类型
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.PropUIMetadata.PropInfo">
+            <summary>
+            属性信息
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.PropUIMetadata.PropName">
+            <summary>
+            属性名称
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.PropUIMetadata.PropValue">
+            <summary>
+            属性值
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.PropUIMetadata.LabelName">
+            <summary>
+            标签名称
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.PropUIMetadata.RoutValueDic">
+            <summary>
+            标签的属性如 style="..."
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.HtmlExtends.FormAttributes.EditorUIAttribute.GetAttributes">
+            <summary>
+            获取设置的特性
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.FormAttributes.EditorUIAttribute.Height">
+            <summary>
+            高度，不设置则使用默认方式
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.FormAttributes.EditorUIAttribute.Width">
+            <summary>
+            宽度，不设置则使用默认方式
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.UI.HtmlExtends.TagType.TextBox">
+            <summary>
+            一般输入框
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.UI.HtmlExtends.TagType.Password">
+            <summary>
+            密码输入框
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.UI.HtmlExtends.TagType.TextArea">
+            <summary>
+            文本域
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.UI.HtmlExtends.TagType.Editor">
+            <summary>
+            富文本编辑器
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.UI.HtmlExtends.TagType.UploadFile">
+            <summary>
+            上传空间
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.UI.HtmlExtends.TagType.DatePicker">
+            <summary>
+            日期选择
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.UI.HtmlExtends.TagType.Radio">
+            <summary>
+            单选按钮
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.UI.HtmlExtends.TagType.CheckBox">
+            <summary>
+            复选框按钮
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.UI.HtmlExtends.TagType.Select">
+            <summary>
+            下拉列表
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.UI.HtmlExtends.TagType.Hidden">
+            <summary>
+            隐藏控件
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.UI.HtmlExtends.TagType.Normal">
+            <summary>
+            根据特性自动检测，如果没有则默认是textbox
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.UI.AsyncActionAttribute">
+            <summary>
+            用于标记只能为异步请求action的特性
+            created by kongjing
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.LessThanAttribute.#ctor(System.Double,System.Boolean)">
+            <summary>
+            验证是否小于指定值
+            </summary>
+            <param name="maxNumber">最大值</param>
+            <param name="canequal">是否登录最大值</param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.LessThanAttribute.IsValid(System.Object)">
+            <summary>
+            是否通过验证
+            </summary>
+            <param name="value">输入值</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.Validations.LessThanAttribute.FormatErrorMessage(System.String)">
+            <summary>
+            格式化错误信息
+            </summary>
+            <param name="name">指定的字段名</param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Web.Mvc.HtmlHelperExtention">
+            <summary>
+            mvchtml标签扩展类
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlHelperExtention.GetFormBody``1(System.Web.Mvc.HtmlHelper{``0},System.Boolean)">
+            <summary>
+            生成表单标签的主体部分
+            </summary>
+            <typeparam name="TModel">表单对象类型</typeparam>
+            <param name="htmlHelper">htmlHelper</param>
+            <param name="submitBtn">是否自动生成提交按钮</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlHelperExtention.SmartFormFor``1(System.Web.Mvc.HtmlHelper{``0},``0,System.String,System.String,System.Boolean,System.Web.Routing.RouteValueDictionary,System.Web.Mvc.FormMethod,System.Object)">
+            <summary>
+            生成表单标签
+            </summary>
+            <typeparam name="TModel">表单对象类型</typeparam>
+            <param name="htmlHelper">htmlHelper</param>
+            <param name="model">模型</param>
+            <param name="actionName">动作</param>
+            <param name="controllerName">控制器</param>
+            <param name="isAsyncRequest">是否为异步提交</param>
+            <param name="routeValues">表单传值</param>
+            <param name="method">提交方式</param>
+            <param name="htmlAttributes">表单标签属性</param>
+            <returns>MvcHtmlString</returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlHelperExtention.SmartFormFor``1(System.Web.Mvc.HtmlHelper{``0},``0,System.Object)">
+            <summary>
+            生成表单标签
+            </summary>
+            <typeparam name="TModel">表单对象类型</typeparam>
+            <param name="htmlHelper">htmlHelper</param>
+            <param name="model">模型</param>
+            <param name="htmlAttributes">表单标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlHelperExtention.SmartFormBeginFor``1(System.Web.Mvc.HtmlHelper{``0},``0,System.String,System.String,System.Boolean,System.Web.Routing.RouteValueDictionary,System.Web.Mvc.FormMethod,System.Object)">
+            <summary>
+            生成表单标签
+            </summary>
+            <typeparam name="TModel">表单对象类型</typeparam>
+            <param name="htmlHelper">htmlHelper</param>
+            <param name="model">模型</param>
+            <param name="actionName">动作</param>
+            <param name="controllerName">控制器</param>
+            <param name="isAsyncSubmit">是否为异步提交</param>
+            <param name="routeValues">表单传值</param>
+            <param name="method">提交方式</param>
+            <param name="htmlAttributes">表单标签属性</param>
+            <returns>MvcForm</returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlHelperExtention.SmartFormBeginFor``1(System.Web.Mvc.HtmlHelper{``0},``0,System.Object)">
+            <summary>
+            生成表单标签
+            </summary>
+            <typeparam name="TModel">表单对象类型</typeparam>
+            <param name="htmlHelper">htmlHelper</param>
+            <param name="model">模型</param>
+            <param name="htmlAttributes">表单标签属性</param>
+            <returns>MvcForm</returns>
+        </member>
+        <member name="T:System.Web.Mvc.HtmlControlExtention">
+            <summary>
+            mvchtml标签扩展类
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzSmartControl``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            根据模型属性标有的特性（*UI）生成对应标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="expression">属性表达式</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzTextBox(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String,System.Object)">
+            <summary>
+            生成input标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="name">input的name</param>
+            <param name="value">input的value</param>
+            <param name="label">标题文本</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzTextBoxFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            使用视图模型属性生成input标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="expression">属性表达式</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzTextArea(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String,System.Object)">
+            <summary>
+            生成textarea标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="name">textarea的name</param>
+            <param name="value">textarea的value</param>
+            <param name="label">标题文本</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzTextAreaFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            使用视图模型属性生成textarea标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="expression">属性表达式</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzHtmlEditor(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String,System.Object)">
+            <summary>
+            生成富文本编辑器标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="name">Editor的name</param>
+            <param name="value">Editor的value</param>
+            <param name="label">标题文本</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzHtmlEditorFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            使用视图模型属性生成富文本编辑器标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="expression">属性表达式</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzDatePicker(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String,System.Object)">
+            <summary>
+            生成DatePicker标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="name">DatePicker的name</param>
+            <param name="value">DatePicker的value</param>
+            <param name="label">标题文本</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzDatePickerFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            使用视图模型属性生成DatePicker标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="expression">属性表达式</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzPassword(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String,System.Object)">
+            <summary>
+            生成Password标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="name">Password的name</param>
+            <param name="value">Password的value</param>
+            <param name="label">标题文本</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzPasswordFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            使用视图模型属性生成Password标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="expression">属性表达式</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzHidden(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String,System.Object)">
+            <summary>
+            生成Hidden标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="name">Hidden的name</param>
+            <param name="value">Hidden的value</param>
+            <param name="label">标题文本</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzHiddenFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            使用视图模型属性生成Hidden标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="expression">属性表达式</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzUploadFile(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String,System.Object)">
+            <summary>
+            生成UploadFile标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="name">UploadFile的name</param>
+            <param name="value">UploadFile的value</param>
+            <param name="label">标题文本</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzUploadFileFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            使用视图模型属性生成UploadFile标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="expression">属性表达式</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzRadio(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String,System.Object)">
+            <summary>
+            生成Radio标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="name">Radio的name</param>
+            <param name="value">Radio的value</param>
+            <param name="label">标题文本</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzRadioFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            使用视图模型属性生成Radio标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="expression">属性表达式</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzCheckBox(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String,System.Object)">
+            <summary>
+            生成CheckBox标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="name">CheckBox的name</param>
+            <param name="value">CheckBox的value</param>
+            <param name="label">标题文本</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzCheckBoxFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            使用视图模型属性生成CheckBox标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="expression">属性表达式</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzSelect(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String,System.Object)">
+            <summary>
+            生成Select标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="name">Select的name</param>
+            <param name="value">Select的value</param>
+            <param name="label">标题文本</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.HtmlControlExtention.EzSelectFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            使用视图模型属性生成Select标签
+            </summary>
+            <param name="htmlHelper">HtmlHelper</param>
+            <param name="expression">属性表达式</param>
+            <param name="htmlAttributes">标签属性</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.UI.ViewExtend.CRazorViewEngine.AddViewFormatRule(System.String)">
+            <summary>
+            添加目录
+            </summary>
+            <param name="filePath"></param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.ViewExtend.CRazorViewEngine.ExploreDirectory(System.IO.DirectoryInfo)">
+            <summary>
+            扩展View目录
+            </summary>
+            <param name="dir"></param>
+        </member>
+        <member name="M:UBIQ.Framework.UI.ViewExtend.CRazorViewEngine.ScanCatalogPath">
+            <summary>
+            定位扩展的View目录
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtend.CustomMenu.From">
+            <summary>
+            生成菜单的请求来自
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.FormAttributes.DatePickerUIAttribute.DateFormater">
+            <summary>
+            标签附加属性
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.UI.HtmlExtends.FormAttributes.DatePickerUIAttribute.ReadOnly">
+            <summary>
+            是否只读,默认只读
+            </summary>
+        </member>
+        <member name="T:System.Web.Mvc.ExtFuns">
+            <summary>
+            扩展方法
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.Lang(System.Web.Mvc.HtmlHelper,System.String)">
+            <summary>
+            通过可以获取资源，只能获取框架资源，无法取得程序员定义的资源信息，不建议使用
+            请使用资源类名调用静态属性实现
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.CustomLabelFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}})">
+            <summary>
+            获取用于客户端的显示文本，需要在字段上 声明 特性 CustomLabelForAttribute，不建议使用
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.Partial(System.Web.Mvc.HtmlHelper,System.String,System.Object,System.String)">
+            <summary>
+            自定义部分视图内容
+            </summary>
+            <param name="helper"></param>
+            <param name="partViewName">视图名，请定义在~/Views/Template/目录下 文件要求有扩展名</param>
+            <param name="model">传递给视图的数据，一般为宿主的数据模型</param>
+            <param name="className">如果同一个模版内容有不同的样式内容那么请按标准定义后通过样式的定义名控制</param>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.CTextBoxFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+            生成输入框标签，在表单中框架严禁使用mvc默认的方法生成标签,因为它不具备良好的和框架配合验证的能力
+            </summary>
+            <typeparam name="TModel">模型</typeparam>
+            <typeparam name="TProperty">模型的属性</typeparam>
+            <param name="htmlHelper">扩展对象</param>
+            <param name="expression">lamda 表达式提取属性名与值参与标签生成</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.CPasswordFor``2(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Object)">
+            <summary>
+             生成密码输入框标签，在表单中框架严禁使用mvc默认的方法生成标签,因为它不具备良好的和框架配合验证的能力
+            </summary>
+            <typeparam name="TModel">模型</typeparam>
+            <typeparam name="TProperty">模型的属性</typeparam>
+            <param name="htmlHelper">扩展对象</param>
+            <param name="expression">lamda 表达式提取属性名与值参与标签生成</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.SpecialControlFor``1(System.Web.Mvc.HtmlHelper{``0},UBIQ.Framework.UI.HtmlExtend.PropertyAgent)">
+            <summary>
+            生成 如 下拉列表 复选框 单选框
+            </summary>
+            <typeparam name="TModel">模型</typeparam>
+            <param name="htmlHelper">扩展对象</param>
+            <param name="expression">lamda 表达式提取属性名与值参与标签生成</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.SpecialControlFor``1(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,UBIQ.Framework.UI.HtmlExtend.PropertyAgent}})">
+            <summary>
+            生成 如 下拉列表 复选框 单选框
+            </summary>
+            <typeparam name="TModel">模型</typeparam>
+            <param name="htmlHelper">扩展对象</param>
+            <param name="expression">lamda 表达式提取属性名与值参与标签生成</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.BackBtn(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            生成返回按钮
+            </summary>
+            <param name="htmlHelper">扩展对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.CloseBtn(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            关闭按钮
+            </summary>
+            <param name="htmlHelper"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.SaveBtn(System.Web.Mvc.HtmlHelper)">
+            <summary>
+            保存按钮
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.LoginOutLink(System.Web.Mvc.HtmlHelper,System.String,System.Object,System.Boolean)">
+            <summary>
+            产生退出按钮
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.A(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String,System.String,System.Object,System.String,System.Object)">
+            <summary>
+            创建一个连接，可为连接前设置一个图标
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.A(System.Web.Mvc.HtmlHelper,System.String,System.String,System.String,System.Boolean,System.Object,System.String,System.Object)">
+            <summary>
+            创建一个连接，可确定是否在标签前显示一个link图标,默认显示这个图标
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.TopBarMenu``1(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Collections.Generic.IList{UBIQ.Framework.UI.Entities.TopMenu}}},System.Object)">
+            <summary>
+            创建头部菜单
+            </summary>
+            <typeparam name="TModel"></typeparam>
+            <param name="htmlHelper"></param>
+            <param name="expression"></param>
+            <param name="htmlAttributes"></param>
+            <returns></returns>
+        </member>
+        <member name="F:System.Web.Mvc.ExtFuns.menuid">
+            <summary>
+            创建菜单用于桌面风格布局
+            </summary>
+            <param name="gps"></param>
+            <param name="isfirstchildren"></param>
+            <returns></returns>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.AsTagForXdialog(UBIQ.Framework.UI.Entities.Menu,System.String,System.Object)">
+            <summary>
+            获取框架要求规范的连接
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.TopBarMenuFor``1(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Collections.Generic.IList{UBIQ.Framework.UI.Entities.TopMenu}}},System.Object)">
+            <summary>
+            获取头部菜单，用于后台常规布局（上左右下结构）
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.LeftMenuForTraditionLayoutFor``1(System.Web.Mvc.HtmlHelper{``0},System.Linq.Expressions.Expression{System.Func{``0,System.Collections.Generic.IList{UBIQ.Framework.UI.Entities.TopMenu}}},System.Object)">
+            <summary>
+            获取左侧菜单，用于后台常规布局（上左右下结构）
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.GetChildrenMenuBox(System.String,System.Collections.Generic.IList{UBIQ.Framework.UI.Entities.MenuGroup},System.Text.StringBuilder@,System.Boolean)">
+            <summary>
+            获取一个顶级模块对应的盒子
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.NormalMenuGroup(System.Collections.Generic.IList{UBIQ.Framework.UI.Entities.MenuGroup})">
+            <summary>
+            常规化已分组的菜单集合
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.GetMenuBox(System.Collections.Generic.IList{UBIQ.Framework.UI.Entities.MenuGroup},System.Text.StringBuilder@)">
+            <summary>
+            生成一个菜单模块
+            </summary>
+        </member>
+        <member name="M:System.Web.Mvc.ExtFuns.FileUpload(System.Web.Mvc.HtmlHelper,System.Web.Mvc.FileUpLoadType,System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Boolean,System.Object)">
+            <summary>
+            生成上传标签
+            </summary>
+            <param name="htmlHelper">htmlHelper对象</param>
+            <param name="uptype">上传类型枚举[image|flasg|doc|audio]</param>
+            <param name="allownum">允许同时上传的数量</param>
+            <param name="successfn">上传成功后回调函数</param>
+            <param name="progressfn">进度更新函数</param>
+            <param name="dir">指定存储目录,为空时到默认目录</param>
+            <param name="width">按钮宽度</param>
+            <param name="height">按钮高度</param>
+            <param name="classStyleName">按钮使用的样式</param>
+            <param name="auto">是否自动上传</param>
+            <returns></returns>
+        </member>
+        <member name="T:System.Web.Mvc.FileUpLoadType">
+            <summary>
+            上传文件的类型枚举
+            </summary>
+        </member>
+    </members>
+</doc>

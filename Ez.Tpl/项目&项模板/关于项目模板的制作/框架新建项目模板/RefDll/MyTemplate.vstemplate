@@ -1,0 +1,73 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <Name>RefDll</Name>
+    <Description>依赖框架DLL</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>RefDll</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon></Icon>
+  </TemplateData>
+  <TemplateContent>
+      <Folder Name="RefDll" TargetFolderName="RefDll">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Biz.dll">Biz.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Biz.xml">Biz.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Cache.dll">Cache.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Cache.xml">Cache.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Common.Logging.dll">Common.Logging.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Commons.dll">Commons.dll</ProjectItem>
+        <Folder Name="Config" TargetFolderName="Config">
+          <ProjectItem ReplaceParameters="true" TargetFileName="DataBase.config">DataBase.config</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Log4Net.config">Log4Net.config</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Memcached.config">Memcached.config</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Payment.config">Payment.config</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="UpopPayment.config">UpopPayment.config</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Config.dll">Config.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Config.xml">Config.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Controllers.dll">Controllers.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Controllers.xml">Controllers.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Core.dll">Core.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Core.xml">Core.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="DataBase.dll">DataBase.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="DataBase.xml">DataBase.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Dtos.dll">Dtos.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Dtos.xml">Dtos.xml</ProjectItem>
+        <Folder Name="en-US" TargetFolderName="en-US">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Lang.resources.dll">Lang.resources.dll</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Helper.dll">Helper.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Helper.xml">Helper.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="IBiz.dll">IBiz.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IBiz.xml">IBiz.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="ICSharpCode.SharpZipLib.dll">ICSharpCode.SharpZipLib.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="IDataBase.dll">IDataBase.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="IDataBase.xml">IDataBase.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Lang.dll">Lang.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Lang.xml">Lang.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="log4net.dll">log4net.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Memcached.ClientLibrary.dll">Memcached.ClientLibrary.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="MySql.Data.dll">MySql.Data.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="MyTemplate.vstemplate">MyTemplate.vstemplate</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Payment.dll">Payment.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Payment.xml">Payment.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Spring.Aop.dll">Spring.Aop.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Spring.Core.dll">Spring.Core.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Spring.Data.dll">Spring.Data.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Spring.Web.dll">Spring.Web.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Spring.Web.Mvc3.dll">Spring.Web.Mvc3.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="UI.dll">UI.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="UI.xml">UI.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Web.dll">Web.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Web.xml">Web.xml</ProjectItem>
+        <Folder Name="zh-CN" TargetFolderName="zh-CN">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Lang.resources.dll">Lang.resources.dll</ProjectItem>
+        </Folder>
+      </Folder>
+  </TemplateContent>
+</VSTemplate>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EzWeb</name>
+    </assembly>
+    <members>
+        <member name="T:Ez.Web.MvcApplication">
+            <summary>
+            框架应用程序
+            </summary>
+        </member>
+        <member name="M:Ez.Web.MvcApplication.RegisterGlobalFilters(System.Web.Mvc.GlobalFilterCollection)">
+            <summary>
+            注册框架的全局过滤器
+            </summary>
+            <param name="filters">全局过滤器集合</param>
+        </member>
+        <member name="M:Ez.Web.MvcApplication.RegisterRoutes(System.Web.Routing.RouteCollection)">
+            <summary>
+            注册框架路由
+            </summary>
+            <param name="routes">框架路由集合</param>
+        </member>
+        <member name="M:Ez.Web.MvcApplication.Application_Start">
+            <summary>
+            启动框架应用
+            </summary>
+        </member>
+        <member name="T:Ez.Web.FrameworkApplication">
+            <summary>
+            框架提供给产品程序的应用程序接口用于启动产品应用程序 来注入产品多语言信息
+            </summary>
+        </member>
+        <member name="M:Ez.Web.FrameworkApplication.AppStart(Ez.Lang.LanguageAssemblyProvider)">
+            <summary>
+            启动框架应用
+            </summary>
+            <param name="provider">产品多语言支持接口</param>
+        </member>
+        <member name="P:Ez.Web.FrameworkApplication.Instance">
+            <summary>
+            单例模式获取框架应用实例
+            </summary>
+        </member>
+    </members>
+</doc>

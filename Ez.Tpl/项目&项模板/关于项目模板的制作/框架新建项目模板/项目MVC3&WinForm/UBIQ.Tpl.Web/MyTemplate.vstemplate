@@ -1,0 +1,244 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>UBIQ.Tpl.Web</Name>
+    <Description>&lt;Web站点&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>UBIQ.Tpl.Web</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="UBIQ.Tpl.Web.csproj" File="UBIQ.Tpl.Web.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="buy.html">buy.html</ProjectItem>
+      <Folder Name="Config" TargetFolderName="Config">
+        <ProjectItem ReplaceParameters="true" TargetFileName="DataBase.config">DataBase.config</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Log4Net.config">Log4Net.config</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Memcached.config">Memcached.config</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Payment.config">Payment.config</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Secret.config">Secret.config</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="UI.config">UI.config</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="UpopPayment.config">UpopPayment.config</ProjectItem>
+      </Folder>
+      <Folder Name="Content" TargetFolderName="Content">
+        <Folder Name="css" TargetFolderName="css">
+          <ProjectItem ReplaceParameters="true" TargetFileName="font-awesome.css">font-awesome.css</ProjectItem>
+          <Folder Name="fonts" TargetFolderName="fonts">
+            <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.eot">fontawesome-webfont.eot</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.ttf">fontawesome-webfont.ttf</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.woff">fontawesome-webfont.woff</ProjectItem>
+          </Folder>
+        </Folder>
+        <Folder Name="desktop" TargetFolderName="desktop">
+          <Folder Name="default" TargetFolderName="default">
+            <Folder Name="images" TargetFolderName="images">
+              <Folder Name="app" TargetFolderName="app">
+                <ProjectItem ReplaceParameters="false" TargetFileName="big.png">big.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="diskexplorer.png">diskexplorer.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="none.jpg">none.jpg</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="web3d.png">web3d.png</ProjectItem>
+              </Folder>
+              <ProjectItem ReplaceParameters="false" TargetFileName="deskbg02.gif">deskbg02.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="favicon.ico">favicon.ico</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="iOS7_01.jpg">iOS7_01.jpg</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="layer_bg.png">layer_bg.png</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="true" TargetFileName="layout.css">layout.css</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="main.css">main.css</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="page.css">page.css</ProjectItem>
+          </Folder>
+        </Folder>
+        <Folder Name="images" TargetFolderName="images">
+          <ProjectItem ReplaceParameters="false" TargetFileName="1403056902129.jpg">1403056902129.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="deskbg.gif">deskbg.gif</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="deskbg01.gif">deskbg01.gif</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="deskbg02.gif">deskbg02.gif</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="deskbg03.jpg">deskbg03.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="deskbg04.png">deskbg04.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="header.png">header.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="logo.png">logo.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="page-loading.gif">page-loading.gif</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ui-icons_888888_256x240.png">ui-icons_888888_256x240.png</ProjectItem>
+        </Folder>
+        <Folder Name="lib" TargetFolderName="lib">
+          <Folder Name="jqgrid" TargetFolderName="jqgrid">
+            <Folder Name="images" TargetFolderName="images">
+              <ProjectItem ReplaceParameters="false" TargetFileName="ui-bg_flat_0_aaaaaa_40x100.png">ui-bg_flat_0_aaaaaa_40x100.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ui-bg_flat_75_ffffff_40x100.png">ui-bg_flat_75_ffffff_40x100.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ui-bg_glass_55_fbf9ee_1x400.png">ui-bg_glass_55_fbf9ee_1x400.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ui-bg_glass_65_ffffff_1x400.png">ui-bg_glass_65_ffffff_1x400.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ui-bg_glass_75_dadada_1x400.png">ui-bg_glass_75_dadada_1x400.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ui-bg_glass_75_e6e6e6_1x400.png">ui-bg_glass_75_e6e6e6_1x400.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ui-bg_glass_95_fef1ec_1x400.png">ui-bg_glass_95_fef1ec_1x400.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ui-bg_highlight-soft_75_cccccc_1x100.png">ui-bg_highlight-soft_75_cccccc_1x100.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ui-icons_222222_256x240.png">ui-icons_222222_256x240.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ui-icons_2e83ff_256x240.png">ui-icons_2e83ff_256x240.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ui-icons_454545_256x240.png">ui-icons_454545_256x240.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ui-icons_888888_256x240.png">ui-icons_888888_256x240.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="ui-icons_cd0a0a_256x240.png">ui-icons_cd0a0a_256x240.png</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="true" TargetFileName="jqgrid-ui-custom-style01.css">jqgrid-ui-custom-style01.css</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="jqgrid-ui-custom-style02.css">jqgrid-ui-custom-style02.css</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="ui.jqgrid.css">ui.jqgrid.css</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Site.css">Site.css</ProjectItem>
+          <Folder Name="themes" TargetFolderName="themes">
+            <Folder Name="base" TargetFolderName="base">
+              <Folder Name="images" TargetFolderName="images">
+                <ProjectItem ReplaceParameters="false" TargetFileName="ui-bg_flat_0_aaaaaa_40x100.png">ui-bg_flat_0_aaaaaa_40x100.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="ui-bg_flat_75_ffffff_40x100.png">ui-bg_flat_75_ffffff_40x100.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="ui-bg_glass_55_fbf9ee_1x400.png">ui-bg_glass_55_fbf9ee_1x400.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="ui-bg_glass_65_ffffff_1x400.png">ui-bg_glass_65_ffffff_1x400.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="ui-bg_glass_75_dadada_1x400.png">ui-bg_glass_75_dadada_1x400.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="ui-bg_glass_75_e6e6e6_1x400.png">ui-bg_glass_75_e6e6e6_1x400.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="ui-bg_glass_95_fef1ec_1x400.png">ui-bg_glass_95_fef1ec_1x400.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="ui-bg_highlight-soft_75_cccccc_1x100.png">ui-bg_highlight-soft_75_cccccc_1x100.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="ui-icons_222222_256x240.png">ui-icons_222222_256x240.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="ui-icons_2e83ff_256x240.png">ui-icons_2e83ff_256x240.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="ui-icons_454545_256x240.png">ui-icons_454545_256x240.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="ui-icons_888888_256x240.png">ui-icons_888888_256x240.png</ProjectItem>
+                <ProjectItem ReplaceParameters="false" TargetFileName="ui-icons_cd0a0a_256x240.png">ui-icons_cd0a0a_256x240.png</ProjectItem>
+              </Folder>
+              <ProjectItem ReplaceParameters="true" TargetFileName="jquery-ui.css">jquery-ui.css</ProjectItem>
+            </Folder>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="xdialog.css">xdialog.css</ProjectItem>
+        </Folder>
+        <Folder Name="tradition" TargetFolderName="tradition">
+          <Folder Name="default" TargetFolderName="default">
+            <Folder Name="images" TargetFolderName="images">
+              <ProjectItem ReplaceParameters="false" TargetFileName="avatar.png">avatar.png</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="deskbg02.gif">deskbg02.gif</ProjectItem>
+              <ProjectItem ReplaceParameters="false" TargetFileName="layer_bg.png">layer_bg.png</ProjectItem>
+            </Folder>
+            <ProjectItem ReplaceParameters="true" TargetFileName="layout.css">layout.css</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="main.css">main.css</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="page.css">page.css</ProjectItem>
+          </Folder>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="crossdomain.xml">crossdomain.xml</ProjectItem>
+      <Folder Name="Download" TargetFolderName="Download">
+        <Folder Name="Files" TargetFolderName="Files">
+          <Folder Name="tickets" TargetFolderName="tickets">
+            <ProjectItem ReplaceParameters="false" TargetFileName="N-00000100.jpg">N-00000100.jpg</ProjectItem>
+          </Folder>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="favicon.ico">favicon.ico</ProjectItem>
+      <Folder Name="Files" TargetFolderName="Files">
+        <Folder Name="Avatar" TargetFolderName="Avatar">
+          <Folder Name="user0001" TargetFolderName="user0001">
+            <ProjectItem ReplaceParameters="false" TargetFileName="avatar_normal.png">avatar_normal.png</ProjectItem>
+          </Folder>
+        </Folder>
+        <Folder Name="Files" TargetFolderName="Files">
+          <Folder Name="tickets" TargetFolderName="tickets">
+            <ProjectItem ReplaceParameters="false" TargetFileName="N-00000100.jpg">N-00000100.jpg</ProjectItem>
+          </Folder>
+        </Folder>
+        <Folder Name="test" TargetFolderName="test" />
+        <Folder Name="tmp2" TargetFolderName="tmp2">
+          <ProjectItem ReplaceParameters="false" TargetFileName="20141128142406_1_0.png">20141128142406_1_0.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="20141128182604_1_0.png">20141128182604_1_0.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="20141205183644_0_0.png">20141205183644_0_0.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="20141205183647_0_0.png">20141205183647_0_0.png</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax.cs">Global.asax.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Scripts" TargetFolderName="Scripts">
+        <Folder Name="desktop" TargetFolderName="desktop">
+          <ProjectItem ReplaceParameters="true" TargetFileName="desktop.js">desktop.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="main.js">main.js</ProjectItem>
+        </Folder>
+        <Folder Name="lib" TargetFolderName="lib">
+          <ProjectItem ReplaceParameters="true" TargetFileName="ajaxhelper.jquery.js">ajaxhelper.jquery.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Common.js">Common.js</ProjectItem>
+          <Folder Name="jqgrid" TargetFolderName="jqgrid">
+            <ProjectItem ReplaceParameters="true" TargetFileName="grid.locale-en.js">grid.locale-en.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="jqGrid.Agent.js">jqGrid.Agent.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="jquery.fmatter.js">jquery.fmatter.js</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="jquery.jqGrid.src.js">jquery.jqGrid.src.js</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery-ui.js">jquery-ui.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery-ui.min.js">jquery-ui.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.js">jquery.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.unobtrusive-ajax.js">jquery.unobtrusive-ajax.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.unobtrusive-ajax.min.js">jquery.unobtrusive-ajax.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate-vsdoc.js">jquery.validate-vsdoc.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.ext.js">jquery.validate.ext.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.js">jquery.validate.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.min.js">jquery.validate.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.unobtrusive.js">jquery.validate.unobtrusive.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="jquery.validate.unobtrusive.min.js">jquery.validate.unobtrusive.min.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="MicrosoftAjax.debug.js">MicrosoftAjax.debug.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="MicrosoftAjax.js">MicrosoftAjax.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="MicrosoftMvcAjax.debug.js">MicrosoftMvcAjax.debug.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="MicrosoftMvcAjax.js">MicrosoftMvcAjax.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="MicrosoftMvcValidation.debug.js">MicrosoftMvcValidation.debug.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="MicrosoftMvcValidation.js">MicrosoftMvcValidation.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Upload.js">Upload.js</ProjectItem>
+          <Folder Name="uploadify" TargetFolderName="uploadify">
+            <ProjectItem ReplaceParameters="true" TargetFileName="jquery.uploadify.min.js">jquery.uploadify.min.js</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="upload.jpg">upload.jpg</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="uploadify-cancel.png">uploadify-cancel.png</ProjectItem>
+            <ProjectItem ReplaceParameters="true" TargetFileName="uploadify.css">uploadify.css</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="uploadify.swf">uploadify.swf</ProjectItem>
+          </Folder>
+          <ProjectItem ReplaceParameters="true" TargetFileName="xAdapter.js">xAdapter.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="xdialog.jquery.js">xdialog.jquery.js</ProjectItem>
+        </Folder>
+        <Folder Name="tradition" TargetFolderName="tradition">
+          <ProjectItem ReplaceParameters="true" TargetFileName="desktop.js">desktop.js</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="main.js">main.js</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="Views" TargetFolderName="Views">
+        <ProjectItem ReplaceParameters="false" TargetFileName="_ViewStart.cshtml">_ViewStart.cshtml</ProjectItem>
+        <Folder Name="Demo" TargetFolderName="Demo">
+          <ProjectItem ReplaceParameters="false" TargetFileName="index.cshtml">index.cshtml</ProjectItem>
+        </Folder>
+        <Folder Name="Error" TargetFolderName="Error">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Index.cshtml">Index.cshtml</ProjectItem>
+        </Folder>
+        <Folder Name="Shared" TargetFolderName="Shared">
+          <ProjectItem ReplaceParameters="false" TargetFileName="_Layout.cshtml">_Layout.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_Layout2.cshtml">_Layout2.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_MainLayout.cshtml">_MainLayout.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="_PageLayout.cshtml">_PageLayout.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Error.cshtml">Error.cshtml</ProjectItem>
+        </Folder>
+        <Folder Name="Template" TargetFolderName="Template">
+          <ProjectItem ReplaceParameters="false" TargetFileName="Tmp_Login.cshtml">Tmp_Login.cshtml</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+        <Folder Name="window" TargetFolderName="window">
+          <ProjectItem ReplaceParameters="false" TargetFileName="desktop.cshtml">desktop.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Login.cshtml">Login.cshtml</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="tradition.cshtml">tradition.cshtml</ProjectItem>
+          <Folder Name="UCenter" TargetFolderName="UCenter">
+            <ProjectItem ReplaceParameters="false" TargetFileName="CreateUser.cshtml">CreateUser.cshtml</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="EditMyInfo.cshtml">EditMyInfo.cshtml</ProjectItem>
+            <ProjectItem ReplaceParameters="false" TargetFileName="RoleView.cshtml">RoleView.cshtml</ProjectItem>
+          </Folder>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Release.config">Web.Release.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>UBIQProjTemplateWizard, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8d74d41300c5ad2d</Assembly>
+    <FullClassName>UBIQProjTemplateWizard.ChildWizard</FullClassName>
+  </WizardExtension>
+</VSTemplate>

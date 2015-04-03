@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8C47C2EB-5468-46D2-94A5-C3E687FAB6D6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UBIQ.Tpl.Controller</RootNamespace>
+    <AssemblyName>UBIQ.Tpl.Controller</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Cache">
+      <HintPath>..\..\RefDll\Cache.dll</HintPath>
+    </Reference>
+    <Reference Include="Controllers">
+      <HintPath>..\..\RefDll\Controllers.dll</HintPath>
+    </Reference>
+    <Reference Include="Core">
+      <HintPath>..\..\RefDll\Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Dtos">
+      <HintPath>..\..\RefDll\Dtos.dll</HintPath>
+    </Reference>
+    <Reference Include="Helper">
+      <HintPath>..\..\RefDll\Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="IBiz">
+      <HintPath>..\..\RefDll\IBiz.dll</HintPath>
+    </Reference>
+    <Reference Include="Lang">
+      <HintPath>..\..\RefDll\Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\RefDll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Aop">
+      <HintPath>..\..\RefDll\Spring.Aop.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UI">
+      <HintPath>..\..\RefDll\UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DemoController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UBIQ.Tpl.Dto\UBIQ.Tpl.Dto.csproj">
+      <Project>{D6DA40EC-1C80-436F-AE69-CB4BCC4540A4}</Project>
+      <Name>UBIQ.Tpl.Dto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UBIQ.Tpl.IBiz\UBIQ.Tpl.IBiz.csproj">
+      <Project>{7B1D992C-6C2A-4B30-BD07-90DB0E4D84CE}</Project>
+      <Name>UBIQ.Tpl.IBiz</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UBIQ.Tpl.Resource\UBIQ.Tpl.Resource.csproj">
+      <Project>{B93A12E4-46B1-4279-8FD7-D99F094BE2B4}</Project>
+      <Name>UBIQ.Tpl.Resource</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

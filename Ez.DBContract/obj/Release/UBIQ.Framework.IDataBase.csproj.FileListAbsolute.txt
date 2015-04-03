@@ -1,0 +1,12 @@
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.IDataBase\bin\Release\IDataBase.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.IDataBase\bin\Release\IDataBase.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.IDataBase\obj\Release\IDataBase.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Framework.IDataBase\obj\Release\IDataBase.pdb
+E:\本地项目\WebPlug\WebPlug2\UBIQ.Framework.IDataBase\bin\Release\IDataBase.dll
+E:\本地项目\WebPlug\WebPlug2\UBIQ.Framework.IDataBase\bin\Release\IDataBase.pdb
+E:\本地项目\WebPlug\WebPlug2\UBIQ.Framework.IDataBase\obj\Release\IDataBase.dll
+E:\本地项目\WebPlug\WebPlug2\UBIQ.Framework.IDataBase\obj\Release\IDataBase.pdb
+F:\Framework\04-测试\WebPlug2\UBIQ.Framework.IDataBase\bin\Release\IDataBase.dll
+F:\Framework\04-测试\WebPlug2\UBIQ.Framework.IDataBase\bin\Release\IDataBase.pdb
+F:\Framework\04-测试\WebPlug2\UBIQ.Framework.IDataBase\obj\Release\IDataBase.dll
+F:\Framework\04-测试\WebPlug2\UBIQ.Framework.IDataBase\obj\Release\IDataBase.pdb

@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+   @* <link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css" />*@
+    <link   href="@Url.Content("~/Content/css/font-awesome.css")" rel="stylesheet" type="text/css" />
+    <link   href="@Url.Content("~/Content/lib/Site.css")" rel="stylesheet" type="text/css" />
+    <link   href="@Url.Content("~/Content/" + ViewBag.LayoutAction + "/" + ViewBag.UIStyle + "/main.css")" rel="stylesheet" type="text/css" />
+    <link   href="@Url.Content("~/Content/" + ViewBag.LayoutAction + "/" + ViewBag.UIStyle + "/layout.css")" rel="stylesheet" type="text/css" />
+    <link   href="@Url.Content("~/Content/lib/xdialog.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/lib/jquery.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/lib/xdialog.jquery.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/" + ViewBag.LayoutAction + "/main.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/lib/ajaxhelper.jquery.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/lib/jquery.validate.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/lib/jquery.validate.unobtrusive.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/lib/jquery.unobtrusive-ajax.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/lib/jquery.validate.ext.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/lib/Common.js")" type="text/javascript"></script>
+    @RenderSection("CssScript",false)
+</head>
+<body style="@ViewBag.Layout_Body_CssText;overflow:hidden;">
+    @RenderBody()
+</body>
+</html>

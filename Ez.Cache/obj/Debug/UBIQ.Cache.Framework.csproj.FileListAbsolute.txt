@@ -1,0 +1,38 @@
+F:\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Cache.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Cache.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Cache.Framework\obj\Debug\UBIQ.Cache.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Cache.Framework\obj\Debug\UBIQ.Cache.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Cache.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Cache.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Cache.Framework\obj\Debug\UBIQ.Cache.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Cache.Framework\obj\Debug\UBIQ.Cache.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Cache.Framework.XML
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Cache.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Cache.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\obj\Debug\UBIQ.Cache.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\obj\Debug\UBIQ.Cache.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Cache.Framework.XML
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Cache.Framework.XML
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Cache.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Cache.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\obj\Debug\UBIQ.Cache.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\obj\Debug\UBIQ.Cache.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Cache.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Cache.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\obj\Debug\UBIQ.Cache.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\obj\Debug\UBIQ.Cache.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Cache.Framework.XML
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\Config\Memcached.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\Config\Memcached.config
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Cache.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Cache.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\obj\Debug\UBIQ.Cache.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\obj\Debug\UBIQ.Cache.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\Commons.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\log4net.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\Memcached.ClientLibrary.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\Memcached.ClientLibrary.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Cache.Framework\bin\Debug\UBIQ.Cache.Framework.XML

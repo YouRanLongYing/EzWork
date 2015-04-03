@@ -1,0 +1,908 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EzXControls</name>
+    </assembly>
+    <members>
+        <member name="T:Ez.XControls.Library.CtrlSolution">
+            <summary>
+            自定义控件解决方案基类
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Library.CtrlSolution.SetBorderColorSolution(Ez.XControls.Library.CtrlBorderColorInfo)">
+            <summary>
+            设置边框方案
+            </summary>
+            <param name="BorderColorInfo"></param>
+        </member>
+        <member name="M:Ez.XControls.Library.CtrlSolution.SetBgColorSolution(Ez.XControls.Library.CtrlBgColorInfo)">
+            <summary>
+            设置背景配色方案
+            </summary>
+            <param name="BgColorInfo"></param>
+        </member>
+        <member name="M:Ez.XControls.Library.CtrlSolution.SetBgSolution(Ez.XControls.Library.CtrlBgInfo)">
+            <summary>
+            设置背景配图方案
+            </summary>
+            <param name="BgInfo"></param>
+        </member>
+        <member name="M:Ez.XControls.Library.CtrlSolution.SetArrowSolution(Ez.XControls.Library.CtrlArrowInfo)">
+            <summary>
+            设置配图指示图标方案
+            </summary>
+            <param name="ArrowInfo"></param>
+        </member>
+        <member name="M:Ez.XControls.Library.CtrlSolution.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            鼠标按下事件
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Ez.XControls.Library.CtrlSolution.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            鼠标松开事件
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Ez.XControls.Library.CtrlSolution.OnMouseEnter(System.EventArgs)">
+            <summary>
+            
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Ez.XControls.Library.CtrlSolution.OnClick(System.EventArgs)">
+            <summary>
+            菜单点击事件
+            </summary>
+            <param name="e">参数</param>
+        </member>
+        <member name="M:Ez.XControls.Library.CtrlSolution.Active(System.EventArgs)">
+            <summary>
+            动作激活
+            </summary>
+            <param name="e">参数</param>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlSolution.IsMousePressd">
+            <summary>
+            鼠标是否按下
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlSolution.IsMouseEnter">
+            <summary>
+            鼠标是否进入控件区域
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlSolution.IsGotFocus">
+            <summary>
+            控件 是否获得焦点
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlSolution.CurrentBgColor">
+            <summary>
+            当前的背景色
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlSolution.CurrentBorderColor">
+            <summary>
+            当前的边框颜色
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlSolution.CurrentBg">
+            <summary>
+            当前背景图
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlSolution.CurrentArrow">
+            <summary>
+            当前背景图
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlSolution.Paintable">
+            <summary>
+            是否允许控件重绘
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlSolution.BorderColorInfo">
+            <summary>
+            边框配色方案
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlSolution.BgInfo">
+            <summary>
+            背景配图方案
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlSolution.BgColorInfo">
+            <summary>
+            背景配色方案
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlSolution.ArrowInfo">
+            <summary>
+            指示图标方案
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlSolution.AbsLocation">
+            <summary>
+            控件在顶级容器的绝对位置
+            </summary>
+        </member>
+        <member name="F:Ez.XControls.Menus.XSideBar.controls">
+            <summary>
+            控件集合
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Menus.XSideBar.AddItem(Ez.XControls.Menus.SideItem)">
+            <summary>
+            添加一个菜单项
+            </summary>
+            <param name="block"></param>
+        </member>
+        <member name="M:Ez.XControls.Menus.XSideBar.SetPosition(Ez.XControls.Library.SideItemTitle@)">
+            <summary>
+            获取子控件容器在容器中的位置
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Ez.XControls.Menus.XSideBar.DisplayViewMenus(Ez.XControls.Library.SideItemTitle)">
+            <summary>
+            重新定位可见的菜单项
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Menus.XSideBar.items">
+            <summary>
+            菜单集合
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Menus.XSideBar.Items">
+            <summary>
+            左侧菜单框菜单列表项
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Menus.XSideBar.Controls">
+            <summary>
+            子控件
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Menus.SideItem.ItemTitle">
+            <summary>
+            菜单的标题
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Menus.SideItem.Children">
+            <summary>
+            对应的子模块
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Menus.SideItemChildren.Add(Ez.XControls.Menus.XMenuItem)">
+            <summary>
+            添加项
+            </summary>
+            <param name="item">xmenuitem</param>
+        </member>
+        <member name="M:Ez.XControls.Menus.SideItemChildren.Find(System.String)">
+            <summary>
+            查找
+            </summary>
+            <param name="name">item名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:Ez.XControls.Menus.SideItemChildren.Remove(Ez.XControls.Menus.XMenuItem)">
+            <summary>
+            移除
+            </summary>
+            <param name="item">项目</param>
+        </member>
+        <member name="M:Ez.XControls.xAnimate.IAnimateFunc.Start">
+            <summary>
+            启动动画
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.xAnimate.IAnimateFunc.Stop">
+            <summary>
+            停止动画
+            </summary>
+        </member>
+        <member name="T:Ez.XControls.xAnimate.AlphaValue">
+            <summary>
+            用于颜色变化
+            </summary>
+        </member>
+        <member name="T:Ez.XControls.Library.CtrlArrowInfo">
+            <summary>
+            控件指示图标
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlArrowInfo.NormalArrow">
+            <summary>
+            默认指示图标
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlArrowInfo.HightLightArrow">
+            <summary>
+            高亮指示图标
+            </summary>
+        </member>
+        <member name="T:Ez.XControls.Menus.XMenu">
+            <summary>
+            子菜单控件,对多个按钮的封装
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Menus.XMenu.SetLocation(System.Windows.Forms.Control)">
+            <summary>
+            设置子菜单的位置
+            </summary>
+            <param name="target">依附的目标控件</param>
+            <param name="posBottom">是否在依附控件的下方出现否则就在右方出现，默认是</param>
+        </member>
+        <member name="P:Ez.XControls.Menus.XMenu.DisplayChildMenu">
+            <summary>
+            当前显示子菜单
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Menus.XMenu.FireItem">
+            <summary>
+            触发当前菜单显示的菜单项
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Menus.XMenu.IsBottomPos">
+            <summary>
+            设置此菜单依附父级容器的位置是否在底部否则就会右侧,默认在底部
+            </summary>
+        </member>
+        <member name="T:Ez.XControls.Menus.XMenuItem">
+            <summary>
+            表示一个按钮项
+            </summary>
+        </member>
+        <member name="F:Ez.XControls.Menus.XMenuItem.pressDown">
+            <summary>
+            鼠标是否按下
+            </summary>
+        </member>
+        <member name="F:Ez.XControls.Menus.XMenuItem.mouseInMenu">
+            <summary>
+            鼠标是否进入
+            </summary>
+        </member>
+        <member name="F:Ez.XControls.Menus.XMenuItem.components">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Menus.XMenuItem.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            鼠标按钮
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Menus.XMenuItem.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            鼠标松开
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Menus.XMenuItem.OnMouseEnter(System.EventArgs)">
+            <summary>
+            鼠标进入
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Menus.XMenuItem.OnMouseLeave(System.EventArgs)">
+            <summary>
+            鼠标离开
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Menus.XMenuItem.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            绘制
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Menus.XMenuItem.Dispose(System.Boolean)">
+            <summary>
+            释放资源
+            </summary>
+            <param name="disposing">是否释放由System.ComponentModel.Container释放的资源</param>
+        </member>
+        <member name="M:Ez.XControls.Menus.XMenuItem.InitializeComponent">
+            <summary>
+            设计器支持所需的方法 - 不要使用代码编辑器 
+            修改此方法的内容。
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Menus.XMenuItem.Active(System.EventArgs)">
+            <summary>
+            动作激活
+            </summary>
+            <param name="e">参数</param>
+        </member>
+        <member name="P:Ez.XControls.Menus.XMenuItem.Src">
+            <summary>
+            按钮调用的窗体全路径
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Menus.XMenuItem.MouseOverColor">
+            <summary>
+            鼠标悬浮在按钮上时按钮的背景色
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Menus.XMenuItem.MousePressedColor">
+            <summary>
+            鼠标在按钮按下时的背景色
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Menus.XMenuItem.MouseNormalColor">
+            <summary>
+            鼠标的默认背景色
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Menus.XMenuItem.Ico">
+            <summary>
+            按钮前面的图标，无图片时留空占位
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Menus.XMenuItem.Child">
+            <summary>
+            获取或设置子级菜单
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Menus.XMenuItem.HasChild">
+            <summary>
+            是否包含子菜单
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Library.SideItemTitle.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            鼠标按钮
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Library.SideItemTitle.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            鼠标松开
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Library.SideItemTitle.OnMouseEnter(System.EventArgs)">
+            <summary>
+            鼠标进入
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Library.SideItemTitle.Active(System.EventArgs)">
+            <summary>
+            动作激活
+            </summary>
+            <param name="e">参数</param>
+        </member>
+        <member name="P:Ez.XControls.Library.SideItemTitle.Child">
+            <summary>
+            获取或设置子级菜单
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.SideItemTitle.HasChild">
+            <summary>
+            是否包含子菜单
+            </summary>
+        </member>
+        <member name="T:Ez.XControls.Library.CtrlBorderColorInfo">
+            <summary>
+            边框配色方案
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlBorderColorInfo.PressedBorderColor">
+            <summary>
+            按下时边框颜色
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlBorderColorInfo.PressUpBorderColor">
+            <summary>
+            松开时边框颜色
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlBorderColorInfo.EnterBorderColor">
+            <summary>
+            进入是边框颜色
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlBorderColorInfo.LeaveBorderColor">
+            <summary>
+            离开时的边框颜色，即默认颜色
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.xAnimate.AnimateArgs`1.CurrentValue">
+            <summary>
+            当前的值
+            </summary>
+        </member>
+        <member name="F:Ez.XControls.Library.Utils.BorderColor">
+            <summary> 
+            窗体的边框颜色 
+            </summary> 
+        </member>
+        <member name="F:Ez.XControls.Library.Utils.HotColor">
+            <summary> 
+            热点边框颜色 
+            </summary> 
+        </member>
+        <member name="M:Ez.XControls.Library.Utils.GetWindowDC(System.IntPtr)">
+            <summary> 
+            获得当前进程，以便重绘控件 
+            </summary> 
+            <param name="hWnd"></param> 
+            <returns></returns> 
+        </member>
+        <member name="M:Ez.XControls.Library.Utils.SendMessage(System.IntPtr,System.Int32,System.Int32,System.IntPtr)">
+            <summary>
+            禁止控件重绘
+            </summary>
+            <param name="hwnd"></param>
+            <param name="wMsg"></param>
+            <param name="wParam"></param>
+            <param name="lParam"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ez.XControls.Library.Utils.TopContainer(System.Windows.Forms.Control)">
+            <summary>
+            获取控件的顶级容器
+            </summary>
+            <param name="ctrl"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ez.XControls.Library.Utils.BeginPaint(System.IntPtr)">
+            <summary>
+            停止控件的重绘
+            </summary>
+            <param name="handle"></param>
+        </member>
+        <member name="M:Ez.XControls.Library.Utils.EndPaint(System.IntPtr)">
+            <summary>
+            允许控件重绘.
+            </summary>
+            <param name="handle"></param>
+        </member>
+        <member name="M:Ez.XControls.XMaskLayer.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            自定义绘制窗体
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="P:Ez.XControls.XMaskLayer.CreateParams">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Ez.XControls.Library.CtrlBgInfo">
+            <summary>
+            背景配图方案
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlBgInfo.PressedBg">
+            <summary>
+            按下时的背景
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlBgInfo.EnterBg">
+            <summary>
+            进入时的背景
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlBgInfo.LeaveBg">
+            <summary>
+            离开时的背景
+            </summary>
+        </member>
+        <member name="F:Ez.XControls.Buttons.ButtonEx._HotTrack">
+            <summary> 
+            是否启用热点效果 
+            </summary> 
+        </member>
+        <member name="M:Ez.XControls.Buttons.ButtonEx.#ctor">
+            <summary> 
+            
+            </summary> 
+        </member>
+        <member name="M:Ez.XControls.Buttons.ButtonEx.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary> 
+            鼠标移动到该控件上时 
+            </summary> 
+        </member>
+        <member name="M:Ez.XControls.Buttons.ButtonEx.OnMouseLeave(System.EventArgs)">
+            <summary> 
+            当鼠标从该控件移开时 
+            </summary> 
+            <param name="e"></param> 
+        </member>
+        <member name="M:Ez.XControls.Buttons.ButtonEx.OnGotFocus(System.EventArgs)">
+            <summary> 
+            当该控件获得焦点时 
+            </summary> 
+            <param name="e"></param> 
+        </member>
+        <member name="M:Ez.XControls.Buttons.ButtonEx.OnLostFocus(System.EventArgs)">
+            <summary> 
+            当该控件失去焦点时 
+            </summary> 
+            <param name="e"></param> 
+        </member>
+        <member name="E:Ez.XControls.xAnimate.IAnimateEvents`1.AnimationStarted">
+            <summary>
+            启动动画后的回调
+            </summary>
+        </member>
+        <member name="E:Ez.XControls.xAnimate.IAnimateEvents`1.AnimationStopped">
+            <summary>
+            动画停止后的回调
+            </summary>
+        </member>
+        <member name="E:Ez.XControls.xAnimate.IAnimateEvents`1.AnimationFinished">
+            <summary>
+            动画执行完事的回调
+            </summary>
+        </member>
+        <member name="E:Ez.XControls.xAnimate.IAnimateEvents`1.StepSizeChanged">
+            <summary>
+            动画执行中的回调
+            </summary>
+        </member>
+        <member name="F:Ez.XControls.TextBoxs.XTextBox._HotTrack">
+            <summary> 
+            是否启用热点效果 
+            </summary> 
+        </member>
+        <member name="F:Ez.XControls.TextBoxs.XTextBox._BorderColor">
+            <summary> 
+            边框颜色 
+            </summary> 
+        </member>
+        <member name="F:Ez.XControls.TextBoxs.XTextBox._HotColor">
+            <summary> 
+            热点边框颜色 
+            </summary> 
+        </member>
+        <member name="F:Ez.XControls.TextBoxs.XTextBox._IsMouseOver">
+            <summary> 
+            是否鼠标MouseOver状态 
+            </summary> 
+        </member>
+        <member name="M:Ez.XControls.TextBoxs.XTextBox.#ctor">
+            <summary> 
+            
+            </summary> 
+        </member>
+        <member name="M:Ez.XControls.TextBoxs.XTextBox.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary> 
+            鼠标移动到该控件上时 
+            </summary> 
+            <param name="e"></param> 
+        </member>
+        <member name="M:Ez.XControls.TextBoxs.XTextBox.OnMouseLeave(System.EventArgs)">
+            <summary> 
+            当鼠标从该控件移开时 
+            </summary> 
+            <param name="e"></param> 
+        </member>
+        <member name="M:Ez.XControls.TextBoxs.XTextBox.OnGotFocus(System.EventArgs)">
+            <summary> 
+            当该控件获得焦点时 
+            </summary> 
+            <param name="e"></param> 
+        </member>
+        <member name="M:Ez.XControls.TextBoxs.XTextBox.OnLostFocus(System.EventArgs)">
+            <summary> 
+            当该控件失去焦点时 
+            </summary> 
+            <param name="e"></param> 
+        </member>
+        <member name="M:Ez.XControls.TextBoxs.XTextBox.WndProc(System.Windows.Forms.Message@)">
+            <summary> 
+            获得操作系统消息 
+            </summary> 
+            <param name="m"></param> 
+        </member>
+        <member name="P:Ez.XControls.TextBoxs.XTextBox.HotTrack">
+            <summary> 
+            是否启用热点效果 
+            </summary> 
+        </member>
+        <member name="P:Ez.XControls.TextBoxs.XTextBox.BorderColor">
+            <summary> 
+            边框颜色 
+            </summary> 
+        </member>
+        <member name="P:Ez.XControls.TextBoxs.XTextBox.HotColor">
+            <summary> 
+            热点时边框颜色 
+            </summary> 
+        </member>
+        <member name="T:Ez.XControls.Menus.XMenuGroup">
+            <summary>
+            按钮分组容器
+            </summary>
+        </member>
+        <member name="F:Ez.XControls.Menus.XMenuGroup.components">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Menus.XMenuGroup.Dispose(System.Boolean)">
+            <summary>
+            释放资源
+            </summary>
+            <param name="disposing">是否释放由System.ComponentModel.Container释放的资源</param>
+        </member>
+        <member name="M:Ez.XControls.Menus.XTopBar.#ctor">
+            <summary>
+            构造器
+            </summary>
+        </member>
+        <member name="F:Ez.XControls.Menus.XTopBar.borderColor">
+            <summary>
+            菜单条Tab的边框颜色
+            </summary>
+        </member>
+        <member name="F:Ez.XControls.Menus.XTopBar.bgColor">
+            <summary>
+            当前容器背景色
+            </summary>
+        </member>
+        <member name="F:Ez.XControls.Menus.XTopBar.tabMarginR">
+            <summary>
+            各Tab的右间隔
+            </summary>
+        </member>
+        <member name="F:Ez.XControls.Menus.XTopBar._header">
+            <summary>
+            首菜单
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Menus.XTopBar.AddTab(System.String)">
+            <summary>
+            添加子节点
+            </summary>
+            <param name="ctrl">已添加的控件</param>
+        </member>
+        <member name="M:Ez.XControls.Menus.XTopBar.InitializeComponent">
+            <summary>
+            初始化各控件
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Menus.XTopBar.SetMenuStyle(Ez.XControls.Menus.XTopBar.FuncDelegate)">
+            <summary>
+            设置Tab按钮样式
+            </summary>
+            <param name="callback">回调，额外处理过程，主要是角色边框重绘</param>
+        </member>
+        <member name="E:Ez.XControls.Menus.XTopBar.ClickChangedEvent">
+            <summary>
+            当tab发生单击且与上次不同时触发的事件
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Menus.XTopBar.CurrentMenu">
+            <summary>
+            当前被选中的菜单
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Menus.XTopBar.Text">
+            <summary>
+            文本
+            </summary>
+        </member>
+        <member name="T:Ez.XControls.Menus.XTopBar.ClickChanged">
+            <summary>
+            当前菜单项发生更改时触发事件委托
+            </summary>
+        </member>
+        <member name="T:Ez.XControls.Menus.XTopBar.FuncDelegate">
+            <summary>
+            样式更改是的额外处理
+            </summary>
+            <param name="ctrl">当前控件</param>
+            <param name="y">此控件套设置的y值</param>
+        </member>
+        <member name="T:Ez.XControls.Library.SideItemChild">
+            <summary>
+            菜单列表
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.SideItemChild.ViewPoint">
+            <summary>
+            显示时的坐标点
+            </summary>
+        </member>
+        <member name="T:Ez.XControls.Buttons.ButtonImgPos">
+            <summary>
+            按钮图片在按钮中的位置
+            </summary>
+        </member>
+        <member name="F:Ez.XControls.Buttons.XButton.image">
+            <summary>
+            按钮图标
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.Buttons.XButton.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            重绘控件
+            </summary>
+            <param name="e">参数</param>
+        </member>
+        <member name="M:Ez.XControls.Buttons.XButton.OnKeyPress(System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            检测键盘回车
+            </summary>
+            <param name="e">参数</param>
+        </member>
+        <member name="M:Ez.XControls.Buttons.XButton.OnMouseUp(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            鼠标松开事件
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Ez.XControls.Buttons.XButton.Active(System.EventArgs)">
+            <summary>
+            动作激活
+            </summary>
+            <param name="e">参数</param>
+        </member>
+        <member name="P:Ez.XControls.Buttons.XButton.ImgPos">
+            <summary>
+            图片在按钮中的位置
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Buttons.XButton.Text">
+            <summary>
+            控件文本
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Buttons.XButton.Src">
+            <summary>
+            按钮调用的窗体全路径
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Buttons.XButton.IsMutil">
+            <summary>
+            此按钮是否为包含子菜单的父级菜单按钮
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Buttons.XButton.TargetContainer">
+            <summary>
+            目标所在容器
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Buttons.XButton.Child">
+            <summary>
+            子菜单项
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Buttons.XButton.CurrentBgColor">
+            <summary>
+            当前的背景色
+            </summary>
+        </member>
+        <member name="T:Ez.XControls.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Properties.Resources.Culture">
+            <summary>
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Properties.Resources.close">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Properties.Resources.dpoint">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Properties.Resources.dpoint2">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Properties.Resources.email">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="T:Ez.XControls.Library.CtrlBgColorInfo">
+            <summary>
+            背景配色方案
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlBgColorInfo.PressedBgColor">
+            <summary>
+            按下时背景色
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlBgColorInfo.EnterBgColor">
+            <summary>
+            进入时背景色
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.Library.CtrlBgColorInfo.LeaveBgColor">
+            <summary>
+            离开时背景色
+            </summary>
+        </member>
+        <member name="T:Ez.XControls.xAnimate.Animate`1">
+            <summary>
+            动画类
+            </summary>
+            <typeparam name="T">只接受 Point Color</typeparam>
+        </member>
+        <member name="M:Ez.XControls.xAnimate.Animate`1.#ctor(System.Windows.Forms.Control,System.Int32,`0)">
+            <summary>
+            初始化动画
+            </summary>
+            <param name="target">执行动画的控件</param>
+            <param name="needTime">执行所需要的时间,毫秒</param>
+            <param name="toValue">变化的值</param>
+        </member>
+        <member name="M:Ez.XControls.xAnimate.Animate`1.Start">
+            <summary>
+            使用初始值执行动画
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.xAnimate.Animate`1.Stop">
+            <summary>
+            停止动画
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.xAnimate.Animate`1.LocationChange">
+            <summary>
+            位置变化
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.xAnimate.Animate`1.ColorChange">
+            <summary>
+            颜色变化函数 TODO:
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.xAnimate.Animate`1.AlhpaChange">
+            <summary>
+            透明度变化 TODO: 
+            </summary>
+        </member>
+        <member name="M:Ez.XControls.xAnimate.Animate`1.SizeChange">
+            <summary>
+            颜色变化
+            </summary>
+        </member>
+        <member name="E:Ez.XControls.xAnimate.Animate`1.AnimationStarted">
+            <summary>
+            启动动画后的回调
+            </summary>
+        </member>
+        <member name="E:Ez.XControls.xAnimate.Animate`1.AnimationStopped">
+            <summary>
+            动画停止后的回调
+            </summary>
+        </member>
+        <member name="E:Ez.XControls.xAnimate.Animate`1.AnimationFinished">
+            <summary>
+            动画执行完事的回调
+            </summary>
+        </member>
+        <member name="E:Ez.XControls.xAnimate.Animate`1.StepSizeChanged">
+            <summary>
+            动画执行中的回调
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.xAnimate.Animate`1.ToValue">
+            <summary>
+            要执行到的动画值
+            </summary>
+        </member>
+        <member name="P:Ez.XControls.xAnimate.Animate`1.Target">
+            <summary>
+            执行动画的目标
+            </summary>
+        </member>
+    </members>
+</doc>

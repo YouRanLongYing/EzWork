@@ -1,0 +1,20 @@
+﻿
+.ez-grid{ margin:2px 0px;}
+.ez-grid thead{ background-color:#FFF;}
+.ez-grid thead th{ text-align:center;}
+.ez-grid-sortable{ cursor:pointer;}
+.ez-grid-sortable i{float:right;}
+.ez-grid-sortable:hover i{ color:#ff9966;}
+.ez-grid tfoot{ padding:5px 5px;}
+.ez-grid-nav{margin:0px;height:40px;line-height:40px; float:left;}
+.ez-grid-nav-info{ float:right; margin:0px; padding:0px;}
+.ez-grid-nav-info li{float:left; padding:0px 10px; height:40px; line-height:40px;}
+.ez-grid-nav-goto input{ width: 38px;height: 28px;margin: 0px 5px 5px 0px; text-align:center;}
+.ez-grid-nav-goto button{ width: 38px;height: 28px;margin: 0px 5px 5px 0px;}
+.ez-grid-search{ min-height:35px;}
+.ez-grid-search dl{float:left; margin:0px;}
+.ez-grid-search dt{float:left;height:35px;line-height:35px;margin:0px; padding:0px 2px;}
+.ez-grid-search dd input{ height:31px; line-height:31px; width:200px;}
+.ez-grid-search dd{ float:left;height:35px;line-height:30px;margin:0px; padding:0px 2px;}
+.ez-grid-search-other{ float:right; min-height:31px; line-height:31px;}
+.ez-grid-nothing{ display:block; color:Red; color:red; text-align:center;}

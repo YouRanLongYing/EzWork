@@ -1,0 +1,84 @@
+E:\测试项目\UIStyle\XTextBox\bin\Debug\XControls.dll
+E:\测试项目\UIStyle\XTextBox\bin\Debug\XControls.pdb
+E:\测试项目\UIStyle\XTextBox\obj\Debug\UBIQ.Framework.XControls.Properties.Resources.resources
+E:\测试项目\UIStyle\XTextBox\obj\Debug\UBIQ.Framework.XControls.csproj.GenerateResource.Cache
+E:\测试项目\UIStyle\XTextBox\obj\Debug\XControls.dll
+E:\测试项目\UIStyle\XTextBox\obj\Debug\XControls.pdb
+E:\测试项目\UIStyle\XTextBox\obj\Debug\UBIQ.Framework.XControls.Menus.XTabBar.resources
+E:\测试项目\UIStyle\XTextBox\obj\Debug\UBIQ.Framework.XControls.Menus.XMenu.resources
+E:\测试项目\UIStyle\XTextBox\obj\Debug\UBIQ.Framework.XControls.Menus.XMenuGroup.resources
+E:\测试项目\UIStyle\XTextBox\obj\Debug\UBIQ.Framework.XControls.Buttons.XPicButton.resources
+E:\测试项目\UIStyle\XTextBox\obj\Debug\UBIQ.Framework.XControls.Menus.XMenuItem.resources
+E:\测试项目\UBIQ.Framework.Win\UBIQ.Framework.XControls\bin\Debug\XControls.dll
+E:\测试项目\UBIQ.Framework.Win\UBIQ.Framework.XControls\bin\Debug\XControls.pdb
+E:\测试项目\UBIQ.Framework.Win\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenuItem.resources
+E:\测试项目\UBIQ.Framework.Win\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XTabBar.resources
+E:\测试项目\UBIQ.Framework.Win\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Properties.Resources.resources
+E:\测试项目\UBIQ.Framework.Win\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenu.resources
+E:\测试项目\UBIQ.Framework.Win\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenuGroup.resources
+E:\测试项目\UBIQ.Framework.Win\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.csproj.GenerateResource.Cache
+E:\测试项目\UBIQ.Framework.Win\UBIQ.Framework.XControls\obj\Debug\XControls.dll
+E:\测试项目\UBIQ.Framework.Win\UBIQ.Framework.XControls\obj\Debug\XControls.pdb
+E:\测试项目\UBIQ.Framework.Win\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Buttons.XButton.resources
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.XControls\bin\Debug\XControls.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.XControls\bin\Debug\XControls.pdb
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenuItem.resources
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XTabBar.resources
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Properties.Resources.resources
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Buttons.XButton.resources
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenu.resources
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenuGroup.resources
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XSideMenuBar.resources
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.csproj.GenerateResource.Cache
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\XControls.dll
+E:\本地项目\公司产品框架\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\XControls.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.XControls\bin\Debug\XControls.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.XControls\bin\Debug\XControls.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenuItem.resources
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Properties.Resources.resources
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Buttons.XButton.resources
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenuGroup.resources
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.csproj.GenerateResource.Cache
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\XControls.dll
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\XControls.pdb
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenu.resources
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XTopBar.resources
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XSideBar.resources
+F:\Framework\04 项目\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.csprojResolveAssemblyReference.cache
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.XControls\bin\Debug\XControls.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.XControls\bin\Debug\XControls.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenuItem.resources
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XTopBar.resources
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Properties.Resources.resources
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Buttons.XButton.resources
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenu.resources
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenuGroup.resources
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XSideBar.resources
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.csproj.GenerateResource.Cache
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\XControls.dll
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\XControls.pdb
+F:\Framework\10-源码\SourceCode v2.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.csprojResolveAssemblyReference.cache
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\bin\Debug\XControls.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\bin\Debug\XControls.pdb
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenuItem.resources
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XTopBar.resources
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Properties.Resources.resources
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Buttons.XButton.resources
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenu.resources
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenuGroup.resources
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XSideBar.resources
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.csproj.GenerateResource.Cache
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\XControls.dll
+F:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\XControls.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\bin\Debug\XControls.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\bin\Debug\XControls.pdb
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenuItem.resources
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XTopBar.resources
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Properties.Resources.resources
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Buttons.XButton.resources
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenu.resources
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XMenuGroup.resources
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.Menus.XSideBar.resources
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\UBIQ.Framework.XControls.csproj.GenerateResource.Cache
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\XControls.dll
+I:\Framework\10-源码\SourceCode v3.0\UBIQ.Framework.XControls\obj\Debug\XControls.pdb

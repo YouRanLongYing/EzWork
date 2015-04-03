@@ -1,0 +1,448 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataBase</name>
+    </assembly>
+    <members>
+        <member name="T:UBIQ.Framework.DataBase.ConnectMaster">
+            <summary>
+            数据库配置信息管理器
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.DataBase.ConnectMaster.connections">
+            <summary>
+            链接字符串集合
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.DataBase.ConnectMaster.pluginConnections">
+            <summary>
+            链接字符串集合
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.ConnectMaster.Add(UBIQ.Framework.IDataBase.ConnectionEntity)">
+            <summary>
+            添加
+            </summary>
+            <param name="entity"></param>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.ConnectMaster.Add(System.String,UBIQ.Framework.IDataBase.ConnectionEntity)">
+            <summary>
+            添加插件的链接对象
+            </summary>
+            <param name="pluginName">插件名称(不区分大小写)</param>
+            <param name="entity"></param>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.ConnectMaster.Get(System.String)">
+            <summary>
+            获取
+            </summary>
+            <param name="scope">域</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.ConnectMaster.Get(System.String,System.String)">
+            <summary>
+            获取
+            </summary>
+            <param name="pluginName">插件名</param>
+            <param name="scope">域</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.ConnectMaster.GetConnections">
+            <summary>
+            获取连接串集合
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.ConnectMaster.GetConnections(System.String)">
+            <summary>
+            获取插件连接串集合
+            </summary>
+            <param name="pluginName">插件名称(不区分大小写)</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.ConnectMaster.BaseConnectionExits">
+            <summary>
+            检查是否配置了基础链接串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Framework.DataBase.ConnectMaster.Proid">
+            <summary>
+            产品注册号
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.DataBase.BaseDao">
+            <summary>
+            底层数据持久层
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.DataBase.DbTool">
+            <summary>
+            数据库持久层对象生成工具
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DbTool.#ctor(System.String,System.String)">
+            <summary>
+            构造器，触发数据库配置信息的生成
+            <param name="scope">指定索引</param>
+            <param name="pluginName">插件名</param>
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DbTool.Syntax(System.String,System.Data.Common.DbCommand@,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            SQL语法检测
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DbTool.NewCommand(System.Data.Common.DbConnection)">
+            <summary>
+             当前数据库命令对象
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.DataBase.DbTool.PluginName">
+            <summary>
+            插件名称
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.DataBase.DbTool.ConnectionEntity">
+            <summary>
+            数据库配置
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.DataBase.DbTool.ConnectionString">
+            <summary>
+            当前数据库连接字符串
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.DataBase.DbTool.NewConnection">
+            <summary>
+            实例新连接
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.DataBase.DbTool.NewDataAdapter">
+            <summary>
+            实例新的数据适配
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.BaseDao.#ctor(System.String,System.String)">
+            <summary>
+            构造器，出发数据库配置信息的生成
+            <param name="scope">指定索引</param>
+            <param name="pluginName">插件名</param>
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.BaseDao.GetSingle(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            获取查询的1行1列数据
+            </summary>
+            <param name="sqlString">SQL</param>
+            <param name="parameters">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.BaseDao.ExecuteSql(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            执行SQL语句，返回影响的记录数
+            </summary>
+            <param name="sqlString">SQL语句</param>
+            <param name="parameters">参数</param>
+            <returns>影响的记录数</returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.BaseDao.ExecuteSqlTran(System.Collections.Generic.IList{UBIQ.Framework.IDataBase.SqlCollection})">
+            <summary>
+            执行多条SQL语句，实现数据库事务。
+            </summary>
+            <param name="sqlStringCollection">SQL语句的哈希表（key为sql语句，value是该语句的OleDbParameter[]）</param>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.BaseDao.ExecuteReader(UBIQ.Framework.IDataBase.ExecuteReaderCallBack,System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            执行查询语句，返回DataReader，注意对象 DbDataReader的关闭
+            </summary>
+            <param name="sqlString">查询语句</param>
+            <param name="parameters">参数</param>
+            <returns>DbDataReader</returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.BaseDao.Query(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            执行查询语句，返回DataSet
+            </summary>
+            <param name="sqlString">查询语句</param>
+            <param name="parameters">参数</param>
+            <returns>DataSet</returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.BaseDao.RunProcedureToDbReader(UBIQ.Framework.IDataBase.ExecuteReaderCallBack,System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            注意对象 DbDataReader的关闭
+            </summary>
+            <param name="storedProcName">存储过程名</param>
+            <param name="parameters">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.BaseDao.RunProcedure(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            执行存储过程，并返回数据集
+            </summary>
+            <param name="storedProcName">存储过程名</param>
+            <param name="parameters">参数</param>
+            <returns>数据集</returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.BaseDao.RunProcedureToEffect(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            执行存储过程
+            </summary>
+            <param name="storedProcName">存储过程名称</param>
+            <param name="parameters">参数</param>
+            <returns>行影响数</returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.BaseDao.RunProcedureToOutPut(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            执行存储过程
+            </summary>
+            <param name="storedProcName">存储过程名称</param>
+            <param name="parameters">参数</param>
+            <returns>输出参数集合</returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.BaseDao.BuildSqlCommand(System.Data.Common.DbCommand,System.Data.Common.DbTransaction,System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            构建参数列表
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.BaseDao.BuildProcCommand(System.Data.Common.DbCommand,System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            创建 SqlCommand 对象实例(用来返回一个整数值)	
+            </summary>
+            <param name="command">command</param>
+            <param name="storedProcName">存储过程名</param>
+            <param name="parameters">存储过程参数</param>
+            <returns>SqlCommand 对象实例</returns>
+        </member>
+        <member name="T:UBIQ.Framework.DataBase.DataBaseHandler">
+            <summary>
+            数据库配置节点处理程序
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DataBaseHandler.Create(System.Object,System.Object,System.Xml.XmlNode)">
+            <summary>
+            创建配置信息对象
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.DataBase.DbMaster">
+            <summary>
+            数据库持久层对象管理器
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DbMaster.#ctor">
+            <summary>
+            实例化宿主的数据库持久层对象管理器
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DbMaster.#ctor(System.String)">
+            <summary>
+            实例化插件的数据库持久层对象管理器
+            </summary>
+            <param name="pluginName">插件名称</param>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DbMaster.Get(System.String)">
+            <summary>
+            获取宿主的数据库管理器
+            </summary>
+            <param name="scope">指定索引</param>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Framework.DataBase.DbMaster.Proid">
+            <summary>
+            产品注册号
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.DataBase.DefaultDao">
+            <summary>
+            数据库持久层
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.#ctor(System.String,System.String)">
+            <summary>
+            构造器，出发数据库配置信息的生成
+            <param name="scope">指定索引</param>
+            <param name="pluginName">插件名,不存在是表示为宿主的数据库处理器</param>
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.GetMaxID(System.String,System.String)">
+            <summary>
+            获取最大编号,不需要进行+1操作
+            </summary>
+            <param name="tableName">表名</param>
+            <param name="fieldName">字段名</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.GetSequenceEntity(System.String)">
+            <summary>
+            获取业务序号信息
+            </summary>
+            <param name="key">计数器的key</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.GetSequenceVal(System.String)">
+            <summary>
+            获取业务序号的值
+            </summary>
+            <param name="key">计数器的key</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.GetSequence(System.String)">
+            <summary>
+            获取业务序号
+            </summary>
+            <param name="key">计数器的key</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.Exists(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            检测是否存在
+            </summary>
+            <param name="sqlString">查询语句</param>
+            <param name="parameters">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.QueryPaging``1(UBIQ.Framework.IDataBase.QuerySql,System.Int32@,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            分页查询
+            </summary>
+            <param name="query">查询模型</param>
+            <param name="records">记录数</param>
+            <param name="parameters">参数列表</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.GetEntity``1(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            获取查询的实体信息,要求 查询结果的列名与T实例的属性名一致，可以通过 select login as loginName from ...形式
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="sqlString">查询语句</param>
+            <param name="parameters">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.GetEntities``1(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            查询数据的实体集合,要求 查询结果的列名与T实例的属性名一致，可以通过 select login as loginName from ...形式
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="sqlString">查询语句</param>
+            <param name="parameters">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.GetList``1(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            获取单项数据结合，集合元素类型必须为基本数据类型,待测试
+            </summary>
+            <typeparam name="T">基本数据类型</typeparam>
+            <param name="sqlString">查询语句</param>
+            <param name="parameters">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.GetDataArray(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            查询数据返回array列表
+            </summary>
+            <param name="sqlString">基本数据类型</param>
+            <param name="parameters">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.BuildSqlAndParams``1(``0,UBIQ.Framework.DataBase.DefaultDao.DBAction,System.Boolean,System.Collections.Generic.IList{UBIQ.Framework.IDataBase.DbParam}@,System.String[])">
+            <summary>
+            构建从映射生成的操作语句
+            </summary>
+            <param name="entityType">实体类型</param>
+            <param name="DbAction">操作类型</param>
+            <param name="ignoreEmpty">是否忽略位置的操作</param>
+            <param name="parameters">执行所需的参数</param>
+            <param name="watcher">监事的累的数据，相同更新不同新增</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.SelectSqlString(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IList{UBIQ.Framework.IDataBase.DbParam}@)">
+            <summary>
+            查询SQL语句
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.CreateSqlString(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IList{UBIQ.Framework.IDataBase.DbParam}@)">
+            <summary>
+            创建SQL语句
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.UpdateSqlString(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IList{UBIQ.Framework.IDataBase.DbParam}@,System.String[])">
+            <summary>
+            创建更新语句
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.DeleteSqlString(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IList{UBIQ.Framework.IDataBase.DbParam}@,System.String[])">
+            <summary>
+            创建删除语句
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.CreateOrUpdateSqlString(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IDictionary{System.String,System.Object},System.Collections.Generic.IList{UBIQ.Framework.IDataBase.DbParam}@,System.String[])">
+            <summary>
+            创建更新或创建语句
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.OrmCreate``1(``0)">
+            <summary>
+            创建
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="entity">实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.OrmDelete``1(``0,System.String[])">
+            <summary>
+            删除
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="entity">实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.OrmUpdate``1(``0,System.String[])">
+            <summary>
+            更新
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="entity">实体</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.DataBase.DefaultDao.OrmCreateOrUpdate``1(``0,System.String[])">
+            <summary>
+            创建或更新
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="entity">实体</param>
+            <param name="watcher">监事的累的数据，相同更新不同新增</param>
+            <returns></returns>
+        </member>
+        <member name="T:UBIQ.Framework.DataBase.DefaultDao.DBAction">
+            <summary>
+            数据库操作方式
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.DataBase.DefaultDao.DBAction.Select">
+            <summary>
+            查询
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.DataBase.DefaultDao.DBAction.Create">
+            <summary>
+            创建
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.DataBase.DefaultDao.DBAction.Update">
+            <summary>
+            更新
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.DataBase.DefaultDao.DBAction.Delete">
+            <summary>
+            删除
+            </summary>
+        </member>
+        <member name="F:UBIQ.Framework.DataBase.DefaultDao.DBAction.CreateOrUpdate">
+            <summary>
+            创建或更新
+            </summary>
+        </member>
+    </members>
+</doc>

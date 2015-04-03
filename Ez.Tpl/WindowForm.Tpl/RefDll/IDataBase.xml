@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IDataBase</name>
+    </assembly>
+    <members>
+        <member name="T:UBIQ.Framework.IDataBase.ConnectionEntity">
+            <summary>
+            数据库配置信息
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.IDataBase.IDbMaster">
+            <summary>
+            数据库操作管理器
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IDbMaster.Get(System.String)">
+            <summary>
+            获取对应类型的数据操作器
+            </summary>
+            <param name="scope">数据库连接标识</param>
+            <returns>操作实例</returns>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IDbMaster.FistOrDefault">
+            <summary>
+            获取默认的数据库操作实例
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.IDbMaster.Proid">
+            <summary>
+            产品注册号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.IDbMaster.Item(System.String)">
+            <summary>
+            设置缓存
+            </summary>
+            <param name="scope">数据库连接标识</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.DbParam.#ctor(System.String,System.Object)">
+            <summary>
+            构造一个参数表述信息
+            </summary>
+            <param name="paramName"></param>
+            <param name="value"></param>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.DbParam.ParameterName">
+            <summary>
+            参数名
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.DbParam.Value">
+            <summary>
+            参数值
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IBizSequence.GetSequence(System.Int32,System.String,System.Int32,System.String)">
+            <summary>
+            获取业务序列
+            </summary>
+            <param name="currentSequence">当前序列</param>
+            <param name="prefix">前缀</param>
+            <param name="min_len">最小长度</param>
+            <param name="supple_char">小于最小长度时补齐的字符</param>
+            <returns>业务序列</returns>
+        </member>
+        <member name="T:UBIQ.Framework.IDataBase.IBaseDao">
+            <summary>
+            基础接口
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IBaseDao.GetSingle(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            获取查询的1行1列数据，带参数
+            </summary>
+            <param name="sqlString">SQL</param>
+            <param name="parameters">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IBaseDao.ExecuteSql(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            执行单条SQL
+            </summary>
+            <param name="sqlString">SQL</param>
+            <param name="parameters">参数</param>
+            <returns>返回影响数</returns>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IBaseDao.ExecuteSqlTran(System.Collections.Generic.IList{UBIQ.Framework.IDataBase.SqlCollection})">
+            <summary>
+            执行事务
+            </summary>
+            <param name="sqlStringCollection"></param>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IBaseDao.ExecuteReader(UBIQ.Framework.IDataBase.ExecuteReaderCallBack,System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            读取数据集
+            </summary>
+            <param name="callback">回调</param>
+            <param name="sqlString">SQL</param>
+            <param name="parameters">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IBaseDao.Query(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            查询数据集
+            </summary>
+            <param name="sqlString">SQL</param>
+            <param name="parameters">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IBaseDao.RunProcedureToDbReader(UBIQ.Framework.IDataBase.ExecuteReaderCallBack,System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            执行存储过程，返回SqlDataReader ( 注意：调用该方法后，一定要对SqlDataReader进行Close )
+            </summary>
+            <param name="callback">回调</param>
+            <param name="storedProcName">存储过程名</param>
+            <param name="parameters">存储过程参数</param>
+            <returns>SqlDataReader</returns>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IBaseDao.RunProcedure(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            执行存储过程
+            </summary>
+            <param name="storedProcName">存储过程名</param>
+            <param name="parameters">存储过程参数</param>
+            <returns>DataSet</returns>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IBaseDao.RunProcedureToEffect(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            执行存储过程，返回影响的行数		
+            </summary>
+            <param name="storedProcName">存储过程名</param>
+            <param name="parameters">存储过程参数</param>
+            <returns>影响的行数</returns>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IBaseDao.RunProcedureToOutPut(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            执行存储过程，返回影响的行数		
+            </summary>
+            <param name="storedProcName">存储过程名</param>
+            <param name="parameters">存储过程参数</param>
+            <returns>输出参数值</returns>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.IBaseDao.ConnectionEntity">
+            <summary>
+            数据库配置
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IDefaultDao.GetMaxID(System.String,System.String)">
+            <summary>
+            获取最大序号
+            </summary>
+            <param name="tableName">表名</param>
+            <param name="fieldName">字段名</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IDefaultDao.GetSequence(System.String)">
+            <summary>
+            获取业务序号
+            </summary>
+            <param name="table">表名\标记名</param>
+            <param name="proid">产品注册号</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IDefaultDao.Exists(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            判断数据是否存在
+            </summary>
+            <param name="strSql">执行的SQL</param>
+            <param name="cmdParms">所需参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IDefaultDao.GetEntity``1(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            获取查询的实体信息
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="sqlString">查询语句</param>
+            <param name="cmdParms">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IDefaultDao.GetEntities``1(System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            查询数据的实体集合,要求 查询结果的列名与T实例的属性名一致，可以通过 select login as loginName from ...形式
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="sqlString">查询语句</param>
+            <param name="parameters">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.IDefaultDao.QueryPaging``1(UBIQ.Framework.IDataBase.QuerySql,System.Int32@,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            分页查询
+            </summary>
+            <param name="query">查询模型</param>
+            <returns></returns>
+        </member>
+        <member name="T:UBIQ.Framework.IDataBase.ExecuteReaderCallBack">
+            <summary>
+            回调委托
+            </summary>
+            <param name="myReader"></param>
+        </member>
+        <member name="T:UBIQ.Framework.IDataBase.PageInfo">
+            <summary>
+            分页信息
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.PageInfo.#ctor(System.Int32,System.String,UBIQ.Framework.IDataBase.DbParam[])">
+            <summary>
+            分页信息
+            </summary>
+            <param name="pageSzie">页容量</param>
+            <param name="sql">执行SQL</param>
+            <param name="dbParams">SQL参数</param>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.PageInfo.Total">
+            <summary>
+            记录数
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.PageInfo.PageSize">
+            <summary>
+            页容量
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.PageInfo.PageCount">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.PageInfo.PageIndex">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.PageInfo.PageData">
+            <summary>
+            分页数据
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.PageInfo.Exception">
+            <summary>
+            分页发生的异常
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.IDataBase.QuerySql">
+            <summary>
+            分页查询的SQL模型
+            </summary>
+        </member>
+        <member name="M:UBIQ.Framework.IDataBase.QuerySql.ToString(UBIQ.Framework.IDataBase.DBTypeEnum)">
+            <summary>
+            生成查询的SQL
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.QuerySql.SequenceColumnName">
+            <summary>
+            唯一索引 用于分页排序，一般为ID
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.QuerySql.PageSize">
+            <summary>
+            页容量
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.QuerySql.PageIndex">
+            <summary>
+            页索引
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.QuerySql.SelectColumns">
+            <summary>
+            查询的字列
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.QuerySql.FromTableNames">
+            <summary>
+            数据来源的表
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.QuerySql.Condition">
+            <summary>
+            查询条件
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.QuerySql.OrderBy">
+            <summary>
+            排序字段
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.QuerySql.GroupBy">
+            <summary>
+            分组字段
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.QuerySql.Having">
+            <summary>
+            分组筛选条件
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.QuerySql.IsDesc">
+            <summary>
+            是否倒序
+            </summary>
+        </member>
+        <member name="T:UBIQ.Framework.IDataBase.UBIQ_Squence">
+            <summary>
+            框架提供的数据计数器表，可用于生成表唯一索引的值
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.UBIQ_Squence.id">
+            <summary>
+            编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.UBIQ_Squence.pro_id">
+            <summary>
+            产品编号
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.UBIQ_Squence.skey">
+            <summary>
+            与数据库表明不重复的键，可以为表名（计数表数据）
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.UBIQ_Squence.prefix">
+            <summary>
+            序列前缀
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.UBIQ_Squence.svalue">
+            <summary>
+            当前序号值
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.UBIQ_Squence.min_len">
+            <summary>
+            产生序号的最小长度
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.UBIQ_Squence.supple_char">
+            <summary>
+            小于指定长度需要补齐的字符
+            </summary>
+        </member>
+        <member name="P:UBIQ.Framework.IDataBase.UBIQ_Squence.ext_realize_dll">
+            <summary>
+            如果不能满足需求，可定义生成序列的实现
+            </summary>
+        </member>
+    </members>
+</doc>

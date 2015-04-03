@@ -1,0 +1,81 @@
+F:\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+F:\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.dll
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.pdb
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.csproj.GenerateResource.Cache
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.resources
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.en-US.resources
+F:\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.zh-CN.resources
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.resources
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.en-US.resources
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.zh-CN.resources
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.csproj.GenerateResource.Cache
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.dll
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.pdb
+E:\Local Datum\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.Framework.XML
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.resources
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.en-US.resources
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.zh-CN.resources
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\GenerateResource.read.1.tlog
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\GenerateResource.write.1.tlog
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.dll
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.pdb
+E:\WorkSpace\框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.Framework.XML
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.resources
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.en-US.resources
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.zh-CN.resources
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\GenerateResource.read.1.tlog
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\GenerateResource.write.1.tlog
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.dll
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.pdb
+E:\WorkSpace\Local-Code\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.Framework.XML
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.resources
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.en-US.resources
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.zh-CN.resources
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.csproj.GenerateResource.Cache
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.dll
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.pdb
+E:\Local Datum\Project Datum\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.Framework.XML
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.resources
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.en-US.resources
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.FrmLanguage.zh-CN.resources
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\en-US\UBIQ.Resource.Framework.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\zh-CN\UBIQ.Resource.Framework.resources.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.dll
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.pdb
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\obj\Debug\UBIQ.Resource.Framework.csproj.GenerateResource.Cache
+E:\本地项目\UBIQ_Web_框架\Framework.Project\SourceCode\UBIQ.Resource\bin\Debug\UBIQ.Resource.Framework.XML
